@@ -1,0 +1,19 @@
+---
+title: "Api Ms Win Core Errorhandling L1 1 0"
+disciplina: "programacao"
+ano: 1
+semestre: 1
+tipo: "trabalhos-projetos"
+fonte_original: "api-ms-win-core-errorhandling-l1-1-0.dll"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "b3715112a7ca4c6cc0efee044bd82444d3267a379e33a3ec118d87e75604204d"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

@@ -1,0 +1,19 @@
+---
+title: "Backup 5"
+disciplina: "estagio"
+ano: 3
+semestre: 2
+tipo: "teoria"
+fonte_original: "Backup 5.docx"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "2d22396d3af46768c203cffc277af9accf69974b0a9c901d6ee4b494e0a036ec"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

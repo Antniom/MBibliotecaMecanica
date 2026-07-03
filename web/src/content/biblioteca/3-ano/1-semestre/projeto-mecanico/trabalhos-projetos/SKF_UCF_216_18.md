@@ -1,0 +1,19 @@
+---
+title: "Skf_Ucf_216_18"
+disciplina: "projeto-mecanico"
+ano: 3
+semestre: 1
+tipo: "trabalhos-projetos"
+fonte_original: "SKF_UCF_216_18.sldprt"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "f4b54ac0887d826c059e729954d4eb670eb73cd766b7555f1b1f44891d1b76da"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

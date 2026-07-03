@@ -1,0 +1,100 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+
+<Layout title="Pesquisa Inteligente">
+  <div style="margin-bottom: 24px;">
+    <a href="/" style="text-decoration: none; color: var(--text-secondary); font-size: 0.9rem; display: inline-flex; align-items: center; gap: 4px;">
+      ← Voltar ao Início
+    </a>
+  </div>
+
+  <div class="hero-header">
+    <h1 class="hero-title">Pesquisa Global</h1>
+    <p class="hero-subtitle">Pesquisa em texto integral em todos os materiais da licenciatura, incluindo fórmulas, tabelas e manuscritos transcritos.</p>
+  </div>
+
+  <div class="surface animate-fade-in" style="min-height: 400px; padding: 32px;">
+    <!-- Pagefind search component -->
+    <link href="/pagefind/pagefind-ui.css" rel="stylesheet" />
+    <script src="/pagefind/pagefind-ui.js" is:inline></script>
+    
+    <div id="search" style="margin-top: 16px;"></div>
+
+    <script is:inline>
+      window.addEventListener('DOMContentLoaded', (event) => {
+        if (typeof PagefindUI !== 'undefined') {
+          new PagefindUI({
+            element: "#search",
+            showSubResults: true,
+            showImages: false,
+            translations: {
+              placeholder: "Pesquise por matéria (ex: flexão de vigas, SciLab, integrais)...",
+              clear_search: "Limpar",
+              load_more: "Carregar mais resultados",
+              search_label: "Procurar nesta biblioteca",
+              filters_label: "Filtros",
+              zero_results: "Nenhum resultado encontrado para [SEARCH_TERM]",
+              many_results: "[COUNT] resultados encontrados para [SEARCH_TERM]",
+              one_result: "1 resultado encontrado para [SEARCH_TERM]",
+              alt_search: "Sem resultados. A mostrar resultados para [ALT_TERM] em vez disso",
+              search_declined: "Pesquisa cancelada",
+              searching: "A pesquisar..."
+            }
+          });
+        } else {
+          document.getElementById("search").innerHTML = `
+            <div style="color: var(--danger); text-align: center; padding: 24px;">
+              ⚠️ O índice de pesquisa ainda não foi construído. Execute <code>npm run build</code> para gerar e indexar o site.
+            </div>
+          `;
+        }
+      });
+    </script>
+  </div>
+</Layout>
+
+<style is:global>
+  /* Override Pagefind UI variables to match Warm Beige Theme */
+  #search {
+    --pagefind-ui-primary: var(--accent) !important;
+    --pagefind-ui-text: var(--text-primary) !important;
+    --pagefind-ui-background: var(--bg-card) !important;
+    --pagefind-ui-border: var(--panel-border) !important;
+    --pagefind-ui-font: var(--font-body) !important;
+    --pagefind-ui-border-radius: var(--radius-sm) !important;
+  }
+  .pagefind-ui__search-input {
+    background-color: #FAFAFA !important;
+    font-family: var(--font-body) !important;
+    font-size: 1.05rem !important;
+    padding: 14px 20px !important;
+  }
+  .pagefind-ui__search-input:focus {
+    background-color: #ffffff !important;
+    border-color: var(--accent) !important;
+    box-shadow: 0 0 0 3px var(--accent-glow) !important;
+  }
+  .pagefind-ui__result-link {
+    font-family: var(--font-heading) !important;
+    font-size: 1.15rem !important;
+    color: var(--text-primary) !important;
+    text-decoration: none !important;
+  }
+  .pagefind-ui__result-link:hover {
+    color: var(--accent) !important;
+  }
+  .pagefind-ui__result-excerpt {
+    font-family: var(--font-body) !important;
+    font-size: 0.9rem !important;
+    color: var(--text-secondary) !important;
+    line-height: 1.5 !important;
+  }
+  .pagefind-ui__result-excerpt mark {
+    background-color: var(--accent-glow) !important;
+    color: var(--accent-strong) !important;
+    font-weight: 600 !important;
+    border-radius: 2px !important;
+    padding: 0 2px !important;
+  }
+</style>

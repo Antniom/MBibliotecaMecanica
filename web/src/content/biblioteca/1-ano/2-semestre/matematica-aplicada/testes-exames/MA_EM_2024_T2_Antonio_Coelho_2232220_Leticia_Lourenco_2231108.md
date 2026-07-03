@@ -1,0 +1,19 @@
+---
+title: "Ma_Em_2024_T2_Antonio_Coelho_2232220_Leticia_Lourenco_2231108"
+disciplina: "matematica-aplicada"
+ano: 1
+semestre: 2
+tipo: "testes-exames"
+fonte_original: "MA_EM_2024_T2_Antonio_Coelho_2232220_Leticia_Lourenco_2231108.zip"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "6ed2410a2739810e72e252549605c9a87a990ec874f5fce639a567ca234b3aef"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

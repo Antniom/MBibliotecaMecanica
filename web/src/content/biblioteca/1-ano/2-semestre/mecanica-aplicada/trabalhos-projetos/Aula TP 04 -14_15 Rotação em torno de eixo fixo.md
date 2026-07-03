@@ -1,0 +1,19 @@
+---
+title: "Aula Tp 04  14_15 Rotação Em Torno De Eixo Fixo"
+disciplina: "mecanica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "Aula TP 04 -14_15 Rotação em torno de eixo fixo.pdf"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "4830bc61c7b22de0583751f57d6b181afd9ed3be0142ee075954e43519e70177"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

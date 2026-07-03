@@ -1,0 +1,19 @@
+---
+title: "Screenshot_7"
+disciplina: "orgaos-de-maquinas-ii"
+ano: 3
+semestre: 1
+tipo: "trabalhos-projetos"
+fonte_original: "Screenshot_7.png"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "97e2d7e36c54b038b786b1d7ca79d8b623352cf5c21debc2898ed9009ce009fb"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

@@ -1,0 +1,19 @@
+---
+title: "Tl1_João_Gaspar_Pedro_Alexandre_Emd.Docx"
+disciplina: "mecanica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "TL1_João_Gaspar_Pedro_Alexandre_EMD.docx.doc"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "87cfdb79e90d3050297543c53f9122f66e074ea3ac89b14c3cddfb5e6d740dec"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

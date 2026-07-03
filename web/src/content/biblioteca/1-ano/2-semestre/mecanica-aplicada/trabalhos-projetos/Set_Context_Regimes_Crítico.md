@@ -1,0 +1,19 @@
+---
+title: "Set_Context_Regimes_Crítico"
+disciplina: "mecanica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "Set_Context_Regimes_Crítico.png"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "658773239aafe9d003c717f2be93b163110196f712de89a9159dc06265875e5e"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

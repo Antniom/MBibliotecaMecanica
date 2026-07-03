@@ -1,0 +1,444 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const allDocs = await getCollection('biblioteca');
+  // Return paths based on filename slug or ID
+  return allDocs.map(doc => {
+    const slug = doc.id.split('/').pop()?.replace('.md', '') || '';
+    return {
+      params: { hash: slug },
+      props: { doc }
+    };
+  });
+}
+
+const { doc } = Astro.props;
+
+// Friendly title resolver
+const UC_NAMES: Record<string, string> = {
+  "analise-matematica": "Análise Matemática I",
+  "algebra-linear": "Álgebra Linear",
+  "fisica": "Física",
+  "programacao": "Programação",
+  "ingles": "Inglês",
+  "quimica-e-materiais": "Química e Materiais",
+  "matematica-aplicada": "Matemática Aplicada",
+  "estatistica": "Estatística",
+  "desenho-tecnico": "Desenho Técnico",
+  "tecnologia-dos-materiais": "Tecnologia dos Materiais",
+  "tecnologia-mecanica-i": "Tecnologia Mecânica I",
+  "mecanica-aplicada": "Mecânica Aplicada",
+  "resistencia-dos-materiais": "Resistência dos Materiais",
+  "tecnologia-mecanica-ii": "Tecnologia Mecânica II",
+  "termodinamica": "Termodinâmica",
+  "mecanica-dos-fluidos": "Mecânica dos Fluidos",
+  "processos-transformacao-plasticos": "Processos de Transformação de Plásticos",
+  "modelacao-assistida-por-computador": "Modelação Assistida por Computador",
+  "orgaos-de-maquinas-i": "Órgãos de Máquinas I",
+  "processamento-mecanica-compositos": "Processamento e Mecânica de Compósitos",
+  "engenharia-assistida-por-computador": "Engenharia Assistida por Computador",
+  "fabrico-assistido-por-computador": "Fabrico Assistido por Computador",
+  "desenho-de-construcao-mecanica": "Desenho de Construção Mecânica",
+  "desenho-de-moldes-e-plasticos": "Desenho de Moldes e Plásticos",
+  "eletrotecnia-e-eletronica-industrial": "Eletrotecnia e Eletrónica Industrial",
+  "orgaos-de-maquinas-ii": "Órgãos de Máquinas II",
+  "processos-avancados-de-fabrico": "Processos Avançados de Fabrico",
+  "projeto-mecanico": "Projeto Mecânico",
+  "projeto-de-moldes": "Projeto de Moldes",
+  "concecao-e-desenvolvimento-de-produto": "Conceção e Desenvolvimento de Produto",
+  "simulacao-computacional-projeto-mecanico": "Simulação Computacional de Projeto Mecânico",
+  "automacao-industrial": "Automação Industrial",
+  "qualidade-e-gestao-de-recursos": "Qualidade e Gestão de Recursos",
+  "gestao-da-producao-e-manutencao": "Gestão da Produção e Manutenção",
+  "estagio": "Estágio",
+  "seminario": "Seminário",
+  "controlo-de-gestao": "Controlo de Gestão",
+  "redes-de-fluidos": "Redes de Fluidos",
+  "inovacao-e-empreendedorismo": "Inovação e Empreendedorismo"
+};
+
+const ucName = UC_NAMES[doc.data.disciplina] || doc.data.disciplina;
+
+// Rebuild the raw markdown with frontmatter to make it downloadable as a valid .md file
+const mdDownloadContent = `---
+title: "${doc.data.title}"
+disciplina: "${doc.data.disciplina}"
+ano: ${doc.data.ano}
+semestre: ${doc.data.semestre}
+tipo: "${doc.data.tipo}"
+fonte_original: "${doc.data.fonte_original}"
+confianca_media: ${doc.data.confianca_media}
+data_processamento: "${doc.data.data_processamento}"
+storage_url: "${doc.data.storage_url || ''}"
+hash: "${doc.data.hash}"
+---
+
+${doc.body}`;
+---
+
+<Layout title={doc.data.title} description={`Visualização de ${doc.data.title} - ${ucName}`}>
+  <div style="margin-bottom: 24px;">
+    <a href={`/uc/${doc.data.disciplina}`} style="text-decoration: none; color: var(--text-secondary); font-size: 0.9rem; display: inline-flex; align-items: center; gap: 4px;">
+      ← Voltar para {ucName}
+    </a>
+  </div>
+
+  <div class="main-layout">
+    <!-- Left Column: Document Card & Visualizer -->
+    <div class="content-col">
+      <div class="surface animate-fade-in" style="margin-bottom: 24px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 16px; margin-bottom: 16px;">
+          <div>
+            <span class="badge badge-success" style="text-transform: uppercase; font-size: 0.7rem; margin-bottom: 6px;">
+              {doc.data.tipo.replace("-", " ")}
+            </span>
+            <h1 style="font-size: 1.6rem; line-height: 1.3; margin: 0 0 6px;">{doc.data.title}</h1>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); margin: 0;">
+              Disciplina: <strong>{ucName}</strong> • {doc.data.ano}º Ano, {doc.data.semestre}º Semestre
+            </p>
+          </div>
+          
+          <div style="text-align: right; flex-shrink: 0;">
+            <div class="badge badge-success" style="font-size: 0.78rem; padding: 4px 12px; margin-bottom: 6px;">
+              IA Confiança: {Math.round(doc.data.confianca_media * 100)}%
+            </div>
+            <p style="font-size: 0.75rem; color: var(--text-muted); font-family: var(--font-mono); margin: 0;">
+              SHA-256: {doc.data.hash.substring(0, 8)}...
+            </p>
+          </div>
+        </div>
+
+        <div style="display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 20px; padding-top: 16px; border-top: 1px solid var(--panel-border);">
+          <!-- Transferir Original -->
+          <a href={doc.data.storage_url || "#"} class="btn-primary" download={doc.data.fonte_original} disabled={!doc.data.storage_url}>
+            📥 Transferir Original
+          </a>
+
+          <!-- Versão IA with Tooltip -->
+          <div class="tooltip-host">
+            <a 
+              href={`data:text/markdown;charset=utf-8,${encodeURIComponent(mdDownloadContent)}`} 
+              download={`${doc.data.fonte_original.replace(/\.[^/.]+$/, "")}.meta.md`} 
+              class="btn-secondary"
+              style="border-color: var(--accent); color: var(--accent);"
+            >
+              ✨ Versão IA
+            </a>
+            <span class="tooltip" role="tooltip" style="white-space: normal; width: 280px; text-align: left; line-height: 1.4;">
+              Transcrição em texto, gerada por OCR e verificada por IA. Se quiseres usar este documento noutra ferramenta de IA (ChatGPT, Claude, etc.), esta versão consome muito menos tokens do que enviar o PDF original — é só texto, sem o peso das imagens/scans. Pode conter erros e não substitui o original.
+            </span>
+          </div>
+
+          <!-- Fixar/Bookmark -->
+          <button id="btn-pin-document" class="btn-secondary" style="padding: 10px 16px; display: inline-flex; align-items: center; gap: 6px; font-size: 0.95rem; cursor: pointer; transition: all 0.2s ease; background: transparent;">
+            <span id="pin-icon">📌</span> <span id="pin-text">Fixar Documento</span>
+          </button>
+        </div>
+
+        <!-- HIDDEN METADATA FOR CLIENT-SIDE STORAGE -->
+        <div id="doc-meta-data" 
+             data-hash={doc.data.hash} 
+             data-title={doc.data.title} 
+             data-disciplina={doc.data.disciplina} 
+             data-uc-name={ucName}
+             data-tipo={doc.data.tipo} 
+             hidden></div>
+
+        <!-- PDF Embed Viewer -->
+        {doc.data.storage_url ? (
+          <div style="border: 1px solid var(--panel-border); border-radius: var(--radius-sm); overflow: hidden; background: #EEE; height: 600px; display: flex; flex-direction: column;">
+            <iframe src={doc.data.storage_url} style="width: 100%; height: 100%; border: none;"></iframe>
+          </div>
+        ) : (
+          <div class="card" style="text-align: center; padding: 48px 24px; background: #FAF9F5; border-style: dashed;">
+            <span style="font-size: 2.5rem; opacity: 0.6;">📭</span>
+            <h3 style="margin-top: 12px; font-family: var(--font-heading);">Visualizador não disponível</h3>
+            <p style="font-size: 0.9rem; color: var(--text-secondary); max-width: 400px; margin: 4px auto 0;">
+              O ficheiro original ainda não foi carregado para o GitHub Releases. Podes descarregar o ficheiro de metadados ou correr o script de upload.
+            </p>
+          </div>
+        )}
+      </div>
+    </div>
+
+    <!-- Right Column: Chrome Nano Chat Assistant -->
+    <div class="chat-col">
+      <div class="surface panel" style="display: flex; flex-direction: column; height: 100%; min-height: 500px; max-height: 720px; padding: 20px;">
+        <div style="display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid var(--panel-border); padding-bottom: 12px; margin-bottom: 16px;">
+          <div>
+            <h3 style="font-size: 1.1rem; margin: 0; display: flex; align-items: center; gap: 8px;">
+              <span>🤖</span> Assistente Local
+            </h3>
+            <span style="font-size: 0.75rem; color: var(--text-secondary);">Gemini Nano on-device</span>
+          </div>
+          <div style="display: flex; align-items: center; gap: 6px;">
+            <div id="model-status-dot" class="pulse-dot" style="background: var(--text-tertiary);"></div>
+            <span id="model-status-text" style="font-size: 0.75rem; color: var(--text-secondary); font-weight: 600;">A verificar...</span>
+          </div>
+        </div>
+
+        <!-- Chat History -->
+        <div id="chat-messages" style="flex: 1; overflow-y: auto; display: flex; flex-direction: column; gap: 12px; margin-bottom: 16px; padding-right: 4px; font-size: 0.9rem;">
+          <div style="background: #FAFAFA; border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 12px; color: var(--text-secondary); line-height: 1.4;">
+            Olá! Sou o assistente de IA integrado no teu browser. Posso responder a perguntas sobre este documento recorrendo ao modelo local <strong>Gemini Nano</strong>.
+          </div>
+        </div>
+
+        <!-- Chat Input Form -->
+        <form id="chat-form" style="display: flex; gap: 8px; margin-top: auto;">
+          <input 
+            type="text" 
+            id="chat-input" 
+            placeholder="Pergunta algo sobre este documento..." 
+            disabled 
+            style="flex: 1; padding: 10px 12px; font-size: 0.9rem;"
+          />
+          <button type="submit" id="chat-submit" disabled class="btn-primary" style="padding: 10px 16px; font-size: 0.9rem;">
+            Enviar
+          </button>
+        </form>
+        
+        <!-- Enable instructions (hidden by default) -->
+        <div id="chat-setup-help" style="display: none; font-size: 0.78rem; color: var(--danger); margin-top: 12px; padding-top: 8px; border-top: 1px dashed var(--panel-border); line-height: 1.3;">
+          ⚠️ <strong>Gemini Nano inativo</strong>. Para ativar no Chrome:
+          <ol style="margin: 4px 0; padding-left: 16px;">
+            <li>Ativa <code>chrome://flags/#optimization-guide-on-device-model</code> (seleciona Enabled Bypass List).</li>
+            <li>Ativa <code>chrome://flags/#prompt-api-for-gemini-nano</code> (seleciona Enabled).</li>
+            <li>Reinicia o Chrome e aguarda que o download do modelo termine.</li>
+          </ol>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- HIDDEN BLOCK FOR PAGEFIND INDEXING -->
+  <div hidden data-pagefind-body>
+    <div data-pagefind-weight="10">
+      Title: {doc.data.title}
+      Discipline: {ucName}
+      Type: {doc.data.tipo}
+    </div>
+    {doc.body}
+  </div>
+</Layout>
+
+<style>
+  .main-layout {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  @media (min-width: 992px) {
+    .main-layout {
+      grid-template-columns: 7fr 4fr;
+    }
+  }
+  
+  .content-col {
+    min-width: 0;
+  }
+  
+  .chat-col {
+    min-width: 0;
+  }
+  
+  /* Chat styles */
+  .msg {
+    padding: 10px 14px;
+    border-radius: var(--radius-sm);
+    max-width: 85%;
+    line-height: 1.4;
+  }
+  .msg-user {
+    background: #EFEFEF;
+    color: var(--text-primary);
+    align-self: flex-end;
+    border-bottom-right-radius: 2px;
+  }
+  .msg-bot {
+    background: var(--bg-main);
+    color: var(--text-primary);
+    border: 1px solid var(--panel-border);
+    align-self: flex-start;
+    border-bottom-left-radius: 2px;
+  }
+</style>
+
+<script is:inline>
+  // Script running fully client-side to coordinate Prompt API (window.ai)
+  const chatMessages = document.getElementById("chat-messages");
+  const chatForm = document.getElementById("chat-form");
+  const chatInput = document.getElementById("chat-input");
+  const chatSubmit = document.getElementById("chat-submit");
+  const statusDot = document.getElementById("model-status-dot");
+  const statusText = document.getElementById("model-status-text");
+  const setupHelp = document.getElementById("chat-setup-help");
+
+  let aiSession = null;
+  
+  // Extract content context from the page
+  const docContext = document.querySelector("[data-pagefind-body]").innerText;
+
+  async function checkAiAvailability() {
+    // Check if the Prompt API is available in window.ai
+    const hasAi = typeof window !== 'undefined' && 'ai' in window && 'languageModel' in window.ai;
+    
+    if (!hasAi) {
+      statusDot.style.background = "var(--danger)";
+      statusDot.style.animation = "none";
+      statusText.textContent = "Não Disponível";
+      statusText.style.color = "var(--danger)";
+      setupHelp.style.display = "block";
+      return;
+    }
+
+    try {
+      const capabilities = await window.ai.languageModel.capabilities();
+      
+      if (capabilities.available === "no") {
+        statusDot.style.background = "var(--danger)";
+        statusText.textContent = "Não Ativo";
+        statusText.style.color = "var(--danger)";
+        setupHelp.style.display = "block";
+        return;
+      }
+
+      statusDot.style.background = "var(--success)";
+      statusDot.className = "pulse-dot";
+      statusText.textContent = "Disponível";
+      statusText.style.color = "var(--success)";
+      
+      // Enable inputs
+      chatInput.removeAttribute("disabled");
+      chatSubmit.removeAttribute("disabled");
+      
+      // Create session with document context
+      const systemPrompt = `You are a helpful and intelligent study assistant for a mechanical engineering course.
+You have access to the full text transcription and OCR of the document currently open by the student.
+Be precise and technical. Answer questions in Portuguese.
+Document context:
+---
+${docContext.substring(0, 8000)} // truncate to prevent context overflows
+---`;
+      
+      aiSession = await window.ai.languageModel.create({
+        systemPrompt: systemPrompt,
+        temperature: 0.3
+      });
+
+    } catch (e) {
+      console.error("Failed to initialize Chrome AI:", e);
+      statusDot.style.background = "var(--warning)";
+      statusText.textContent = "Erro de Inicialização";
+      setupHelp.style.display = "block";
+    }
+  }
+
+  function appendMessage(text, isUser) {
+    const msgDiv = document.createElement("div");
+    msgDiv.className = `msg ${isUser ? 'msg-user' : 'msg-bot'}`;
+    msgDiv.textContent = text;
+    chatMessages.appendChild(msgDiv);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  }
+
+  chatForm.addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const query = chatInput.value.trim();
+    if (!query || !aiSession) return;
+
+    appendMessage(query, true);
+    chatInput.value = "";
+    
+    // Add temporary bot loading container
+    const botMsgDiv = document.createElement("div");
+    botMsgDiv.className = "msg msg-bot";
+    botMsgDiv.innerHTML = '<span class="spinner" style="width: 14px; height: 14px; display: inline-block;"></span> <em>A formular resposta...</em>';
+    chatMessages.appendChild(botMsgDiv);
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+
+    try {
+      // Support Prompt API streaming if available
+      if (typeof aiSession.promptStreaming === 'function') {
+        const stream = aiSession.promptStreaming(query);
+        botMsgDiv.textContent = ""; // clear loading
+        
+        for await (const chunk of stream) {
+          botMsgDiv.textContent = chunk;
+          chatMessages.scrollTop = chatMessages.scrollHeight;
+        }
+      } else {
+        const response = await aiSession.prompt(query);
+        botMsgDiv.textContent = response;
+      }
+    } catch (err) {
+      console.error(err);
+      botMsgDiv.textContent = "Erro local: Ocorreu um problema ao comunicar com o modelo Gemini Nano local.";
+      botMsgDiv.style.color = "var(--danger)";
+    }
+    
+    chatMessages.scrollTop = chatMessages.scrollHeight;
+  });
+
+  // Start checking when browser loads
+  checkAiAvailability();
+
+  // Client-side Bookmarks (Pinning) and Recently Seen Logic
+  try {
+    const metaEl = document.getElementById("doc-meta-data");
+    const docInfo = {
+      hash: metaEl.dataset.hash,
+      title: metaEl.dataset.title,
+      disciplina: metaEl.dataset.disciplina,
+      ucName: metaEl.dataset.ucName,
+      tipo: metaEl.dataset.tipo,
+      timestamp: Date.now()
+    };
+
+    // 1. Update Recently Seen
+    let recentlySeen = JSON.parse(localStorage.getItem("recentlySeen") || "[]");
+    recentlySeen = recentlySeen.filter(d => d.hash !== docInfo.hash);
+    recentlySeen.unshift(docInfo);
+    recentlySeen = recentlySeen.slice(0, 5);
+    localStorage.setItem("recentlySeen", JSON.stringify(recentlySeen));
+
+    // 2. Handle Pin Button Toggle
+    const btnPin = document.getElementById("btn-pin-document");
+    const pinIcon = document.getElementById("pin-icon");
+    const pinText = document.getElementById("pin-text");
+
+    function updatePinButtonState() {
+      let pins = JSON.parse(localStorage.getItem("pinnedFiles") || "[]");
+      const isPinned = pins.some(p => p.hash === docInfo.hash);
+      if (isPinned) {
+        pinIcon.textContent = "📍";
+        pinText.textContent = "Ficheiro Fixado";
+        btnPin.style.background = "var(--accent-glow)";
+        btnPin.style.borderColor = "var(--accent)";
+      } else {
+        pinIcon.textContent = "📌";
+        pinText.textContent = "Fixar Ficheiro";
+        btnPin.style.background = "transparent";
+        btnPin.style.borderColor = "var(--panel-border)";
+      }
+    }
+
+    btnPin.addEventListener("click", () => {
+      let pins = JSON.parse(localStorage.getItem("pinnedFiles") || "[]");
+      const index = pins.findIndex(p => p.hash === docInfo.hash);
+      if (index > -1) {
+        pins.splice(index, 1);
+      } else {
+        pins.push(docInfo);
+      }
+      localStorage.setItem("pinnedFiles", JSON.stringify(pins));
+      updatePinButtonState();
+    });
+
+    updatePinButtonState();
+  } catch (e) {
+    console.error("Failed to run client-side pins/recently-seen:", e);
+  }
+</script>

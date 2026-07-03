@@ -1,0 +1,19 @@
+---
+title: "Reação.Apoio.B"
+disciplina: "mecanica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "Reação.Apoio.B.csv"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "61f6be1d99a3bb465d8f1e772cb31e37b733e3f445688123b174edc725ab5363"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

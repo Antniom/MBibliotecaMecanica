@@ -1,0 +1,46 @@
+---
+interface Props {
+	title: string;
+	description?: string;
+}
+
+const { title, description = "Super-Biblioteca de Engenharia Mecânica - IPLeiria" } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="pt">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content={description} />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title} — Super-Biblioteca</title>
+	</head>
+	<body>
+		<header class="nav-header">
+			<div class="nav-container">
+				<a href="/" class="nav-logo">
+					<span>📐</span> MBibliotecaMecânica
+				</a>
+				<nav class="nav-links">
+					<a href="/" class="btn-secondary" style="padding: 6px 12px; font-size: 0.85rem;">Início</a>
+					<a href="/pesquisa" class="btn-primary" style="padding: 6px 12px; font-size: 0.85rem;">Pesquisar</a>
+				</nav>
+			</div>
+		</header>
+
+		<main class="container animate-fade-in">
+			<slot />
+		</main>
+
+		<footer class="footer">
+			<p>© 2026 MBibliotecaMecânica — Licenciatura em Engenharia Mecânica (ESTG, IPLeiria).</p>
+			<p style="font-size: 0.8rem; margin-top: 4px; color: var(--text-tertiary);">Construído localmente e validado por Inteligência Artificial.</p>
+		</footer>
+	</body>
+</html>
+
+<style is:global>
+	@import "../styles/global.css";
+</style>

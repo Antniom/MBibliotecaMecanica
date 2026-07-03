@@ -1,0 +1,19 @@
+---
+title: "Ficha11_Programacaolinear"
+disciplina: "matematica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "Ficha11_ProgramacaoLinear.pdf"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "d5d8edfacf7c228eab2a69da9c644ca3c19bb05148cf5721f95a03e04579ceb9"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

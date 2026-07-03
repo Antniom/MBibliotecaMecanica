@@ -1,0 +1,19 @@
+---
+title: "Frequência 17 18"
+disciplina: "gestao-da-producao-e-manutencao"
+ano: 3
+semestre: 2
+tipo: "resolucoes"
+fonte_original: "frequência 17-18.pdf"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "d975e3bc62389cfa2cb7746e93f4777dac0fd5c15244f898c281b4f83080eb2a"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

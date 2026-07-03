@@ -1,0 +1,19 @@
+---
+title: "MecâNica Da Fratura_Em_Omii_23.24 ✅"
+disciplina: "orgaos-de-maquinas-ii"
+ano: 3
+semestre: 1
+tipo: "teoria"
+fonte_original: "Mecânica da Fratura_EM_OMII_23.24 ✅.pdf"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "2bd39db93ce537ddd98a3067bf280fe783dadcc314439b81bef896752b256480"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

@@ -1,0 +1,19 @@
+---
+title: "Aula_Teorica_03_2019_2020_Cinematica_Da_Rotacao_Em_Torno_De_Eixo_Fixo (1)"
+disciplina: "mecanica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "Aula_Teorica_03_2019_2020_Cinematica_da_Rotacao_em_torno_de_eixo_fixo (1).pdf"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "af1e6297386aae5b4fe1818f2a64c5b51341ebef300bd2a47ee6d7e07cac2d0e"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

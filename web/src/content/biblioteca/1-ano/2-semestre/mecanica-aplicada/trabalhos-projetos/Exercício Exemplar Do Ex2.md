@@ -1,0 +1,19 @@
+---
+title: "ExercíCio Exemplar Do Ex2"
+disciplina: "mecanica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "Exercício Exemplar Do Ex2.pdf"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "f479491d070d9ae7da00c65f15b26da30c7ee1020f99f839067af9996387c1f8"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

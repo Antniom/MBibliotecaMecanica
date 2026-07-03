@@ -1,0 +1,19 @@
+---
+title: "Aula_Teorica_06_2019_2020_Dinamica_Do_Corpo_Rigido_Translacao_Rotacao_E_Mov_Geral_Plano"
+disciplina: "mecanica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "Aula_Teorica_06_2019_2020_Dinamica_do_corpo_rigido_translacao_rotacao_e_mov_geral_plano.pdf"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "f6dde09f0cf9d4656ac32870a6293981ed9471258300bacd5227d90cae01b140"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

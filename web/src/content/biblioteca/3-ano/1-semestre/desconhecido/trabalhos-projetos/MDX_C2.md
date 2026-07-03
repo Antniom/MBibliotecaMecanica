@@ -1,0 +1,19 @@
+---
+title: "Mdx_C2"
+disciplina: "desconhecido"
+ano: 3
+semestre: 1
+tipo: "trabalhos-projetos"
+fonte_original: "MDX_C2.bmp"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "cd2f8325aaa78741c11095ca3c0850dec64579c4a94012230e05a64283bf0765"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

@@ -1,0 +1,19 @@
+---
+title: "Equaçõesab1"
+disciplina: "mecanica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "EquaçõesAB1.png"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "92b8e176fa0c47bd86e3b153936692ea6f6da5a86e65171ba280cd49655c2d39"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

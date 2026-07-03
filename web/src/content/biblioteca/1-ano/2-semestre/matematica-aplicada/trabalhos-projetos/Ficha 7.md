@@ -1,0 +1,19 @@
+---
+title: "Ficha 7"
+disciplina: "matematica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "Ficha 7.pdf"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "92f2ccfa2d05eaae75b46ef935eb649d993038a0ff68eadf789df2bcbbdc70a7"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

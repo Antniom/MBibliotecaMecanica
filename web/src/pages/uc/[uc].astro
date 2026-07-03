@@ -1,0 +1,253 @@
+---
+import { getCollection } from 'astro:content';
+import Layout from '../../layouts/Layout.astro';
+
+export async function getStaticPaths() {
+  const UC_LIST = [
+    // 1-ano 1-sem
+    "analise-matematica", "algebra-linear", "fisica", "programacao", "ingles", "quimica-e-materiais",
+    // 1-ano 2-sem
+    "matematica-aplicada", "estatistica", "desenho-tecnico", "tecnologia-dos-materiais", "tecnologia-mecanica-i", "mecanica-aplicada",
+    // 2-ano 1-sem
+    "resistencia-dos-materiais", "tecnologia-mecanica-ii", "termodinamica", "mecanica-dos-fluidos", "processos-transformacao-plasticos", "modelacao-assistida-por-computador",
+    // 2-ano 2-sem
+    "orgaos-de-maquinas-i", "processamento-mecanica-compositos", "engenharia-assistida-por-computador", "fabrico-assistido-por-computador", "desenho-de-construcao-mecanica", "eletrotecnia-e-eletronica-industrial",
+    // 3-ano 1-sem
+    "orgaos-de-maquinas-ii", "processos-avancados-de-fabrico", "projeto-mecanico", "concecao-e-desenvolvimento-de-produto", "simulacao-computacional-projeto-mecanico", "automacao-industrial",
+    // 3-ano 2-sem
+    "qualidade-e-gestao-de-recursos", "gestao-da-producao-e-manutencao", "estagio", "seminario", "controlo-de-gestao", "inovacao-e-empreendedorismo"
+  ];
+  return UC_LIST.map(uc => ({ params: { uc } }));
+}
+
+const { uc } = Astro.params;
+
+// Friendly title resolver
+const UC_NAMES: Record<string, string> = {
+  "analise-matematica": "Análise Matemática I",
+  "algebra-linear": "Álgebra Linear",
+  "fisica": "Física",
+  "programacao": "Programação",
+  "ingles": "Inglês",
+  "quimica-e-materiais": "Química e Materiais",
+  "matematica-aplicada": "Matemática Aplicada",
+  "estatistica": "Estatística",
+  "desenho-tecnico": "Desenho Técnico",
+  "tecnologia-dos-materiais": "Tecnologia dos Materiais",
+  "tecnologia-mecanica-i": "Tecnologia Mecânica I",
+  "mecanica-aplicada": "Mecânica Aplicada",
+  "resistencia-dos-materiais": "Resistência dos Materiais",
+  "tecnologia-mecanica-ii": "Tecnologia Mecânica II",
+  "termodinamica": "Termodinâmica",
+  "mecanica-dos-fluidos": "Mecânica dos Fluidos",
+  "processos-transformacao-plasticos": "Processos de Transformação de Plásticos",
+  "modelacao-assistida-por-computador": "Modelação Assistida por Computador",
+  "orgaos-de-maquinas-i": "Órgãos de Máquinas I",
+  "processamento-mecanica-compositos": "Processamento e Mecânica de Compósitos",
+  "engenharia-assistida-por-computador": "Engenharia Assistida por Computador",
+  "fabrico-assistido-por-computador": "Fabrico Assistido por Computador",
+  "desenho-de-construcao-mecanica": "Desenho de Construção Mecânica",
+  "eletrotecnia-e-eletronica-industrial": "Eletrotecnia e Eletrónica Industrial",
+  "orgaos-de-maquinas-ii": "Órgãos de Máquinas II",
+  "processos-avancados-de-fabrico": "Processos Avançados de Fabrico",
+  "projeto-mecanico": "Projeto Mecânico",
+  "concecao-e-desenvolvimento-de-produto": "Conceção e Desenvolvimento de Produto",
+  "simulacao-computacional-projeto-mecanico": "Simulação Computacional de Projeto Mecânico",
+  "automacao-industrial": "Automação Industrial",
+  "qualidade-e-gestao-de-recursos": "Qualidade e Gestão de Recursos",
+  "gestao-da-producao-e-manutencao": "Gestão da Produção e Manutenção",
+  "estagio": "Estágio",
+  "seminario": "Seminário",
+  "controlo-de-gestao": "Controlo de Gestão",
+  "inovacao-e-empreendedorismo": "Inovação e Empreendedorismo"
+};
+
+const ucName = UC_NAMES[uc] || uc.replace("-", " ");
+
+// Query the content collection for files matching this UC
+const allDocs = await getCollection('biblioteca');
+const ucDocs = allDocs.filter(doc => doc.data.disciplina === uc);
+
+// Categorize documents by type
+const CATEGORIES = [
+  { key: "teoria", label: "Slides e Teoria" },
+  { key: "fichas-exercicios", label: "Fichas de Exercícios" },
+  { key: "resumos", label: "Resumos" },
+  { key: "resolucoes", label: "Resoluções" },
+  { key: "testes-exames", label: "Testes e Exames" },
+  { key: "trabalhos-projetos", label: "Trabalhos e Projetos" }
+];
+
+const docsByCategory = CATEGORIES.map(cat => ({
+  ...cat,
+  docs: ucDocs.filter(d => d.data.tipo === cat.key)
+})).filter(cat => cat.docs.length > 0);
+---
+
+<Layout title={ucName}>
+  <div style="margin-bottom: 24px;">
+    <a href="/" style="text-decoration: none; color: var(--text-secondary); font-size: 0.9rem; display: inline-flex; align-items: center; gap: 4px;">
+      ← Voltar ao Início
+    </a>
+  </div>
+
+  <div class="hero-header" style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 16px; margin-bottom: 32px; border-bottom: 1px solid var(--panel-border); padding-bottom: 24px;">
+    <div>
+      <h1 class="hero-title" style="margin-bottom: 4px; border: none; padding: 0;">{ucName}</h1>
+      <p class="hero-subtitle" style="margin: 0;">Material disponível para a unidade curricular.</p>
+    </div>
+    <button id="btn-pin-uc" class="btn-secondary" style="padding: 8px 16px; display: inline-flex; align-items: center; gap: 6px; font-size: 0.9rem; cursor: pointer; transition: all 0.2s ease; background: transparent;">
+      <span id="pin-icon">📌</span> <span id="pin-text">Fixar Disciplina</span>
+    </button>
+  </div>
+
+  {docsByCategory.length === 0 ? (
+    <div class="card" style="text-align: center; padding: 48px 24px; color: var(--text-secondary);">
+      <span style="font-size: 3rem;">📂</span>
+      <h3 style="margin-top: 16px; font-family: var(--font-heading);">Nenhum ficheiro processado</h3>
+      <p style="max-width: 400px; margin: 8px auto 0; font-size: 0.95rem;">
+        Ainda não foram processados ficheiros para esta disciplina. Adiciona ficheiros à pasta <code style="background: rgba(0,0,0,0.05); padding: 2px 4px; border-radius: 4px;">entrada/</code> e corre o pipeline.
+      </p>
+    </div>
+  ) : (
+    <div style="display: flex; flex-direction: column; gap: 40px;">
+      {docsByCategory.map(cat => (
+        <div>
+          <h2 id={`category-${cat.key}`} style="font-size: 1.35rem; color: var(--text-primary); border-bottom: 1px solid var(--panel-border); padding-bottom: 6px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center;">
+            <span>📁 {cat.label} ({cat.docs.length})</span>
+            <button class="btn-pin-folder" data-uc-slug={uc} data-uc-name={ucName} data-cat-key={cat.key} data-cat-label={cat.label} style="background: transparent; border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 4px 10px; font-size: 0.8rem; cursor: pointer; transition: all 0.2s ease;">
+              📌 Fixar Pasta
+            </button>
+          </h2>
+          
+          <div class="grid-3">
+            {cat.docs.map(doc => {
+              const baseName = doc.id.split('/').pop()?.replace('.md', '') || '';
+              // Confidence color mapping
+              let confClass = "badge-success";
+              if (doc.data.confianca_media < 0.6) confClass = "badge-danger";
+              else if (doc.data.confianca_media < 0.8) confClass = "badge-warning";
+              
+              return (
+                <div class="card" style="display: flex; flex-direction: column; justify-content: space-between; min-height: 180px;">
+                  <div>
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 12px;">
+                      <span style="font-size: 1.5rem;">📄</span>
+                      <span class={`badge ${confClass}`} style="font-size: 0.7rem; padding: 2px 8px;">
+                        IA: {Math.round(doc.data.confianca_media * 100)}%
+                      </span>
+                    </div>
+                    <h3 style="font-size: 1rem; line-height: 1.4; margin-bottom: 6px; font-family: var(--font-body); font-weight: 600;">
+                      {doc.data.title}
+                    </h3>
+                    <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 12px; font-family: var(--font-mono); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                      {doc.data.fonte_original}
+                    </p>
+                  </div>
+                  
+                  <div style="display: flex; gap: 8px; margin-top: auto;">
+                    <a href={`/documento/${baseName}`} class="btn-primary" style="flex: 1; justify-content: center; font-size: 0.85rem; padding: 8px 12px;">
+                      Ver Detalhes
+                    </a>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
+        </div>
+      ))}
+    </div>
+  )}
+</Layout>
+
+<div id="uc-meta-data" data-slug={uc} data-name={ucName} hidden></div>
+
+<script is:inline>
+  try {
+    const metaEl = document.getElementById("uc-meta-data");
+    const ucInfo = {
+      slug: metaEl.dataset.slug,
+      name: metaEl.dataset.name,
+      timestamp: Date.now()
+    };
+    
+    const btnPin = document.getElementById("btn-pin-uc");
+    const pinIcon = document.getElementById("pin-icon");
+    const pinText = document.getElementById("pin-text");
+    
+    function updatePinButtonState() {
+      let pins = JSON.parse(localStorage.getItem("pinnedUCs") || "[]");
+      const isPinned = pins.some(p => p.slug === ucInfo.slug);
+      if (isPinned) {
+        pinIcon.textContent = "📍";
+        pinText.textContent = "Disciplina Fixada";
+        btnPin.style.background = "var(--accent-glow)";
+        btnPin.style.borderColor = "var(--accent)";
+      } else {
+        pinIcon.textContent = "📌";
+        pinText.textContent = "Fixar Disciplina";
+        btnPin.style.background = "transparent";
+        btnPin.style.borderColor = "var(--panel-border)";
+      }
+    }
+    
+    btnPin.addEventListener("click", () => {
+      let pins = JSON.parse(localStorage.getItem("pinnedUCs") || "[]");
+      const index = pins.findIndex(p => p.slug === ucInfo.slug);
+      if (index > -1) {
+        pins.splice(index, 1);
+      } else {
+        pins.push(ucInfo);
+      }
+      localStorage.setItem("pinnedUCs", JSON.stringify(pins));
+      updatePinButtonState();
+    });
+    
+    updatePinButtonState();
+
+    // 3. Handle Folder Pin Buttons
+    const folderButtons = document.querySelectorAll(".btn-pin-folder");
+    
+    function updateFolderButtonStates() {
+      let pinnedFolders = JSON.parse(localStorage.getItem("pinnedFolders") || "[]");
+      folderButtons.forEach(btn => {
+        const ucSlug = btn.dataset.ucSlug;
+        const catKey = btn.dataset.catKey;
+        const isPinned = pinnedFolders.some(f => f.ucSlug === ucSlug && f.catKey === catKey);
+        
+        if (isPinned) {
+          btn.innerHTML = "📍 Pasta Fixada";
+          btn.style.background = "var(--accent-glow)";
+          btn.style.borderColor = "var(--accent)";
+        } else {
+          btn.innerHTML = "📌 Fixar Pasta";
+          btn.style.background = "transparent";
+          btn.style.borderColor = "var(--panel-border)";
+        }
+      });
+    }
+    
+    folderButtons.forEach(btn => {
+      btn.addEventListener("click", () => {
+        let pinnedFolders = JSON.parse(localStorage.getItem("pinnedFolders") || "[]");
+        const ucSlug = btn.dataset.ucSlug;
+        const ucName = btn.dataset.ucName;
+        const catKey = btn.dataset.catKey;
+        const catLabel = btn.dataset.catLabel;
+        
+        const index = pinnedFolders.findIndex(f => f.ucSlug === ucSlug && f.catKey === catKey);
+        if (index > -1) {
+          pinnedFolders.splice(index, 1);
+        } else {
+          pinnedFolders.push({ ucSlug, ucName, catKey, catLabel, timestamp: Date.now() });
+        }
+        localStorage.setItem("pinnedFolders", JSON.stringify(pinnedFolders));
+        updateFolderButtonStates();
+      });
+    });
+    
+    updateFolderButtonStates();
+  } catch (e) {
+    console.error("Failed to pin UC/Folder", e);
+  }
+</script>

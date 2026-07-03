@@ -1,0 +1,19 @@
+---
+title: "Exame Pe2"
+disciplina: "matematica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "Exame PE2.pdf"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "897a85fae995a6079a34d5d829e55fa9b54590ce0310b7aca350159743eaa692"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

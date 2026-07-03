@@ -1,0 +1,299 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Taxonomy data structure, filtered for user options
+const YEARS = [
+  {
+    number: 1,
+    title: "1º Ano",
+    semesters: [
+      {
+        number: 1,
+        title: "1º Semestre",
+        ucs: [
+          { code: "9123201", name: "Análise Matemática", slug: "analise-matematica" },
+          { code: "9123202", name: "Álgebra Linear", slug: "algebra-linear" },
+          { code: "9123203", name: "Física", slug: "fisica" },
+          { code: "9123204", name: "Programação", slug: "programacao" },
+          { code: "9123205", name: "Inglês", slug: "ingles" },
+          { code: "9123206", name: "Química e Materiais", slug: "quimica-e-materiais" },
+        ]
+      },
+      {
+        number: 2,
+        title: "2º Semestre",
+        ucs: [
+          { code: "9123207", name: "Matemática Aplicada", slug: "matematica-aplicada" },
+          { code: "9123208", name: "Estatística", slug: "estatistica" },
+          { code: "9123209", name: "Desenho Técnico", slug: "desenho-tecnico" },
+          { code: "9123210", name: "Tecnologia dos Materiais", slug: "tecnologia-dos-materiais" },
+          { code: "9123211", name: "Tecnologia Mecânica I", slug: "tecnologia-mecanica-i" },
+          { code: "9123212", name: "Mecânica Aplicada", slug: "mecanica-aplicada" },
+        ]
+      }
+    ]
+  },
+  {
+    number: 2,
+    title: "2º Ano",
+    semesters: [
+      {
+        number: 1,
+        title: "1º Semestre",
+        ucs: [
+          { code: "9123213", name: "Resistência dos Materiais", slug: "resistencia-dos-materiais" },
+          { code: "9123214", name: "Tecnologia Mecânica II", slug: "tecnologia-mecanica-ii" },
+          { code: "9123215", name: "Termodinâmica", slug: "termodinamica" },
+          { code: "9123216", name: "Mecânica dos Fluidos", slug: "mecanica-dos-fluidos" },
+          { code: "9123217", name: "Processos Transformação Plásticos", slug: "processos-transformacao-plasticos" },
+          { code: "9123218", name: "Modelação Assistida por Computador", slug: "modelacao-assistida-por-computador" },
+        ]
+      },
+      {
+        number: 2,
+        title: "2º Semestre",
+        ucs: [
+          { code: "9123219", name: "Órgãos de Máquinas I", slug: "orgaos-de-maquinas-i" },
+          { code: "9123220", name: "Processamento Mecânica Compósitos", slug: "processamento-mecanica-compositos" },
+          { code: "9123221", name: "Engenharia Assistida por Computador", slug: "engenharia-assistida-por-computador" },
+          { code: "9123222", name: "Fabrico Assistido por Computador", slug: "fabrico-assistido-por-computador" },
+          { code: "9123238", name: "Desenho de Construção Mecânica", slug: "desenho-de-construcao-mecanica" }, // Option I (A)
+          { code: "9123237", name: "Desenho de Moldes e Plásticos", slug: "desenho-de-moldes-e-plasticos" }, // Option I (B)
+          { code: "9123224", name: "Eletrotecnia e Eletrónica Industrial", slug: "eletrotecnia-e-eletronica-industrial" },
+        ]
+      }
+    ]
+  },
+  {
+    number: 3,
+    title: "3º Ano",
+    semesters: [
+      {
+        number: 1,
+        title: "1º Semestre",
+        ucs: [
+          { code: "9123225", name: "Órgãos de Máquinas II", slug: "orgaos-de-maquinas-ii" },
+          { code: "9123226", name: "Processos Avançados de Fabrico", slug: "processos-avancados-de-fabrico" },
+          { code: "9123240", name: "Projeto Mecânico", slug: "projeto-mecanico" }, // Option II (A)
+          { code: "9123239", name: "Projeto de Moldes", slug: "projeto-de-moldes" }, // Option II (B)
+          { code: "9123228", name: "Conceção e Desenvolvimento de Produto", slug: "concecao-e-desenvolvimento-de-produto" },
+          { code: "9123242", name: "Simulação Computacional Projeto Mecânico", slug: "simulacao-computacional-projeto-mecanico" }, // Option III
+          { code: "9123230", name: "Automação Industrial", slug: "automacao-industrial" },
+        ]
+      },
+      {
+        number: 2,
+        title: "2º Semestre",
+        ucs: [
+          { code: "9123231", name: "Qualidade e Gestão de Recursos", slug: "qualidade-e-gestao-de-recursos" },
+          { code: "9123232", name: "Gestão da Produção e Manutenção", slug: "gestao-da-producao-e-manutencao" },
+          { code: "9123244", name: "Estágio", slug: "estagio" }, // Option IV
+          { code: "9123234", name: "Seminário", slug: "seminario" },
+          { code: "9123247", name: "Controlo de Gestão", slug: "controlo-de-gestao" }, // Option V (A)
+          { code: "9123245", name: "Redes de Fluidos", slug: "redes-de-fluidos" }, // Option V (B)
+          { code: "9123236", name: "Inovação e Empreendedorismo", slug: "inovacao-e-empreendedorismo" },
+        ]
+      }
+    ]
+  }
+];
+---
+
+<Layout title="Biblioteca de Engenharia Mecânica">
+  <div class="hero-header">
+    <h1 class="hero-title">Biblioteca de Engenharia Mecânica</h1>
+    <p class="hero-subtitle">Repositório digital de apontamentos, resoluções, fichas e enunciados de exames do Politécnico de Leiria.</p>
+  </div>
+
+  <div style="margin-bottom: 40px; text-align: center;">
+    <p style="color: var(--text-secondary); max-width: 600px; margin: 0 auto 20px;">
+      Todos os ficheiros originais estão preservados e organizados por ano, semestre e unidade curricular. A pesquisa indexa a transcrição e validação textual efetuada por IA.
+    </p>
+    <a href="/pesquisa" class="btn-primary" style="font-size: 1.1rem; padding: 12px 28px; margin-bottom: 24px;">
+      🔍 Pesquisa Global Inteligente
+    </a>
+  </div>
+
+  <!-- Client-side Bookmarks and Recently Seen -->
+  <div id="quick-access-section" style="display: none; margin-bottom: 48px;">
+    <div style="display: grid; grid-template-columns: 1fr; gap: 24px; margin-bottom: 24px;">
+      <div class="quick-access-grid" style="display: grid; grid-template-columns: 1fr; gap: 24px;">
+        <!-- Pinned Items -->
+        <div class="surface" style="padding: 24px;">
+          <h3 style="font-size: 1.25rem; color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--panel-border); padding-bottom: 6px; display: flex; align-items: center; gap: 8px;">
+            <span>📍</span> Favoritos / Fixados
+          </h3>
+          
+          <div id="pinned-lists" style="display: flex; flex-direction: column; gap: 16px;">
+            <!-- Pinned UCs -->
+            <div id="pinned-ucs-container" style="display: none;">
+              <h4 style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 8px; font-weight: 600;">Disciplinas Fixadas:</h4>
+              <ul id="pinned-ucs-list" style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr; gap: 8px;"></ul>
+            </div>
+            
+            <!-- Pinned Files -->
+            <div id="pinned-files-container" style="display: none;">
+              <h4 style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 8px; font-weight: 600;">Ficheiros Fixados:</h4>
+              <ul id="pinned-files-list" style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr; gap: 8px;"></ul>
+            </div>
+            
+            <!-- Pinned Folders -->
+            <div id="pinned-folders-container" style="display: none;">
+              <h4 style="font-size: 0.9rem; color: var(--text-secondary); margin-bottom: 8px; font-weight: 600;">Pastas Fixadas:</h4>
+              <ul id="pinned-folders-list" style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr; gap: 8px;"></ul>
+            </div>
+          </div>
+        </div>
+        
+        <!-- Recently Seen -->
+        <div class="surface" style="padding: 24px;">
+          <h3 style="font-size: 1.25rem; color: var(--text-primary); margin-bottom: 16px; border-bottom: 1px solid var(--panel-border); padding-bottom: 6px; display: flex; align-items: center; gap: 8px;">
+            <span>🕒</span> Vistos Recentemente
+          </h3>
+          
+          <ul id="recently-seen-list" style="list-style: none; padding: 0; margin: 0; display: grid; grid-template-columns: 1fr; gap: 8px;"></ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {YEARS.map(year => (
+    <div style="margin-bottom: 48px;">
+      <h2 style="font-size: 1.7rem; border-bottom: 2px solid var(--panel-border); padding-bottom: 8px; margin-bottom: 24px; display: flex; align-items: center; gap: 10px;">
+        <span>🎓</span> {year.title}
+      </h2>
+      
+      <div style="display: grid; grid-template-columns: 1fr; gap: 32px; @media (min-width: 768px) { grid-template-columns: 1fr 1fr; }">
+        {year.semesters.map(semester => (
+          <div class="surface" style="padding: 24px;">
+            <h3 style="font-size: 1.25rem; color: var(--accent); margin-bottom: 16px; border-bottom: 1px solid var(--panel-border); padding-bottom: 6px;">
+              ⚡ {semester.title}
+            </h3>
+            
+            <ul style="list-style: none; padding: 0; margin: 0; display: flex; flex-direction: column; gap: 10px;">
+              {semester.ucs.map(uc => (
+                <li>
+                  <a href={`/uc/${uc.slug}`} class="uc-link" style="display: flex; justify-content: space-between; align-items: center; padding: 12px 16px; border: 1px solid var(--panel-border); border-radius: var(--radius-sm); background: #FAF9F6; text-decoration: none; color: var(--text-primary); font-weight: 500; transition: all 0.2s ease;">
+                    <span>{uc.name}</span>
+                    <span style="font-size: 0.8rem; color: var(--text-tertiary); font-family: var(--font-mono); background: rgba(0,0,0,0.05); padding: 2px 6px; border-radius: 4px;">{uc.code}</span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))}
+      </div>
+    </div>
+  ))}
+</Layout>
+
+<style>
+  .uc-link:hover {
+    border-color: var(--accent) !important;
+    background: #FFFDF9 !important;
+    color: var(--accent) !important;
+    transform: translateX(3px);
+  }
+
+  .quick-access-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+  @media (min-width: 768px) {
+    .quick-access-grid {
+      grid-template-columns: 1fr 1fr;
+    }
+  }
+</style>
+
+<script is:inline>
+  function loadQuickAccess() {
+    const quickAccessSection = document.getElementById("quick-access-section");
+    let hasData = false;
+    
+    // 1. Pinned UCs
+    const pinnedUCs = JSON.parse(localStorage.getItem("pinnedUCs") || "[]");
+    const ucsContainer = document.getElementById("pinned-ucs-container");
+    const ucsList = document.getElementById("pinned-ucs-list");
+    if (pinnedUCs.length > 0) {
+      hasData = true;
+      ucsContainer.style.display = "block";
+      ucsList.innerHTML = pinnedUCs.map(uc => `
+        <li>
+          <a href="/uc/${uc.slug}" class="uc-link" style="display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; border: 1px solid var(--panel-border); border-radius: var(--radius-sm); background: #FAF9F6; text-decoration: none; color: var(--text-primary); font-weight: 500; font-size: 0.9rem; transition: all 0.2s ease;">
+            <span>📍 ${uc.name}</span>
+            <span style="font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase;">Disciplina</span>
+          </a>
+        </li>
+      `).join('');
+    } else {
+      ucsContainer.style.display = "none";
+    }
+    
+    // 2. Pinned Files
+    const pinnedFiles = JSON.parse(localStorage.getItem("pinnedFiles") || "[]");
+    const filesContainer = document.getElementById("pinned-files-container");
+    const filesList = document.getElementById("pinned-files-list");
+    if (pinnedFiles.length > 0) {
+      hasData = true;
+      filesContainer.style.display = "block";
+      filesList.innerHTML = pinnedFiles.map(file => `
+        <li>
+          <a href="/documento/${file.hash}" class="uc-link" style="display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; border: 1px solid var(--panel-border); border-radius: var(--radius-sm); background: #FAF9F6; text-decoration: none; color: var(--text-primary); font-weight: 500; font-size: 0.9rem; transition: all 0.2s ease;">
+            <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 75%;">📄 ${file.title}</span>
+            <span style="font-size: 0.7rem; color: var(--accent); text-transform: uppercase; font-family: var(--font-mono); font-weight: 600;">${file.tipo.replace('-', ' ')}</span>
+          </a>
+        </li>
+      `).join('');
+    } else {
+      filesContainer.style.display = "none";
+    }
+
+    // 3. Pinned Folders
+    const pinnedFolders = JSON.parse(localStorage.getItem("pinnedFolders") || "[]");
+    const foldersContainer = document.getElementById("pinned-folders-container");
+    const foldersList = document.getElementById("pinned-folders-list");
+    if (pinnedFolders.length > 0) {
+      hasData = true;
+      foldersContainer.style.display = "block";
+      foldersList.innerHTML = pinnedFolders.map(folder => `
+        <li>
+          <a href="/uc/${folder.ucSlug}#category-${folder.catKey}" class="uc-link" style="display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; border: 1px solid var(--panel-border); border-radius: var(--radius-sm); background: #FAF9F6; text-decoration: none; color: var(--text-primary); font-weight: 500; font-size: 0.9rem; transition: all 0.2s ease;">
+            <span>📁 ${folder.ucName} / ${folder.catLabel}</span>
+            <span style="font-size: 0.75rem; color: var(--text-secondary); text-transform: uppercase;">Pasta</span>
+          </a>
+        </li>
+      `).join('');
+    } else {
+      foldersContainer.style.display = "none";
+    }
+    
+    // 4. Recently Seen
+    const recentlySeen = JSON.parse(localStorage.getItem("recentlySeen") || "[]");
+    const rsList = document.getElementById("recently-seen-list");
+    if (recentlySeen.length > 0) {
+      hasData = true;
+      rsList.style.display = "grid";
+      rsList.innerHTML = recentlySeen.map(file => `
+        <li>
+          <a href="/documento/${file.hash}" class="uc-link" style="display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; border: 1px solid var(--panel-border); border-radius: var(--radius-sm); background: #FAF9F6; text-decoration: none; color: var(--text-primary); font-weight: 500; font-size: 0.9rem; transition: all 0.2s ease;">
+            <span style="overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 70%;">🕒 ${file.title}</span>
+            <span style="font-size: 0.75rem; color: var(--text-secondary); text-align: right; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 30%;">${file.ucName}</span>
+          </a>
+        </li>
+      `).join('');
+    } else {
+      rsList.style.display = "none";
+    }
+    
+    // Show section if we have bookmarks or recently seen
+    if (hasData) {
+      quickAccessSection.style.display = "block";
+    } else {
+      quickAccessSection.style.display = "none";
+    }
+  }
+  
+  loadQuickAccess();
+</script>

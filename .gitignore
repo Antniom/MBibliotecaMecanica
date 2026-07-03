@@ -1,0 +1,24 @@
+# Python virtual environment
+venv/
+__pycache__/
+*.pyc
+
+# Local Database
+metadata.db
+metadata.db-shm
+metadata.db-wal
+
+# Input files (Original files uploaded via releases, do not commit raw files)
+entrada/
+
+# Temp files and logs
+*.png
+*.log
+*.tmp
+.env
+
+# Astro Web Portal build outputs & modules
+web/node_modules/
+web/dist/
+web/.astro/
+web/.vercel/

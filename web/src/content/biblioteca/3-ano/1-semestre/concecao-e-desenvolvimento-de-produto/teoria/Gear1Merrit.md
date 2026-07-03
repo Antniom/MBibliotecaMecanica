@@ -1,0 +1,19 @@
+---
+title: "Gear1Merrit"
+disciplina: "concecao-e-desenvolvimento-de-produto"
+ano: 3
+semestre: 1
+tipo: "teoria"
+fonte_original: "Gear1Merrit.htm"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "462017df5365a12a0d638a93757bfacca6d8dd60c24db4e8e53deb221eaf65a5"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>

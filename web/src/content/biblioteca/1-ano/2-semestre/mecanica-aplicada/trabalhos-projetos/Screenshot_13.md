@@ -1,0 +1,19 @@
+---
+title: "Screenshot_13"
+disciplina: "mecanica-aplicada"
+ano: 1
+semestre: 2
+tipo: "trabalhos-projetos"
+fonte_original: "Screenshot_13.png"
+confianca_media: 0.00
+data_processamento: "2026-07-03"
+storage_url: ""
+hash: "a34e2ecb6ea5147f2887a73bc2fe390cf6dc8803ff2605fa48cbd8c232bc65bd"
+---
+
+<document>
+  <section topic="geral" page="1">
+    O processamento de inteligência artificial (OCR e Validação) para este documento está na fila de espera.
+    O ficheiro original está disponível para download.
+  </section>
+</document>
