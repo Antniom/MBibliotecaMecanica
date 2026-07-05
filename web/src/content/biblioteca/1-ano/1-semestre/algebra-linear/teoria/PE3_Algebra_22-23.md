@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "PE3_Algebra_22-23.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/PE3_Algebra_22-23.pdf"
 hash: "40e1bc893136f461e9c7796fcdee09c4d5ef5375b862745fe327d6883c610e22"
 ---
 

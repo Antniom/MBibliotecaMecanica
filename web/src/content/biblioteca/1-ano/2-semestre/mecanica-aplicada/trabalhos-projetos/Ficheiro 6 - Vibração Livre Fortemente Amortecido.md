@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Ficheiro 6 - Vibração Livre Fortemente Amortecido.zcos"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficheiro 6 - Vibração Livre Fortemente Amortecido.zcos"
 hash: "aa2b829be9353bdbbb33162e61a121e97e44ab8e41978dbb87f336597a41b734"
 ---
 

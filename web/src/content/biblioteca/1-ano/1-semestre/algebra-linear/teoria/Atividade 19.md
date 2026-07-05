@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Atividade 19.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Atividade 19.pdf"
 hash: "28162cc4cf89731868778a4e855ece0c273b38f5ff38dab2e0968053ce04526b"
 ---
 

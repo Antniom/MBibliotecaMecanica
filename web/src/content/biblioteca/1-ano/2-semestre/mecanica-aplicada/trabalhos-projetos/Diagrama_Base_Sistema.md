@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Diagrama_Base_Sistema.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Diagrama_Base_Sistema.png"
 hash: "6183c997f16f36370c4bfd32fa131a3315c25579d2e308b9e5ff11ba65e23475"
 ---
 

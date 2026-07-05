@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Estudo_PE1_Estatistica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Estudo_PE1_Estatistica.pdf"
 hash: "7a5a203e2112e68c784830554d576a63f51ad48ff41f0a4681de8bab0fa1d1fe"
 ---
 

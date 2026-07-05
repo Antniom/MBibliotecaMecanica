@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Ficha9_Aplicacoes_edo.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficha9_Aplicacoes_edo.pdf"
 hash: "c9d57118d99bed8016f38711f8d262e3001a317106af1edf2edd6474a6c8e9fc"
 ---
 

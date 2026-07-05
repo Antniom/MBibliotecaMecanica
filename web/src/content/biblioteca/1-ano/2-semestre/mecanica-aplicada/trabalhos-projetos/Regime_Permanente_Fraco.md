@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Regime_Permanente_Fraco.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Regime_Permanente_Fraco.png"
 hash: "f0ead4d8f9ff136908b860f43b0c61bb12bc785cc29949a476c802ef471381bc"
 ---
 

@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "PE2_Estatistica_Resolvida.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/PE2_Estatistica_Resolvida.pdf"
 hash: "de3bb204c1906376d30bfb16d9b752c8c13fb1d1e60cf1782e3f074681d590c7"
 ---
 

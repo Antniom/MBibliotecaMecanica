@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "projeto.py"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/projeto.py"
 hash: "3c5b6bde653a415b5877a9ad16691b76c451efe04960664222cefe5ea16c63d3"
 ---
 

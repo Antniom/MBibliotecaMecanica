@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Enunciado.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Enunciado.png"
 hash: "9038479032b99d353760915688ee8dbd67d196d87c89e3a5c11c2de782953637"
 ---
 

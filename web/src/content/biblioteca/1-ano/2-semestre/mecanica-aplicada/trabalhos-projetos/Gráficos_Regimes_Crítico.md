@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Gráficos_Regimes_Crítico.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Gráficos_Regimes_Crítico.png"
 hash: "95b9bc082baea07c02ab2be73dd07c391b6ea4b72689d0d1c02a9a6b57f4af65"
 ---
 

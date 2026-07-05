@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Ficha Dinâmica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficha Dinâmica.pdf"
 hash: "c8d0e6531edc6748a0c2704189fc4a65da5e7b34274d24fc4f2f47431772024f"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "teste3.txt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/teste3.txt"
 hash: "48ff278cd91a38a0589794aa0ad36242524656395d657ab20330028116f46129"
 ---
 

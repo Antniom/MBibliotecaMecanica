@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "_lzma.pyd"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/_lzma.pyd"
 hash: "e82885444d0a7e1b90625661e32bd564854643f7020980483a2cbd0c05b60eae"
 ---
 

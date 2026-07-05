@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Ficheiro 3 - Vibrações Livres F(t) = 0 e c = 0.zcos"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficheiro 3 - Vibrações Livres F(t) = 0 e c = 0.zcos"
 hash: "0ca47ac9dacfa9fb39ce6e2a74f745b941bb1dd503d03b515bde7a9bf9342e62"
 ---
 

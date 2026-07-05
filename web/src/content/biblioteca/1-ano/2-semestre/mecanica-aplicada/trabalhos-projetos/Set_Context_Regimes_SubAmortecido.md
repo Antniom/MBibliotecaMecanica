@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Set_Context_Regimes_SubAmortecido.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Set_Context_Regimes_SubAmortecido.png"
 hash: "a12b7ce5e90ca535e4c994041f701bf4c7f76fbf32af123ef225cc5b60d7dc27"
 ---
 

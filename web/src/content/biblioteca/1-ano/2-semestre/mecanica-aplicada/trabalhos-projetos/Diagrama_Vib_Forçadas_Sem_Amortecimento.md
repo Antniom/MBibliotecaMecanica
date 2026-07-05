@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Diagrama_Vib_Forçadas_Sem_Amortecimento.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Diagrama_Vib_Forçadas_Sem_Amortecimento.png"
 hash: "b72d8652fc79c4685ea169ac2099b373df67d3c8506c8bd599745a81ddc6c6b4"
 ---
 

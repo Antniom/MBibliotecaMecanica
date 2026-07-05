@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Quimica Prática.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Quimica Prática.pdf"
 hash: "58c165375d7d1c8f92e26fd0f16b76ae3e35b98ebc0be5aee9c61d184de474fe"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Ficha7_Quadratura.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficha7_Quadratura.pdf"
 hash: "2b4b074047bb83ef8c5a83937edb098889bbeca16ca03b4cdbb0b1b03613d3f8"
 ---
 

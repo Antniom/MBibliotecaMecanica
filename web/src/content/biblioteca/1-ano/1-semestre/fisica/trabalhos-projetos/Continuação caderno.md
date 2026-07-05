@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Continuação caderno.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Continuação caderno.pdf"
 hash: "ab06603d891b56b893790c87792c648ae4f50030b65d9612219d5b4775b8734a"
 ---
 

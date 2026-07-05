@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "DistribuicoesProbabilidade_Engenharias.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/DistribuicoesProbabilidade_Engenharias.pdf"
 hash: "5e2db47921eaa0d8ff73504bc2a3fdde1d4233c568b2f748256f32679942f196"
 ---
 

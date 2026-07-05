@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "python39.dll"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/python39.dll"
 hash: "0d08ebeffd1166ef4aac35bdcd6609c52f2bf2b74e1487b1ceab570bc9f595d7"
 ---
 

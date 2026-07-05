@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "aula3_eqnl_slides.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/aula3_eqnl_slides.pdf"
 hash: "b1c1227f57661a8bdaab37053e94d351d004577dfabcbdba958eea6b28f08884"
 ---
 

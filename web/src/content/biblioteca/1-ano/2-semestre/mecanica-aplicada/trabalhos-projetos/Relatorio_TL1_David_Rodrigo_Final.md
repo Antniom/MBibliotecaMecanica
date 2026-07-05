@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Relatorio_TL1_David_Rodrigo_Final.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Relatorio_TL1_David_Rodrigo_Final.docx"
 hash: "537e9f19303249a088136438f3d34f14744a06acc833accb29471e90b4ebebef"
 ---
 

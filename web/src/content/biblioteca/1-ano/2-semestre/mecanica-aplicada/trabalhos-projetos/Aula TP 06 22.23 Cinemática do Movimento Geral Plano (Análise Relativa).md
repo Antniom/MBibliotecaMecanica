@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula TP 06 22.23 Cinemática do Movimento Geral Plano (Análise Relativa).pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula TP 06 22.23 Cinemática do Movimento Geral Plano (Análise Relativa).pdf"
 hash: "c78442adfa6a8802c9ed0c5f9ea8082d615153be5f2228966dab2805ef792141"
 ---
 

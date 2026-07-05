@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Coisa Retangular - Ex6 Ficha 3.py"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Coisa Retangular - Ex6 Ficha 3.py"
 hash: "19e0b24e709c14c5153a0075deca2fa1d41932359413e9081871feccc18228ba"
 ---
 

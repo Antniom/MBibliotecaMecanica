@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Caderno Parte 1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Caderno Parte 1.pdf"
 hash: "781c0ec322a904f294015b9171541b087a267c07b754c6cbca5fc047054e2a3b"
 ---
 

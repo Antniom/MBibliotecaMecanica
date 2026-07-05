@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Resumos_Quimica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Resumos_Quimica.pdf"
 hash: "14acc9b8b67aba09baee9edd77c4fa454ec207a50c3882c2cc42b377a4e341b2"
 ---
 

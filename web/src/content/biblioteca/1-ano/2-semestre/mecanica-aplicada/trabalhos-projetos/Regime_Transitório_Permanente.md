@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Regime_Transitório_Permanente.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Regime_Transitório_Permanente.png"
 hash: "84c63e992047437f1420824e824c71fc742a94c78a66d07d854bf49b4745c0a6"
 ---
 

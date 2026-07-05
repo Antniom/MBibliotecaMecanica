@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Tarefa 8.zcos"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Tarefa 8.zcos"
 hash: "cae495964dca7716d06dec489dc97032ecbf176c5f9482bd888383e74d9fcd31"
 ---
 

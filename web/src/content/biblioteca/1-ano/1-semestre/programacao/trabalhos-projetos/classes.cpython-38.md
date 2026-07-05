@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "classes.cpython-38.pyc"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/classes.cpython-38.pyc"
 hash: "dafa91a3ffc4950ffed5204049bbc89e7658f36e8edad8587a22a8ca5c8a6e3d"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Ficha10_edo_numerica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficha10_edo_numerica.pdf"
 hash: "09293fce10ac7e35c3bb0a8d9e082408b7484cc36c63a5cdb7fd685a76f7af09"
 ---
 

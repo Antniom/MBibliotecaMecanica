@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "api-ms-win-core-errorhandling-l1-1-0.dll"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/api-ms-win-core-errorhandling-l1-1-0.dll"
 hash: "b3715112a7ca4c6cc0efee044bd82444d3267a379e33a3ec118d87e75604204d"
 ---
 

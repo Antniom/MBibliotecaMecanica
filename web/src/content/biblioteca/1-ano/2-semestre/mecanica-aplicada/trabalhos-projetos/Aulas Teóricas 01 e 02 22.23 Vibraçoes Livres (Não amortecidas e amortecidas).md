@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aulas Teóricas 01 e 02 22.23 Vibraçoes Livres (Não amortecidas e amortecidas).pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aulas Teóricas 01 e 02 22.23 Vibraçoes Livres (Não amortecidas e amortecidas).pdf"
 hash: "3941083b6f7a30356600a789bb443a10dbfa7d73c436eab98f3b31be0d0fbbc5"
 ---
 

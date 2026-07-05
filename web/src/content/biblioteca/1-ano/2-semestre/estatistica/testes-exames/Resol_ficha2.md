@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Resol_ficha2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Resol_ficha2.pdf"
 hash: "386707bd5d2c323297499dad07162799bbf409184feadef33f27dbb53c41b6cf"
 ---
 

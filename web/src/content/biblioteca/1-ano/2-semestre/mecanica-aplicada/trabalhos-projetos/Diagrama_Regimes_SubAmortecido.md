@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Diagrama_Regimes_SubAmortecido.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Diagrama_Regimes_SubAmortecido.png"
 hash: "5844822bc3d59db2277880a3bc523328c3bece3a091033f82dfab3e4da5bb1dc"
 ---
 

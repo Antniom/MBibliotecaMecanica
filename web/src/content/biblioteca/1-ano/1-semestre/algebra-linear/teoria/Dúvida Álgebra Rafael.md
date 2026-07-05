@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Dúvida Álgebra Rafael.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Dúvida Álgebra Rafael.pdf"
 hash: "dd447b0b0eff785f2a762cf190b151803bdcdda3e056d2244eaef342b0bcf8ac"
 ---
 

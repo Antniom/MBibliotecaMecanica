@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Regime_Transitório_Fraco.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Regime_Transitório_Fraco.png"
 hash: "19fbf4e9f744ffe64c95d2e8df92b2c20c53a6d386efb885d129b38a190e5e2d"
 ---
 

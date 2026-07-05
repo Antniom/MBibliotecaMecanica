@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Folha 7.py"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Folha 7.py"
 hash: "2ddc95c2c31723515a17cd61db54927ba4793e1d216187928b55e2bc36c707ff"
 ---
 

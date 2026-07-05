@@ -19,7 +19,7 @@ from db_utils import get_db_connection
 # Load configurations
 load_dotenv()
 OLLAMA_HOST = os.getenv("OLLAMA_HOST", "http://localhost:11434")
-OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "qwen2.5:32b")
+OLLAMA_MODEL = os.getenv("OLLAMA_MODEL", "gemma4:e4b")
 
 # Optional PaddleOCR import
 try:

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Centro de Massa.Edit.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Centro de Massa.Edit.png"
 hash: "9755253683574d0ea0730f1265ba8145eda48827b21e4d1b42ec533f036eda57"
 ---
 

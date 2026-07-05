@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Guiao_aula2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Guiao_aula2.pdf"
 hash: "35215bc19e71bd3cbcd96ef0bad914642b92012f3e07dc983f7fa5a0d6b8296c"
 ---
 

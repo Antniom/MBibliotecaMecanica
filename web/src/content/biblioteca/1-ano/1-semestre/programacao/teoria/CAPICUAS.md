@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "CAPICUAS.py"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/CAPICUAS.py"
 hash: "f31735732b740c3de33eb587eaef70ff9522a013998ccf97fcb12794ea9f2b54"
 ---
 

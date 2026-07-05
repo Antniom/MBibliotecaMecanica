@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Estrutura De Dados Trabalho Prático.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Estrutura De Dados Trabalho Prático.pdf"
 hash: "e2c0e7f7914661a65c1af8ae3ea6b604d1f4e21e91989b9f8ee98f487bf72d3b"
 ---
 

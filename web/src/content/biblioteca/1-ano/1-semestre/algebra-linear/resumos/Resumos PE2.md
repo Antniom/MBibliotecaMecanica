@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Resumos PE2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Resumos PE2.pdf"
 hash: "c435154ad5fb55efa726a266a500575dafa53e654965327b2ad6b98e8170701d"
 ---
 

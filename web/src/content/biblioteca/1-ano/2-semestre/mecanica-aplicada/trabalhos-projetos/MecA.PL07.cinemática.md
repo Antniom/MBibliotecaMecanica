@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecA.PL07.cinemática.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecA.PL07.cinemática.pdf"
 hash: "5fd74d78b67593f81985d2a44b19e76a88a3bada42ae804e1d01038b4eb0e8d1"
 ---
 

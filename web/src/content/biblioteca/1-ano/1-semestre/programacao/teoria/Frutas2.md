@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Frutas2.txt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Frutas2.txt"
 hash: "ab768a10973854d3efe50d58504dcf5cc855d65f60f3e4e416d13454248d40c7"
 ---
 

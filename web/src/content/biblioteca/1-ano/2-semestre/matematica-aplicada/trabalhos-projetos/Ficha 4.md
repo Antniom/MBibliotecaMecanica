@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Ficha 4.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficha 4.pdf"
 hash: "73fded3d85d896813611925cbb2b0d9c8a1f8106be871a0ccede2c3cb2c70b0b"
 ---
 

@@ -253,6 +253,15 @@ def run_inventory():
             if file.startswith(".") or file.startswith("~$"):
                 continue
 
+            # Only process known document types — skip binaries / system files
+            ALLOWED_EXTS = {
+                ".pdf", ".docx", ".doc", ".pptx", ".ppt",
+                ".xlsx", ".xls", ".csv", ".txt", ".html",
+                ".htm", ".odt", ".odp", ".ods", ".rtf"
+            }
+            if os.path.splitext(file)[1].lower() not in ALLOWED_EXTS:
+                continue
+
             filepath = os.path.join(root, file)
             
             # 1. Quick path check: if already processed, skip hashing and console prints

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "api-ms-win-core-localization-l1-2-0.dll"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/api-ms-win-core-localization-l1-2-0.dll"
 hash: "a07cc878ab5595aacd4ab229a6794513f897bd7ad14bcec353793379146b2094"
 ---
 

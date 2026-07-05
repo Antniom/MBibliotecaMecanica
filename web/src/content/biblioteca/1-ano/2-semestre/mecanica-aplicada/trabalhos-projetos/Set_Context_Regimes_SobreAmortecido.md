@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Set_Context_Regimes_SobreAmortecido.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Set_Context_Regimes_SobreAmortecido.png"
 hash: "c822c4265585a4e15c7a6cc2e01d06e27bffe1c7b48010b2d86ee8141749f84a"
 ---
 

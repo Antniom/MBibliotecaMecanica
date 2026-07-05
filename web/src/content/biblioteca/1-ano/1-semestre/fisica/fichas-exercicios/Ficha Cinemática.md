@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Ficha Cinemática.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficha Cinemática.pdf"
 hash: "42ac146049b53e008a26fc0473055c935e9022dcf6a7e65255545d0e938f4dec"
 ---
 

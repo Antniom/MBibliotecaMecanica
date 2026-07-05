@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula TP 08 22.23 Dinâmica da translação do corpo rígido.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula TP 08 22.23 Dinâmica da translação do corpo rígido.pdf"
 hash: "d62f87b5b6c4cdc1f7e244735a8ac72bed4474b1a8f08ec7e0ef253f3f015b4a"
 ---
 

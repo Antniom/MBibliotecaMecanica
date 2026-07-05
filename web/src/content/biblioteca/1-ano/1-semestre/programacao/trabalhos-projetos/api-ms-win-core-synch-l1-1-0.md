@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "api-ms-win-core-synch-l1-1-0.dll"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/api-ms-win-core-synch-l1-1-0.dll"
 hash: "50a1542d16b42ecb3edc1edd0881744171ea52f7155e5269ad39234f0ea691de"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Química Teórica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Química Teórica.pdf"
 hash: "bd13b031be7bc62547c661889b0cfbd1372b60c37b886db184f18b7043617af9"
 ---
 

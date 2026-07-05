@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "DistribuicoesProbabilidade_Engenharias.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/DistribuicoesProbabilidade_Engenharias.pdf"
 hash: "4912144c2125e6c6ef0d492f01d7bd6c9ec40bfe15ac9eebd8ff9fc2eb4f1276"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Tarefa 11.zcos"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Tarefa 11.zcos"
 hash: "3d47b097248654d2c49ed50207eaa3ed4781b34ac6966955b96f1a76a1744f2f"
 ---
 

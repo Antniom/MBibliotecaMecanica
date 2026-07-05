@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "VCRUNTIME140.dll"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/VCRUNTIME140.dll"
 hash: "ff43e813785ee948a937b642b03050bb4b1c6a5e23049646b891a66f65d4c833"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Set_Context_Vibracoes_Livres_Sem_Amortecimento.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Set_Context_Vibracoes_Livres_Sem_Amortecimento.png"
 hash: "b876578e1d5ae42519e4a8234d9661e7f9bc5c5586ead87313abeedf9eb86726"
 ---
 

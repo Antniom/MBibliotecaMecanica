@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "polinomios_Taylor_formulas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/polinomios_Taylor_formulas.pdf"
 hash: "2bc36b534dd7106e831a337273c0d536643fe498900666e75f7196763f86410d"
 ---
 

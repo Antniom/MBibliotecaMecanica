@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Ficha TP3.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficha TP3.pdf"
 hash: "e496199af4ab0581386fd5ef3e77b70b4a503a44f5e5f42ec9cac037ce063b4d"
 ---
 

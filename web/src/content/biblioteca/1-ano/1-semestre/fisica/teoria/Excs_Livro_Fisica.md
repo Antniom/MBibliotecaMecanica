@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Excs_Livro_Fisica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Excs_Livro_Fisica.pdf"
 hash: "2547239fb13c33684ac42d0d04bedbf41ba71d3c28cbdb6d511640b40af5ba7f"
 ---
 

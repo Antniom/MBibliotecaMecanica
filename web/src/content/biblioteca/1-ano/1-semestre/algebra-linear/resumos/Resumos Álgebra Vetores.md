@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Resumos Álgebra Vetores.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Resumos Álgebra Vetores.pdf"
 hash: "a11f9a0efb9e7ddb7316dd2ecb4be77c106c8c026676bd29b0dd93953ef7c422"
 ---
 

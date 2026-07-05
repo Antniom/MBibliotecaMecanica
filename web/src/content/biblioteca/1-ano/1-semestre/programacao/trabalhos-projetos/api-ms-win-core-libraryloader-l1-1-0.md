@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "api-ms-win-core-libraryloader-l1-1-0.dll"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/api-ms-win-core-libraryloader-l1-1-0.dll"
 hash: "8e01eb923fc453f927a7eca1c8aa5643e43b360c76b648088f51b31488970aa0"
 ---
 

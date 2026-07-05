@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "revisões.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/revisões.pdf"
 hash: "2ff4c56fb63ea4a05807c24dd62e4b68a5c0d32964db32fc0989f399a9303b46"
 ---
 

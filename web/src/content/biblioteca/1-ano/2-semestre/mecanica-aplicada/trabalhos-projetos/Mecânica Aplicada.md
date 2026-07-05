@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Mecânica Aplicada.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Mecânica Aplicada.pdf"
 hash: "b7ca634f36eafcaef6a3db1e7a1864eb25fcdc463482d360777a83555436dfcd"
 ---
 

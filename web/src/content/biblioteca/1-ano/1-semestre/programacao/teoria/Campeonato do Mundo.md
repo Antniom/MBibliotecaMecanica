@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Campeonato do Mundo.py"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Campeonato do Mundo.py"
 hash: "c3df244e86c4f0a5c610fbd6614f15cc44afd814b792abfca8206b8dbe525f4a"
 ---
 

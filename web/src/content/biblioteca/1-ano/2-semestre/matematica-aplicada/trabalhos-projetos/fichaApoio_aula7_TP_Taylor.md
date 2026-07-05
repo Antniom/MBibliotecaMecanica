@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "fichaApoio_aula7_TP_Taylor.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/fichaApoio_aula7_TP_Taylor.pdf"
 hash: "b4fee8f8425c1fa429c9b292ef43c1d81ae0019064d6cd4ff2b431b753024d11"
 ---
 

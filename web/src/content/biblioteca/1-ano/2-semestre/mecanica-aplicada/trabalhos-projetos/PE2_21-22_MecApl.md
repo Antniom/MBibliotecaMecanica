@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "PE2_21-22_MecApl.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/PE2_21-22_MecApl.pdf"
 hash: "fe2de152b7aa2d342e8f17a843e5f0c2880e383ea24ea0fb202d484dbce46e37"
 ---
 

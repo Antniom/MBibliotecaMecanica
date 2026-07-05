@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Set_Context_Vib_Forçadas_Com_Ressonância.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Set_Context_Vib_Forçadas_Com_Ressonância.png"
 hash: "fd47fdc343ed992b9e84bd69a48c39016f47ccd87320c9c02dd0be788ece4948"
 ---
 

@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Ficha_4_Estatistica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficha_4_Estatistica.pdf"
 hash: "cf40db81cf226d9aea952be33df97c52adfcad595494b645167eaf4f6163d1fd"
 ---
 

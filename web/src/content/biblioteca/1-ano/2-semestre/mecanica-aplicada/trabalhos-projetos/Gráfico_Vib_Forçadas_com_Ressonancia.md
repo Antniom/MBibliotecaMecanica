@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Gráfico_Vib_Forçadas_com_Ressonancia.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Gráfico_Vib_Forçadas_com_Ressonancia.png"
 hash: "c95c0c30f61f1c444882d131e506803f82af15bee4e905215db720352e16776d"
 ---
 

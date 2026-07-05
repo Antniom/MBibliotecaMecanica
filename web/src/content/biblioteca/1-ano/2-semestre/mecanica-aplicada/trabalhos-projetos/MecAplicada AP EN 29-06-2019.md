@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecAplicada AP EN 29-06-2019.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecAplicada AP EN 29-06-2019.pdf"
 hash: "8d84a265f50f28962391cbd3899c7e2df8b048a9819b28de033b0ceffbe60dad"
 ---
 

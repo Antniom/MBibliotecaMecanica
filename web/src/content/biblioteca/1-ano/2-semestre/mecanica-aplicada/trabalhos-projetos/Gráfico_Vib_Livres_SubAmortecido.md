@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Gráfico_Vib_Livres_SubAmortecido.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Gráfico_Vib_Livres_SubAmortecido.png"
 hash: "e881dcc02e41d159caf4d233405b92e968e614b03cded9f59d875c62ac3b5d8a"
 ---
 

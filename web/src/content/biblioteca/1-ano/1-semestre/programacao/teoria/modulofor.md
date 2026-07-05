@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "modulofor.py"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/modulofor.py"
 hash: "f416ce83fd4280db19cca2c575238126d106cc153f0eddbc20637c940cd00976"
 ---
 

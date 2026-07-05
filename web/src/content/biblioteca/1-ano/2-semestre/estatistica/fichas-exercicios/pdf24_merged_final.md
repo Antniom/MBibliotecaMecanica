@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "pdf24_merged_final.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/pdf24_merged_final.pdf"
 hash: "7bf8abf9fa03b11806764cc94542694c3b71fc3595c18f23bb3ec94a68e333f1"
 ---
 

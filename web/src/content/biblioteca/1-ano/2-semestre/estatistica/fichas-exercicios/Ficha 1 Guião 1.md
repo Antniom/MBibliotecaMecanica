@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Ficha 1 Guião 1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficha 1 Guião 1.pdf"
 hash: "46130ac1d71bc38a20fa48797f2573f0270d124911cc9fa7bdf747bf0e32a28b"
 ---
 

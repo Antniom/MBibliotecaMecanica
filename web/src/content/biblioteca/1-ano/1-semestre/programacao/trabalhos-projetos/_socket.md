@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "_socket.pyd"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/_socket.pyd"
 hash: "cb30888d47f10d1802c194a5c9ca9a5947a2080f8c54b75ed34378c741d3ade7"
 ---
 

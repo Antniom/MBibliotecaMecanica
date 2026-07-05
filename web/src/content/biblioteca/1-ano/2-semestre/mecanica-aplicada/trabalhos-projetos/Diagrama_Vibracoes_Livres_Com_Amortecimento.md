@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Diagrama_Vibracoes_Livres_Com_Amortecimento.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Diagrama_Vibracoes_Livres_Com_Amortecimento.png"
 hash: "c79681474e23f025628cf3e40cc44ea550d2da29f0d75cb62d3d030844da3e82"
 ---
 

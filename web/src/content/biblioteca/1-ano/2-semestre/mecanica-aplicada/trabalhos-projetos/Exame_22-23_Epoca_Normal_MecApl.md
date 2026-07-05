@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Exame_22-23_Epoca_Normal_MecApl.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Exame_22-23_Epoca_Normal_MecApl.pdf"
 hash: "cd92d32337e954cd345c6a2f9afe46a1479fe23259bccc4f47ba7c71c1161b0f"
 ---
 

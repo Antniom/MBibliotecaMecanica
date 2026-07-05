@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Animação_Barra.Edit.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Animação_Barra.Edit.png"
 hash: "4ec6e866a212d1b11baa4f0781aa16b5af3939ebe732a264b2040e5e35262f30"
 ---
 

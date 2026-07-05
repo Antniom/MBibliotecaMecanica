@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "api-ms-win-core-memory-l1-1-0.dll"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/api-ms-win-core-memory-l1-1-0.dll"
 hash: "c2e887a17875d39099d662a42f58c120b9cc8a799afd87a9e49adf3faddd2b68"
 ---
 

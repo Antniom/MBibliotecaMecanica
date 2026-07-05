@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Enunciado Trab PL 01 22.23.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Enunciado Trab PL 01 22.23.pdf"
 hash: "7067b8bc3f3b74bc9d635beb4f767f2b45723de2cd002fb4828c46973c5a161d"
 ---
 

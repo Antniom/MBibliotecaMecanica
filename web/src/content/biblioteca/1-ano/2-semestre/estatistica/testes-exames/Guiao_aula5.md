@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Guiao_aula5.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Guiao_aula5.pdf"
 hash: "3f0b0c271a2e4d8f19af8b578f8da57f160768409f39ce7bea51105358fde38f"
 ---
 

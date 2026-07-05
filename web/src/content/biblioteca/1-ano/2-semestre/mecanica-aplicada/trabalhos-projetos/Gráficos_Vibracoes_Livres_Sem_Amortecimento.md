@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Gráficos_Vibracoes_Livres_Sem_Amortecimento.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Gráficos_Vibracoes_Livres_Sem_Amortecimento.png"
 hash: "fce210d210d1dd7be12fbe301c196196e8f6f0ba612d96111516520d22845ea5"
 ---
 

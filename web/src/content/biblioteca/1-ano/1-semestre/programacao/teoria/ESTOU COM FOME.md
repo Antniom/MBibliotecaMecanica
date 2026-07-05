@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "ESTOU COM FOME.py"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/ESTOU COM FOME.py"
 hash: "0a5475fb7a6083b6277b73699284fac0a9c1c329ecab3fdef1f7417a504464fe"
 ---
 

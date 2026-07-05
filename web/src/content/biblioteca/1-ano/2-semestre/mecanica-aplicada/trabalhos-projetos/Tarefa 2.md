@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Tarefa 2.zcos"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Tarefa 2.zcos"
 hash: "b317ac16c1a7e65297518cf6f50562be45f720a24001b442d31b4cb8796764e9"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecAplicada PE 1 14-05-2022 v2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecAplicada PE 1 14-05-2022 v2.pdf"
 hash: "c0151a276442f4f9f65145299af41c762f22e185c36636ab2ebe4b196b357231"
 ---
 

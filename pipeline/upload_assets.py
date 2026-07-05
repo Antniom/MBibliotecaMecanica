@@ -5,10 +5,11 @@ import subprocess
 from dotenv import load_dotenv
 from db_utils import get_db_connection
 
-# Load configurations
-load_dotenv()
+# Load configurations — override=True forces .env values over any Windows system env vars
+load_dotenv(override=True)
 GITHUB_REPO = os.getenv("GITHUB_REPO", "Antniom/MBibliotecaMecanica")
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+# Always use gh CLI — no API token needed (uses local gh auth session)
+GITHUB_TOKEN = None  # API path disabled: gh CLI is more reliable
 
 def create_release_if_not_exists(tag, token):
     """Creates a GitHub release for a given tag if it doesn't exist yet via GitHub API."""
@@ -146,13 +147,14 @@ def run_uploads():
         tag = f"{ano}-ano"
         download_url = None
         
-        # Method 1: Try GitHub API if token is provided
+        # Prefer gh CLI (uses local authenticated session) over API token
+        # Only try API if token is explicitly valid
         if GITHUB_TOKEN:
             release_id = create_release_if_not_exists(tag, GITHUB_TOKEN)
             if release_id:
                 download_url = upload_asset_via_api(release_id, filepath, GITHUB_TOKEN)
         
-        # Method 2: Try gh CLI fallback
+        # Always fall back to (or prefer) gh CLI
         if not download_url:
             download_url = upload_asset_via_cli(tag, filepath)
             

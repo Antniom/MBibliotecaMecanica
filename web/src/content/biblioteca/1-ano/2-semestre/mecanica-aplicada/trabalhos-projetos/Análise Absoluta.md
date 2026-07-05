@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Análise Absoluta.zcos"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Análise Absoluta.zcos"
 hash: "125e5d505eae2f22ab613c03ebd142541847a4b1a482c67da836738769d35719"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Resolução PE 1 13maio2023.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Resolução PE 1 13maio2023.pdf"
 hash: "de1312302a6c2c9e70d2f60b7924da78282c8fc0065f2ecfdc98f87fc4b93419"
 ---
 

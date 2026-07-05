@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Regime_Transitório_Forte.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Regime_Transitório_Forte.png"
 hash: "1e84ce72797cf590234830c84b53482eb5ba9d54ca275d1c5a537294ffa9f332"
 ---
 

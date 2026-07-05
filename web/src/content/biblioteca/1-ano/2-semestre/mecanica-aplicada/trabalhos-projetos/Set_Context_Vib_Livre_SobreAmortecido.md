@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Set_Context_Vib_Livre_SobreAmortecido.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Set_Context_Vib_Livre_SobreAmortecido.png"
 hash: "ed61e558aec47a4345ec561e080a71588987c9433c46a9017a34698b3c1d5ae3"
 ---
 

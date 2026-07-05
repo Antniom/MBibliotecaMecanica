@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Gráficos_Regimes_SobreAmortecido.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Gráficos_Regimes_SobreAmortecido.png"
 hash: "5c4060e242e0f464c127b78f21544e6b2a9568fd41b60ca580e8546456c29f82"
 ---
 

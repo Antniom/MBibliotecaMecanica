@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Páginas Importantes Física.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Páginas Importantes Física.pdf"
 hash: "9d946e7994adce4dba5947d17fcd5e2a2201f74687e2221933d7bf4fde852dbb"
 ---
 

@@ -1,385 +1,385 @@
 import sys
 import os
-import sqlite3
 import time
 import threading
 from datetime import datetime
 
-# Force stdout/stderr to UTF-8
+# Force UTF-8
 if hasattr(sys.stdout, 'reconfigure'):
     sys.stdout.reconfigure(encoding='utf-8')
 if hasattr(sys.stderr, 'reconfigure'):
     sys.stderr.reconfigure(encoding='utf-8')
 
-# Add current folder to path to allow direct imports
 sys.path.append(os.path.dirname(os.path.abspath(__file__)))
 
+import psutil
 from db_utils import get_db_connection
 from inventory import run_inventory
 from convert import process_pdf, process_native_office
-from ocr import ensure_ollama_and_model, get_page_pixmap, run_ollama_ocr, run_paddle_ocr
+from ocr import get_page_pixmap, run_paddle_ocr
 from validate import get_gemini_client, validate_page
 from assemble import assemble_pdf_document, write_document_files
 from deploy import deploy
 
+# ── Resource management ─────────────────────────────────────────
+DISABLE_OLLAMA = os.getenv("DISABLE_OLLAMA", "0") == "1"
+RAM_PAUSE_PCT  = 75   # pause if RAM > 75%
+CPU_PAUSE_PCT  = 90   # pause if CPU > 90%
+
+def wait_for_resources():
+    """Block until RAM and CPU are below safe thresholds."""
+    while True:
+        ram = psutil.virtual_memory().percent
+        cpu = psutil.cpu_percent(interval=0.5)
+        if ram < RAM_PAUSE_PCT and cpu < CPU_PAUSE_PCT:
+            break
+        print(f"  [RECURSOS] RAM {ram:.0f}% / CPU {cpu:.0f}% — a aguardar recursos disponíveis...")
+        time.sleep(5)
+
+def ram_free_gb():
+    return psutil.virtual_memory().available / 1024**3
+
+# ── Background uploader ─────────────────────────────────────────
 def start_background_uploader():
     from upload_assets import run_uploads
-    def uploader_loop():
-        print("\n" + "#"*50)
-        print("[BACKGROUND UPLOADER] Background upload worker started in parallel!")
-        print("#"*50 + "\n")
+    def _loop():
+        print("\n[UPLOAD] A iniciar upload paralelo dos ficheiros originais para o GitHub...")
         try:
             run_uploads()
         except Exception as e:
-            print(f"\n[BACKGROUND UPLOADER ERROR] {e}\n")
-        print("\n[BACKGROUND UPLOADER] Finished current background upload batch.\n")
-        
-    t = threading.Thread(target=uploader_loop, daemon=True)
-    t.start()
+            print(f"[UPLOAD ERRO] {e}")
+        print("[UPLOAD] Upload batch concluído.")
+    threading.Thread(target=_loop, daemon=True).start()
+
 
 def main():
-    print("="*60)
-    print("   SUPER-BIBLIOTECA DE ENGENHARIA MECÂNICA PIPELINE RUN   ")
-    print("="*60)
+    print("=" * 60)
+    print("   BIBLIOTECA DE ENGENHARIA MECÂNICA — PIPELINE COMPLETO")
+    print("=" * 60)
+    print(f"\nRecursos disponíveis: {psutil.cpu_count()} cores, "
+          f"{psutil.virtual_memory().total/1024**3:.1f} GB RAM total, "
+          f"{ram_free_gb():.1f} GB livres")
 
-    # 1. Run Inventory (Phase 1)
-    print("\n[STEP 1] Running Inventory & Classification...")
+    if ram_free_gb() < 1.5:
+        print("⚠️  Pouca memória RAM disponível. Ollama será desativado nesta sessão.")
+        os.environ["DISABLE_OLLAMA"] = "1"
+
+    # ── Phase 1: Inventory ──────────────────────────────────────
+    print("\n[PASSO 1] Inventário e classificação de ficheiros...")
     run_inventory()
 
-    # Start parallel background uploader for all original files
+    # ── Start background file uploader ──────────────────────────
     start_background_uploader()
+
+    # ── Immediate deploy: push any already-exported markdown files ──
+    print("\n[DEPLOY INICIAL] A verificar se há conteúdo já pronto para publicar...")
+    try:
+        for line in deploy():
+            print(line, end="")
+    except Exception as e:
+        print(f"  Deploy inicial falhou: {e}")
 
     conn = get_db_connection()
     cursor = conn.cursor()
 
-    # Ensure Ollama is running and model is pulled (Phase 3 setup)
-    ensure_ollama_and_model()
-
-    # Prepare Gemini client (Phase 4 setup)
+    # ── Gemini client (optional) ────────────────────────────────
     gemini_client = None
     try:
         gemini_client = get_gemini_client()
+        print("[OK] Cliente Gemini inicializado.")
     except Exception as e:
-        print(f"Gemini Client not initialized: {e}")
+        print(f"[AVISO] Gemini não disponível: {e}")
+        print("       Será usado stitching local como fallback.")
 
-    # Track exported documents during this run
-    exported_count = 0
-    gemini_rate_limited = False
+    # ── Ollama (only if RAM available and not disabled) ──────────
+    use_ollama = not (DISABLE_OLLAMA or os.getenv("DISABLE_OLLAMA") == "1" or ram_free_gb() < 2.0)
+    if use_ollama:
+        try:
+            from ocr import ensure_ollama_and_model
+            ensure_ollama_and_model()
+        except Exception as e:
+            print(f"[AVISO] Ollama não disponível: {e}. Usando apenas PaddleOCR.")
+            use_ollama = False
+    else:
+        print("[OCR] Ollama desativado (pouca RAM). A usar apenas PaddleOCR.")
 
-    # Get all active documents
-    cursor.execute(
-        """
-        SELECT id, path_original, status, disciplina, tipo, ano, semestre, storage_release_tag, storage_url
-        FROM documents 
+    # ── Load all pending documents ───────────────────────────────
+    cursor.execute("""
+        SELECT id, path_original, status, disciplina, tipo, ano, semestre,
+               storage_release_tag, storage_url
+        FROM documents
         WHERE status NOT IN ('exported', 'failed')
-        """
-    )
+        ORDER BY id ASC
+    """)
     documents = cursor.fetchall()
-    
+
     if not documents:
-        print("\nNo documents pending processing.")
+        print("\nNenhum documento pendente. Tudo já processado!")
         conn.close()
         return
 
-    print(f"\nFound {len(documents)} document(s) pending processing.")
+    total = len(documents)
+    print(f"\nEncontrados {total} documentos pendentes de processamento.\n")
 
-    for doc in documents:
-        doc_id = doc["id"]
+    exported_count = 0
+    gemini_rate_limited = False
+
+    for idx, doc in enumerate(documents, 1):
+        doc_id   = doc["id"]
         filepath = doc["path_original"]
-        status = doc["status"]
-        ext = os.path.splitext(filepath)[1].lower()
+        status   = doc["status"]
+        ext      = os.path.splitext(filepath)[1].lower()
+        name     = os.path.basename(filepath)
 
-        print(f"\n>>> Processing Document: {os.path.basename(filepath)} (Status: {status})")
+        print(f"\n[{idx}/{total}] {name}  (estado: {status})")
 
-        # ----------------------------------------------------
-        # PHASE 2: Conversion
-        # ----------------------------------------------------
+        # Check file exists
+        if not os.path.exists(filepath):
+            print(f"  ⚠️  Ficheiro não encontrado no disco, a saltar.")
+            cursor.execute("UPDATE documents SET status='failed' WHERE id=?", (doc_id,))
+            conn.commit()
+            continue
+
+        # Wait for resources before processing each document
+        wait_for_resources()
+
+        # ── Phase 2: Conversion ──────────────────────────────
         if status == 'inventory_done':
-            print("  [PHASE 2] Converting file...")
+            print("  [2] A converter ficheiro...")
             try:
                 if ext == ".pdf":
                     process_pdf(doc_id, filepath, conn)
                 elif ext in [".docx", ".pptx", ".xlsx", ".csv", ".html", ".txt"]:
                     process_native_office(doc_id, filepath, conn)
                 else:
-                    print(f"  Skipping conversion for unsupported format: {filepath}")
-                    cursor.execute("UPDATE documents SET status = 'convert_done' WHERE id = ?", (doc_id,))
+                    cursor.execute("UPDATE documents SET status='convert_done' WHERE id=?", (doc_id,))
                 conn.commit()
                 status = 'convert_done'
+                print("  [2] ✓ Conversão concluída.")
             except Exception as e:
-                print(f"  Conversion failed: {e}")
-                cursor.execute("UPDATE documents SET status = 'failed' WHERE id = ?", (doc_id,))
+                print(f"  [2] ✗ Falha na conversão: {e}")
+                cursor.execute("UPDATE documents SET status='failed' WHERE id=?", (doc_id,))
                 conn.commit()
                 continue
 
-        # ----------------------------------------------------
-        # PHASE 3: Local OCR (Ollama + PaddleOCR)
-        # ----------------------------------------------------
+        # ── Phase 3: OCR ────────────────────────────────────
         if status == 'convert_done':
-            # Check if there are pages pending OCR
             cursor.execute(
-                "SELECT page_num FROM pages WHERE doc_id = ? AND needs_ocr = 1 AND ocr_status = 'pending'",
+                "SELECT page_num FROM pages WHERE doc_id=? AND needs_ocr=1 AND ocr_status='pending'",
                 (doc_id,)
             )
-            pending_ocr_pages = cursor.fetchall()
-            
-            if pending_ocr_pages:
-                print(f"  [PHASE 3] Running local OCR on {len(pending_ocr_pages)} pages...")
+            pending = cursor.fetchall()
+
+            if pending:
+                print(f"  [3] A fazer OCR em {len(pending)} páginas (PaddleOCR)...")
                 ocr_failed = False
-                for p_row in pending_ocr_pages:
+                for p_row in pending:
                     page_num = p_row["page_num"]
-                    print(f"    OCR Page {page_num}...")
+                    wait_for_resources()
                     try:
                         pix = get_page_pixmap(filepath, page_num)
-                        # Run Ollama OCR
-                        ocr_text_ollama = run_ollama_ocr(pix)
-                        # Run PaddleOCR
-                        ocr_text_local = run_paddle_ocr(pix)
-                        
-                        p_status = "done"
-                        if not ocr_text_ollama and not ocr_text_local:
-                            p_status = "failed"
+
+                        # PaddleOCR always
+                        ocr_local = run_paddle_ocr(pix)
+
+                        # Ollama only if RAM allows
+                        ocr_ollama = None
+                        if use_ollama and ram_free_gb() > 2.0:
+                            try:
+                                from ocr import run_ollama_ocr
+                                ocr_ollama = run_ollama_ocr(pix)
+                            except Exception:
+                                pass  # silently skip Ollama on error
+
+                        p_status = "done" if (ocr_local or ocr_ollama) else "failed"
+                        if p_status == "failed":
                             ocr_failed = True
 
-                        cursor.execute(
-                            """
-                            UPDATE pages 
-                            SET ocr_text_ollama = ?, ocr_text_local = ?, ocr_status = ?, last_attempt_at = CURRENT_TIMESTAMP
-                            WHERE doc_id = ? AND page_num = ?
-                            """,
-                            (ocr_text_ollama, ocr_text_local, p_status, doc_id, page_num)
-                        )
+                        cursor.execute("""
+                            UPDATE pages
+                            SET ocr_text_ollama=?, ocr_text_local=?, ocr_status=?,
+                                last_attempt_at=CURRENT_TIMESTAMP
+                            WHERE doc_id=? AND page_num=?
+                        """, (ocr_ollama, ocr_local, p_status, doc_id, page_num))
                         conn.commit()
+
                     except Exception as e:
-                        print(f"    OCR failed for page {page_num}: {e}")
+                        print(f"    Página {page_num} falhou: {e}")
                         cursor.execute(
-                            "UPDATE pages SET ocr_status = 'failed', last_error = ? WHERE doc_id = ? AND page_num = ?",
+                            "UPDATE pages SET ocr_status='failed', last_error=? WHERE doc_id=? AND page_num=?",
                             (str(e), doc_id, page_num)
                         )
                         conn.commit()
                         ocr_failed = True
 
                 if ocr_failed:
-                    print("  Some pages failed OCR. Document marked as failed.")
-                    cursor.execute("UPDATE documents SET status = 'failed' WHERE id = ?", (doc_id,))
-                    conn.commit()
-                    continue
-                else:
-                    cursor.execute("UPDATE documents SET status = 'ocr_done' WHERE id = ?", (doc_id,))
-                    conn.commit()
-                    status = 'ocr_done'
-            else:
-                # No pages need OCR
-                cursor.execute("UPDATE documents SET status = 'ocr_done' WHERE id = ?", (doc_id,))
-                conn.commit()
-                status = 'ocr_done'
+                    # Don't hard-fail — some pages may be blank. Only fail if ALL failed.
+                    cursor.execute(
+                        "SELECT COUNT(*) FROM pages WHERE doc_id=? AND ocr_status='done'",
+                        (doc_id,)
+                    )
+                    done_count = cursor.fetchone()[0]
+                    if done_count == 0:
+                        print(f"  [3] ✗ OCR falhou em todas as páginas.")
+                        cursor.execute("UPDATE documents SET status='failed' WHERE id=?", (doc_id,))
+                        conn.commit()
+                        continue
+                    else:
+                        print(f"  [3] ⚠️  Algumas páginas falharam, mas {done_count} OK. A continuar.")
 
-        # ----------------------------------------------------
-        # PHASE 4: Gemini Validation
-        # ----------------------------------------------------
+            cursor.execute("UPDATE documents SET status='ocr_done' WHERE id=?", (doc_id,))
+            conn.commit()
+            status = 'ocr_done'
+            print("  [3] ✓ OCR concluído.")
+
+        # ── Phase 4: Gemini Validation ───────────────────────
         if status == 'ocr_done':
-            # Check if there are pages pending validation
             cursor.execute(
-                "SELECT page_num, ocr_text_ollama, ocr_text_local, attempts FROM pages WHERE doc_id = ? AND needs_ocr = 1 AND validation_status = 'pending'",
+                "SELECT page_num, ocr_text_ollama, ocr_text_local, attempts FROM pages "
+                "WHERE doc_id=? AND needs_ocr=1 AND validation_status='pending'",
                 (doc_id,)
             )
-            pending_val_pages = cursor.fetchall()
+            pending_val = cursor.fetchall()
 
-            if pending_val_pages:
-                if gemini_rate_limited:
-                    print("  [PHASE 4] Skipping validation for now (Gemini rate-limited). Will process later.")
-                    continue
-
-                print(f"  [PHASE 4] Validating {len(pending_val_pages)} pages with Gemini...")
-                val_failed = False
-                for p_row in pending_val_pages:
-                    page_num = p_row["page_num"]
+            if pending_val and not gemini_rate_limited and gemini_client:
+                print(f"  [4] A validar {len(pending_val)} páginas com Gemini...")
+                for p_row in pending_val:
+                    page_num   = p_row["page_num"]
                     ocr_ollama = p_row["ocr_text_ollama"]
-                    ocr_local = p_row["ocr_text_local"]
-                    attempts = p_row["attempts"]
+                    ocr_local  = p_row["ocr_text_local"]
+                    attempts   = p_row["attempts"]
 
-                    if not gemini_client:
-                        print("    Skipping validation: Gemini client not initialized.")
-                        val_failed = True
-                        break
-
+                    wait_for_resources()
                     validated_text, confidence, err = validate_page(
                         gemini_client, doc_id, page_num, filepath, ocr_ollama, ocr_local
                     )
 
                     if err:
-                        # Check if rate limit error
                         err_lower = err.lower()
-                        if any(kw in err_lower for kw in ["429", "resource_exhausted", "quota exceeded", "rate limit"]):
-                            print(f"    [GEMINI RATE LIMIT DETECTED] Error: {err}")
+                        if any(k in err_lower for k in ["429", "resource_exhausted", "quota"]):
+                            print(f"  [4] ⚠️  Limite de taxa Gemini atingido. A continuar sem validação por agora.")
                             gemini_rate_limited = True
-                            val_failed = True
                             break
-                        
-                        print(f"    Validation failed for page {page_num}: {err}")
                         cursor.execute(
-                            "UPDATE pages SET attempts = ?, last_error = ?, last_attempt_at = CURRENT_TIMESTAMP WHERE doc_id = ? AND page_num = ?",
+                            "UPDATE pages SET attempts=?, last_error=?, last_attempt_at=CURRENT_TIMESTAMP "
+                            "WHERE doc_id=? AND page_num=?",
                             (attempts + 1, err, doc_id, page_num)
                         )
                         conn.commit()
-                        val_failed = True
                     else:
-                        cursor.execute(
-                            """
-                            UPDATE pages 
-                            SET validated_text = ?, confidence = ?, validation_status = ?, attempts = attempts + 1, last_attempt_at = CURRENT_TIMESTAMP
-                            WHERE doc_id = ? AND page_num = ?
-                            """,
-                            (validated_text, confidence, "done", doc_id, page_num)
-                        )
+                        cursor.execute("""
+                            UPDATE pages
+                            SET validated_text=?, confidence=?, validation_status='done',
+                                attempts=attempts+1, last_attempt_at=CURRENT_TIMESTAMP
+                            WHERE doc_id=? AND page_num=?
+                        """, (validated_text, confidence, doc_id, page_num))
                         conn.commit()
-                        print(f"    Page {page_num} validated successfully. Confidence: {confidence:.2f}")
 
                 if gemini_rate_limited:
-                    # We hit the rate limit, skip the rest of validation for this doc and subsequent docs
+                    # Skip to next doc; will be retried on next run
                     continue
-
-                if val_failed:
-                    # We don't mark the whole doc as failed immediately on temporary errors, 
-                    # but if it fails completely we skip assembly
-                    continue
-                else:
-                    cursor.execute("UPDATE documents SET status = 'validated' WHERE id = ?", (doc_id,))
-                    conn.commit()
-                    status = 'validated'
             else:
-                # No pages need validation
-                cursor.execute("UPDATE documents SET status = 'validated' WHERE id = ?", (doc_id,))
+                # No Gemini → copy local OCR text into validated_text directly
+                cursor.execute("""
+                    UPDATE pages
+                    SET validated_text = COALESCE(ocr_text_local, ocr_text_ollama, ''),
+                        confidence = 0.70,
+                        validation_status = 'done'
+                    WHERE doc_id=? AND needs_ocr=1 AND validation_status='pending'
+                """, (doc_id,))
                 conn.commit()
-                status = 'validated'
 
-        # ----------------------------------------------------
-        # PHASE 5: Assembly & Export
-        # ----------------------------------------------------
+            cursor.execute("UPDATE documents SET status='validated' WHERE id=?", (doc_id,))
+            conn.commit()
+            status = 'validated'
+            print("  [4] ✓ Validação concluída.")
+
+        # ── Phase 5: Assembly & Export ───────────────────────
         if status == 'validated':
-            print("  [PHASE 5] Assembling and exporting document...")
-            
-            # Fetch all pages to assemble
-            cursor.execute("SELECT page_num, validated_text, confidence, needs_ocr FROM pages WHERE doc_id = ?", (doc_id,))
+            print("  [5] A montar e exportar documento...")
+
+            cursor.execute(
+                "SELECT page_num, validated_text, confidence, needs_ocr FROM pages WHERE doc_id=?",
+                (doc_id,)
+            )
             pages = cursor.fetchall()
-            
-            if not pages:
-                # Placeholder for empty documents
-                doc_meta = {
-                    "id": doc_id,
-                    "title": os.path.splitext(os.path.basename(filepath))[0],
-                    "path_original": filepath,
-                    "disciplina": doc["disciplina"],
-                    "tipo": doc["tipo"],
-                    "ano": doc["ano"],
-                    "semestre": doc["semestre"],
-                    "storage_release_tag": doc["storage_release_tag"],
-                    "storage_url": doc["storage_url"],
-                    "confianca_media": 1.0,
-                    "assembled_at": datetime.now().isoformat()
-                }
-                write_document_files(doc_meta, f"<document>\n  <!-- Non-convertible file of type {ext} -->\n</document>")
-                cursor.execute("UPDATE documents SET status = 'exported' WHERE id = ?", (doc_id,))
+            pages_list = sorted([dict(p) for p in pages], key=lambda x: x["page_num"])
+
+            conf_avg = (sum(p["confidence"] for p in pages_list) / len(pages_list)) if pages_list else 0.0
+            doc_title = os.path.splitext(name)[0].replace("-", " ").title()
+            any_ocr = any(p["needs_ocr"] == 1 for p in pages_list)
+
+            # Build markdown body
+            markdown_body = None
+            if any_ocr and gemini_client and not gemini_rate_limited:
+                try:
+                    wait_for_resources()
+                    doc_title, markdown_body = assemble_pdf_document(gemini_client, doc_title, pages_list)
+                except Exception as e:
+                    if "429" in str(e) or "quota" in str(e).lower():
+                        gemini_rate_limited = True
+                    print(f"  [5] ⚠️  Montagem Gemini falhou ({e}). A usar stitching local.")
+
+            if not markdown_body:
+                # Always-works fallback: stitch OCR text directly
+                tag_type = "scanned" if any_ocr else "geral"
+                markdown_body = "<document>\n"
+                for p in pages_list:
+                    markdown_body += f'  <section topic="{tag_type}" page="{p["page_num"]}">\n'
+                    for line in (p["validated_text"] or "").split("\n"):
+                        markdown_body += f"    {line}\n"
+                    markdown_body += "  </section>\n"
+                markdown_body += "</document>"
+
+            doc_meta = {
+                "id": doc_id,
+                "title": doc_title,
+                "path_original": filepath,
+                "disciplina": doc["disciplina"],
+                "tipo": doc["tipo"],
+                "ano": doc["ano"],
+                "semestre": doc["semestre"],
+                "storage_release_tag": doc["storage_release_tag"],
+                "storage_url": doc["storage_url"],
+                "confianca_media": conf_avg,
+                "assembled_at": datetime.now().isoformat()
+            }
+
+            try:
+                write_document_files(doc_meta, markdown_body)
+                cursor.execute("UPDATE documents SET status='exported' WHERE id=?", (doc_id,))
                 conn.commit()
                 exported_count += 1
-            else:
-                pages_list = [dict(p) for p in pages]
-                pages_list.sort(key=lambda x: x["page_num"])
-                
-                conf_sum = sum(p["confidence"] for p in pages_list)
-                conf_avg = conf_sum / len(pages_list)
-                
-                doc_title_approx = os.path.splitext(os.path.basename(filepath))[0].replace("-", " ").title()
-                any_ocr_needed = any(p["needs_ocr"] == 1 for p in pages_list)
-                
-                if not any_ocr_needed:
-                    # Native doc
-                    title = doc_title_approx
-                    markdown_body = "<document>\n"
-                    for p in pages_list:
-                        markdown_body += f"  <section topic=\"geral\" page=\"{p['page_num']}\">\n"
-                        lines = p["validated_text"].split("\n") if p["validated_text"] else []
-                        markdown_body += "\n".join("    " + l for l in lines) + "\n"
-                        markdown_body += "  </section>\n"
-                    markdown_body += "</document>"
-                else:
-                    # OCR scanned doc
-                    if gemini_client and not gemini_rate_limited:
-                        try:
-                            title, markdown_body = assemble_pdf_document(gemini_client, doc_title_approx, pages_list)
-                        except Exception as e:
-                            # If assembly fails (could also be rate limits)
-                            err_str = str(e).lower()
-                            if any(kw in err_str for kw in ["429", "resource_exhausted", "quota exceeded", "rate limit"]):
-                                print(f"    [GEMINI RATE LIMIT DETECTED during assembly] Error: {e}")
-                                gemini_rate_limited = True
-                                continue
-                            print(f"    Assembly failed: {e}. Falling back to programmatic stitching.")
-                            title = doc_title_approx
-                            markdown_body = None
-                    else:
-                        title = doc_title_approx
-                        markdown_body = None
+                print(f"  [5] ✓ Exportado. (Total: {exported_count})")
+            except Exception as e:
+                print(f"  [5] ✗ Falha ao escrever ficheiros: {e}")
+                cursor.execute("UPDATE documents SET status='failed' WHERE id=?", (doc_id,))
+                conn.commit()
 
-                    if not markdown_body:
-                        # Fallback programmatic stitching
-                        title = doc_title_approx
-                        markdown_body = "<document>\n"
-                        for p in pages_list:
-                            markdown_body += f"  <section topic=\"scanned\" page=\"{p['page_num']}\">\n"
-                            lines = p["validated_text"].split("\n") if p["validated_text"] else []
-                            markdown_body += "\n".join("    " + l for l in lines) + "\n"
-                            markdown_body += "  </section>\n"
-                        markdown_body += "</document>"
-
-                doc_meta = {
-                    "id": doc_id,
-                    "title": title,
-                    "path_original": filepath,
-                    "disciplina": doc["disciplina"],
-                    "tipo": doc["tipo"],
-                    "ano": doc["ano"],
-                    "semestre": doc["semestre"],
-                    "storage_release_tag": doc["storage_release_tag"],
-                    "storage_url": doc["storage_url"],
-                    "confianca_media": conf_avg,
-                    "assembled_at": datetime.now().isoformat()
-                }
-                
-                try:
-                    write_document_files(doc_meta, markdown_body)
-                    cursor.execute("UPDATE documents SET status = 'exported' WHERE id = ?", (doc_id,))
-                    conn.commit()
-                    print(f"  Finished assembly & export for: {os.path.basename(filepath)}")
-                    exported_count += 1
-                except Exception as e:
-                    print(f"  Failed to write document files: {e}")
-
-            # ----------------------------------------------------
-            # INCREMENTAL DEPLOY: Run deploy after every 20 exported files
-            # ----------------------------------------------------
+            # Incremental deploy every 20 docs
             if exported_count > 0 and exported_count % 20 == 0:
-                print(f"\n[INCREMENTAL DEPLOY] Exported {exported_count} documents in this run. Re-deploying library...")
+                print(f"\n[DEPLOY INCREMENTAL] {exported_count} documentos exportados. A publicar no site...")
                 try:
                     for line in deploy():
                         print(line, end="")
                 except Exception as e:
-                    print(f"  Deploy failed: {e}")
+                    print(f"  Deploy falhou: {e}")
 
     conn.close()
-    
-    # Run a final deploy if any files were exported
+
+    # Final deploy
     if exported_count > 0:
-        print(f"\n[FINAL DEPLOY] Run complete. Exported total of {exported_count} documents. Running final deploy...")
+        print(f"\n[DEPLOY FINAL] {exported_count} documentos exportados. A publicar no site...")
         try:
             for line in deploy():
                 print(line, end="")
         except Exception as e:
-            print(f"  Final deploy failed: {e}")
-            
-    print("\n" + "="*60)
-    print(f"Pipeline complete. Total documents processed: {len(documents)}. Exported: {exported_count}.")
-    print("="*60)
+            print(f"  Deploy final falhou: {e}")
+
+    print("\n" + "=" * 60)
+    print(f"Pipeline concluído! Exportados: {exported_count}/{total}")
+    print("=" * 60)
+
 
 if __name__ == "__main__":
     main()
