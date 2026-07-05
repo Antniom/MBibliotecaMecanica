@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Análise das Posições.jpg.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Análise das Posições.jpg.png"
 hash: "2da9d75c7d36557cff7e52beb3fe61eddc5aa451185c11b241362bf42d10572e"
 ---
 

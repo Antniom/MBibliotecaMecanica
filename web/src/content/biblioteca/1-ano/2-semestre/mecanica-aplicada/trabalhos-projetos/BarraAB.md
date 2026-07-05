@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "BarraAB.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/BarraAB.jpg"
 hash: "9fc7c6fc5073f2ac8420542ccfa18a2b6380bef615a0b5872f2093e97177ec15"
 ---
 

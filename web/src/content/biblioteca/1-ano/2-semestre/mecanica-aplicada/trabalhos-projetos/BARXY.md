@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "BARXY.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/BARXY.png"
 hash: "0eb16b89c77f1c0bcb3dbf3c370c6ecc0f71d3580a17a8edfc643a8727eeda01"
 ---
 

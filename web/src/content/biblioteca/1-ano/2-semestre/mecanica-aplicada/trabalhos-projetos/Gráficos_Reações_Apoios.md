@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Gráficos_Reações_Apoios.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Gráficos_Reações_Apoios.png"
 hash: "1c31f1080abf8d7502524ae8d76786162054067205a5afe618cf7bd86296a00c"
 ---
 

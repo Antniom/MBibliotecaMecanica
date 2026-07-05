@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "EquaçõesOB.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/EquaçõesOB.png"
 hash: "52f8101a457b0985115b4ce436ffe5b5b0b3df1ce57463a4713e786ee86c5a3f"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Contexto_Cinemática.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Contexto_Cinemática.png"
 hash: "2a25d40eb4aa85eb7b6c447a8cb109bb3217bf61e1e029e0a535c09a5eeeb2ca"
 ---
 

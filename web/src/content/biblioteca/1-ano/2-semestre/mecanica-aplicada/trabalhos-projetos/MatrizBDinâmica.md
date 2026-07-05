@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MatrizBDinâmica.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MatrizBDinâmica.png"
 hash: "743c332f95f44379f168f61b60fb579ef231b38813a5161de87e0ea8b77f57fd"
 ---
 

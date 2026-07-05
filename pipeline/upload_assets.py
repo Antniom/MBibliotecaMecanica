@@ -143,6 +143,24 @@ def run_uploads():
         if not os.path.exists(filepath):
             print(f"Physical file not found for upload, skipping: {filepath}")
             continue
+
+        # Skip non-document files (system DLLs, Python bytecode, etc.)
+        UPLOAD_EXTS = {
+            ".pdf", ".docx", ".doc", ".pptx", ".ppt",
+            ".xlsx", ".xls", ".csv", ".txt", ".html",
+            ".htm", ".odt", ".odp", ".ods", ".rtf",
+            ".jpg", ".jpeg", ".png", ".gif", ".bmp", ".tiff",
+            ".dwg", ".dxf", ".step", ".stp", ".iges", ".igs",
+            ".zip", ".rar", ".7z",
+        }
+        ext = os.path.splitext(filepath)[1].lower()
+        if ext not in UPLOAD_EXTS:
+            print(f"Skipping non-document file: {os.path.basename(filepath)}")
+            # Mark it as uploaded so it doesn't keep appearing
+            cursor.execute("UPDATE documents SET storage_url = 'skipped' WHERE id = ?", (doc_id,))
+            conn.commit()
+            continue
+
             
         tag = f"{ano}-ano"
         download_url = None

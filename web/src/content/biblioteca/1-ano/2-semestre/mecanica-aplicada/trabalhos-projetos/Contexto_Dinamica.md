@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Contexto_Dinamica.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Contexto_Dinamica.png"
 hash: "20d5012b37b1d4fbb41fdd3ea59635bfa72ec5e1527d6896d23dcd15d8bb1eec"
 ---
 

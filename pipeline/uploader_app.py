@@ -73,6 +73,8 @@ def stats():
         exported = c.fetchone()[0]
         c.execute("SELECT COUNT(*) FROM documents WHERE status NOT IN ('exported','failed')")
         pending = c.fetchone()[0]
+        c.execute("SELECT COUNT(*) FROM documents WHERE storage_url IS NOT NULL AND storage_url != '' AND storage_url != 'skipped'")
+        uploaded = c.fetchone()[0]
         c.execute("SELECT COUNT(*) FROM pages")
         pages = c.fetchone()[0]
         c.execute("SELECT COUNT(*) FROM pages WHERE ocr_status = 'done'")
@@ -82,6 +84,7 @@ def stats():
         cpu = psutil.cpu_percent(interval=0.1)
         return jsonify({
             "docs": docs, "exported": exported, "pending": pending,
+            "uploaded": uploaded,
             "pages": pages, "ocr_done": ocr_done,
             "ram_pct": round(ram.percent, 1),
             "cpu_pct": round(cpu, 1),
@@ -240,10 +243,11 @@ HTML_PAGE = """<!DOCTYPE html>
     <h2>📊 Estado da Biblioteca</h2>
     <div class="stat-grid">
       <div class="stat"><div class="val" id="s-docs">—</div><div class="lbl">Total de Documentos</div></div>
-      <div class="stat"><div class="val" id="s-exp">—</div><div class="lbl">Processados e Online</div></div>
-      <div class="stat"><div class="val" id="s-pend">—</div><div class="lbl">A Aguardar Processamento</div></div>
+      <div class="stat"><div class="val" id="s-uploaded">—</div><div class="lbl">Ficheiros no GitHub (para download)</div></div>
+      <div class="stat"><div class="val" id="s-exp">—</div><div class="lbl">Com Conteúdo no Site (IA processou)</div></div>
+      <div class="stat"><div class="val" id="s-pend">—</div><div class="lbl">A Aguardar Processamento IA</div></div>
       <div class="stat"><div class="val" id="s-pages">—</div><div class="lbl">Páginas Totais</div></div>
-      <div class="stat"><div class="val" id="s-ocr">—</div><div class="lbl">Páginas com OCR</div></div>
+      <div class="stat"><div class="val" id="s-ocr">—</div><div class="lbl">Páginas com OCR Feito</div></div>
       <div class="stat"><div class="val" id="s-ram">—</div><div class="lbl">RAM Disponível</div></div>
     </div>
     <div class="res-row">
@@ -369,6 +373,7 @@ async function loadStats() {
     const s = await res.json();
     if (s.error) return;
     document.getElementById('s-docs').textContent = (s.docs || 0).toLocaleString();
+    document.getElementById('s-uploaded').textContent = (s.uploaded || 0).toLocaleString();
     document.getElementById('s-exp').textContent = (s.exported || 0).toLocaleString();
     document.getElementById('s-pend').textContent = (s.pending || 0).toLocaleString();
     document.getElementById('s-pages').textContent = (s.pages || 0).toLocaleString();

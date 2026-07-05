@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecAplicada Enunciado Trab PL 02 2022 2023.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecAplicada Enunciado Trab PL 02 2022 2023.pdf"
 hash: "d2074c693d1f944605f5924fc3e60fbfc76b2b02eec1d2f06dbf0b68d273a2d7"
 ---
 
