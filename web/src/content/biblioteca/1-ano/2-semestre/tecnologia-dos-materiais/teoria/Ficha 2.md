@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Ficha 2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficha 2.pdf"
 hash: "5cac0bdb8d029171b90b330a27f1fb6e4262d2d626fd5b06b9e87f3db3105123"
 ---
 

@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Ficha 1A.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ficha 1A.pdf"
 hash: "aac30dc1f4d33a84c1cd3b7c718cdae39da6de1d4eb38e0a124071bed670c0de"
 ---
 

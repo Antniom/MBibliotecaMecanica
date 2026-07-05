@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Aço construção, baixa liga, J. C 20,2-, muito ductil.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aço construção, baixa liga, J. C 20,2-, muito ductil.pdf"
 hash: "4db26668d832615ec8d79cf7d6ee256a56f302be5583f4af510a1390414e720d"
 ---
 

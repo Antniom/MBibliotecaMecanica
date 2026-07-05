@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Reação.Apoio.B.csv"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Reação.Apoio.B.csv"
 hash: "61f6be1d99a3bb465d8f1e772cb31e37b733e3f445688123b174edc725ab5363"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Modelo_Trabalho.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Modelo_Trabalho.png"
 hash: "cca455b3ab743a0219350c07d5b9b71922200da5c5327bb366916e925eae824e"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Tecnologia Dos Materiais.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Tecnologia Dos Materiais.pdf"
 hash: "54c18c773d9b36c104472ff8691cb8ce4d22074b3995ec6528f92d98cd2e3d89"
 ---
 
