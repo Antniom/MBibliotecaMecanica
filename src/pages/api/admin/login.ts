@@ -3,11 +3,12 @@ import { json, error, CORS_HEADERS } from '@lib/_auth';
 
 export const prerender = false;
 
+import { env } from 'cloudflare:workers';
+
 export const OPTIONS: APIRoute = () =>
   new Response(null, { status: 204, headers: CORS_HEADERS });
 
-export const POST: APIRoute = async ({ request, locals }) => {
-  const env = locals.runtime?.env as Env;
+export const POST: APIRoute = async ({ request }) => {
   if (!env?.ADMIN_PASSWORD || !env?.ADMIN_TOKEN) {
     return error('Servidor não configurado.', 500);
   }

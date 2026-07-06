@@ -15,3 +15,7 @@ interface Env {
   ADMIN_TOKEN: string;
   WORKER_API_TOKEN: string;
 }
+
+declare module 'cloudflare:workers' {
+  const env: Env;
+}

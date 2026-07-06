@@ -12,11 +12,12 @@ const ALLOWED_EXTENSIONS = new Set([
 // 100 MB limit
 const MAX_SIZE_BYTES = 100 * 1024 * 1024;
 
+import { env } from 'cloudflare:workers';
+
 export const OPTIONS: APIRoute = () =>
   new Response(null, { status: 204, headers: CORS_HEADERS });
 
-export const POST: APIRoute = async ({ request, locals }) => {
-  const env = locals.runtime?.env as Env;
+export const POST: APIRoute = async ({ request }) => {
   if (!env?.GITHUB_TOKEN || !env?.GITHUB_REPO || !env?.DB) {
     return error('Server not configured correctly.', 500);
   }

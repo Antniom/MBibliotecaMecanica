@@ -3,12 +3,13 @@ import { json, error, verifyAdminToken, CORS_HEADERS } from '@lib/_auth';
 
 export const prerender = false;
 
+import { env } from 'cloudflare:workers';
+
 export const OPTIONS: APIRoute = () =>
   new Response(null, { status: 204, headers: CORS_HEADERS });
 
 /** PATCH /api/admin/submissions/[id] — approve or deny */
-export const PATCH: APIRoute = async ({ request, locals, params }) => {
-  const env = locals.runtime?.env as Env;
+export const PATCH: APIRoute = async ({ request, params }) => {
   if (!verifyAdminToken(request, env?.ADMIN_TOKEN ?? '')) {
     return error('Não autorizado.', 401);
   }
@@ -64,8 +65,7 @@ export const PATCH: APIRoute = async ({ request, locals, params }) => {
 };
 
 /** GET /api/admin/submissions/[id] — get single submission */
-export const GET: APIRoute = async ({ request, locals, params }) => {
-  const env = locals.runtime?.env as Env;
+export const GET: APIRoute = async ({ request, params }) => {
   if (!verifyAdminToken(request, env?.ADMIN_TOKEN ?? '')) {
     return error('Não autorizado.', 401);
   }

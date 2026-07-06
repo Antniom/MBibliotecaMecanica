@@ -3,12 +3,13 @@ import { json, error, verifyAdminToken, CORS_HEADERS } from '@lib/_auth';
 
 export const prerender = false;
 
+import { env } from 'cloudflare:workers';
+
 export const OPTIONS: APIRoute = () =>
   new Response(null, { status: 204, headers: CORS_HEADERS });
 
 /** GET /api/admin/submissions?status=pending */
-export const GET: APIRoute = async ({ request, locals }) => {
-  const env = locals.runtime?.env as Env;
+export const GET: APIRoute = async ({ request }) => {
   if (!verifyAdminToken(request, env?.ADMIN_TOKEN ?? '')) {
     return error('Não autorizado.', 401);
   }

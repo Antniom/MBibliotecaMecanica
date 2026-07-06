@@ -3,12 +3,13 @@ import { json, error, verifyWorkerToken, randomId, CORS_HEADERS } from '@lib/_au
 
 export const prerender = false;
 
+import { env } from 'cloudflare:workers';
+
 export const OPTIONS: APIRoute = () =>
   new Response(null, { status: 204, headers: CORS_HEADERS });
 
 /** POST /api/worker/failed — mark submission failed and log error */
-export const POST: APIRoute = async ({ request, locals }) => {
-  const env = locals.runtime?.env as Env;
+export const POST: APIRoute = async ({ request }) => {
   if (!verifyWorkerToken(request, env?.WORKER_API_TOKEN ?? '')) {
     return error('Não autorizado.', 401);
   }
