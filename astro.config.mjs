@@ -11,6 +11,7 @@ export default defineConfig({
   // Static by default; API routes and server pages opt-in via `export const prerender = false`
   adapter: cloudflare({
     platformProxy: { enabled: true }, // enables D1 in local dev via wrangler
+    prerenderEnvironment: 'node',     // prevents 'bad allocation' workerd memory crashes during prerendering
   }),
   vite: {
     resolve: {
