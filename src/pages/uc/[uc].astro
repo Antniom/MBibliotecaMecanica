@@ -78,10 +78,45 @@ const CATEGORIES = [
   { key: "trabalhos-projetos", label: "Trabalhos e Projetos" }
 ];
 
-const docsByCategory = CATEGORIES.map(cat => ({
-  ...cat,
-  docs: ucDocs.filter(d => d.data.tipo === cat.key)
-})).filter(cat => cat.docs.length > 0);
+const docsByCategory = CATEGORIES.map(cat => {
+  const catDocs = ucDocs.filter(d => d.data.tipo === cat.key);
+  
+  // Group documents by their subfolders (if any)
+  const groupsMap: Record<string, typeof catDocs> = {};
+  catDocs.forEach(doc => {
+    // doc.id format: "2-ano/2-semestre/uc-name/tipo-slug/subfolder-name/file"
+    const parts = doc.id.split('/');
+    // Subfolder name is everything after "tipo-slug" (index 4) up to the filename
+    const subfolder = parts.length > 5 ? parts.slice(4, -1).join('/') : '';
+    
+    if (!groupsMap[subfolder]) {
+      groupsMap[subfolder] = [];
+    }
+    groupsMap[subfolder].push(doc);
+  });
+  
+  // Convert groups map to array, keeping the empty/root group first
+  const groups = Object.entries(groupsMap)
+    .map(([name, docs]) => ({ name, docs }))
+    .sort((a, b) => {
+      if (a.name === '') return -1;
+      if (b.name === '') return 1;
+      return a.name.localeCompare(b.name);
+    });
+
+  return {
+    ...cat,
+    totalCount: catDocs.length,
+    groups
+  };
+}).filter(cat => cat.totalCount > 0);
+
+function formatFolderName(name: string) {
+  return name
+    .split('/')
+    .map(part => part.replace(/[-_]/g, ' ').replace(/\b\w/g, c => c.toUpperCase()))
+    .join(' / ');
+}
 ---
 
 <Layout title={ucName}>
@@ -113,46 +148,90 @@ const docsByCategory = CATEGORIES.map(cat => ({
     <div style="display: flex; flex-direction: column; gap: 40px;">
       {docsByCategory.map(cat => (
         <div>
-          <h2 id={`category-${cat.key}`} style="font-size: 1.35rem; color: var(--text-primary); border-bottom: 1px solid var(--panel-border); padding-bottom: 6px; margin-bottom: 16px; display: flex; justify-content: space-between; align-items: center;">
-            <span>📁 {cat.label} ({cat.docs.length})</span>
+          <h2 id={`category-${cat.key}`} style="font-size: 1.35rem; color: var(--text-primary); border-bottom: 1px solid var(--panel-border); padding-bottom: 6px; margin-bottom: 20px; display: flex; justify-content: space-between; align-items: center;">
+            <span>📁 {cat.label} ({cat.totalCount})</span>
             <button class="btn-pin-folder" data-uc-slug={uc} data-uc-name={ucName} data-cat-key={cat.key} data-cat-label={cat.label} style="background: transparent; border: 1px solid var(--panel-border); border-radius: var(--radius-sm); padding: 4px 10px; font-size: 0.8rem; cursor: pointer; transition: all 0.2s ease;">
               📌 Fixar Pasta
             </button>
           </h2>
           
-          <div class="grid-3">
-            {cat.docs.map(doc => {
-              const baseName = doc.id.split('/').pop()?.replace('.md', '') || '';
-              // Confidence color mapping
-              let confClass = "badge-success";
-              if (doc.data.confianca_media < 0.6) confClass = "badge-danger";
-              else if (doc.data.confianca_media < 0.8) confClass = "badge-warning";
-              
-              return (
-                <div class="card" style="display: flex; flex-direction: column; justify-content: space-between; min-height: 180px;">
-                  <div>
-                    <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 12px;">
-                      <span style="font-size: 1.5rem;">📄</span>
-                      <span class={`badge ${confClass}`} style="font-size: 0.7rem; padding: 2px 8px;">
-                        IA: {Math.round(doc.data.confianca_media * 100)}%
-                      </span>
-                    </div>
-                    <h3 style="font-size: 1rem; line-height: 1.4; margin-bottom: 6px; font-family: var(--font-body); font-weight: 600;">
-                      {doc.data.title}
-                    </h3>
-                    <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 12px; font-family: var(--font-mono); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
-                      {doc.data.fonte_original}
-                    </p>
-                  </div>
-                  
-                  <div style="display: flex; gap: 8px; margin-top: auto;">
-                    <a href={`/documento/${baseName}`} class="btn-primary" style="flex: 1; justify-content: center; font-size: 0.85rem; padding: 8px 12px;">
-                      Ver Detalhes
-                    </a>
+          <div style="display: flex; flex-direction: column; gap: 24px;">
+            {cat.groups.map(group => (
+              group.name === '' ? (
+                <div class="grid-3">
+                  {group.docs.map(doc => {
+                    const baseName = doc.id.split('/').pop()?.replace('.md', '') || '';
+                    let confClass = "badge-success";
+                    if (doc.data.confianca_media < 0.6) confClass = "badge-danger";
+                    else if (doc.data.confianca_media < 0.8) confClass = "badge-warning";
+                    
+                    return (
+                      <div class="card" style="display: flex; flex-direction: column; justify-content: space-between; min-height: 180px;">
+                        <div>
+                          <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 12px;">
+                            <span style="font-size: 1.5rem;">📄</span>
+                            <span class={`badge ${confClass}`} style="font-size: 0.7rem; padding: 2px 8px;">
+                              IA: {Math.round(doc.data.confianca_media * 100)}%
+                            </span>
+                          </div>
+                          <h3 style="font-size: 1rem; line-height: 1.4; margin-bottom: 6px; font-family: var(--font-body); font-weight: 600;">
+                            {doc.data.title}
+                          </h3>
+                          <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 12px; font-family: var(--font-mono); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                            {doc.data.fonte_original}
+                          </p>
+                        </div>
+                        
+                        <div style="display: flex; gap: 8px; margin-top: auto;">
+                          <a href={`/documento/${baseName}`} class="btn-primary" style="flex: 1; justify-content: center; font-size: 0.85rem; padding: 8px 12px;">
+                            Ver Detalhes
+                          </a>
+                        </div>
+                      </div>
+                    );
+                  })}
+                </div>
+              ) : (
+                <div style="background: rgba(0,0,0,0.015); border: 1px solid var(--panel-border); border-radius: var(--radius-md); padding: 18px 20px;">
+                  <h3 style="font-size: 1rem; font-weight: 600; color: var(--text-primary); margin: 0 0 16px; display: flex; align-items: center; gap: 8px;">
+                    <span>📂</span> {formatFolderName(group.name)}
+                  </h3>
+                  <div class="grid-3">
+                    {group.docs.map(doc => {
+                      const baseName = doc.id.split('/').pop()?.replace('.md', '') || '';
+                      let confClass = "badge-success";
+                      if (doc.data.confianca_media < 0.6) confClass = "badge-danger";
+                      else if (doc.data.confianca_media < 0.8) confClass = "badge-warning";
+                      
+                      return (
+                        <div class="card" style="display: flex; flex-direction: column; justify-content: space-between; min-height: 180px; background: var(--bg-card);">
+                          <div>
+                            <div style="display: flex; justify-content: space-between; align-items: flex-start; gap: 8px; margin-bottom: 12px;">
+                              <span style="font-size: 1.5rem;">📄</span>
+                              <span class={`badge ${confClass}`} style="font-size: 0.7rem; padding: 2px 8px;">
+                                IA: {Math.round(doc.data.confianca_media * 100)}%
+                              </span>
+                            </div>
+                            <h3 style="font-size: 1rem; line-height: 1.4; margin-bottom: 6px; font-family: var(--font-body); font-weight: 600;">
+                              {doc.data.title}
+                            </h3>
+                            <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 12px; font-family: var(--font-mono); overflow: hidden; text-overflow: ellipsis; white-space: nowrap;">
+                              {doc.data.fonte_original}
+                            </p>
+                          </div>
+                          
+                          <div style="display: flex; gap: 8px; margin-top: auto;">
+                            <a href={`/documento/${baseName}`} class="btn-primary" style="flex: 1; justify-content: center; font-size: 0.85rem; padding: 8px 12px;">
+                              Ver Detalhes
+                            </a>
+                          </div>
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
-              );
-            })}
+              )
+            ))}
           </div>
         </div>
       ))}

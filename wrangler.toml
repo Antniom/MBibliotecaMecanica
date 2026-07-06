@@ -15,8 +15,3 @@ database_id = "beb19e49-653b-4522-9ec3-1690165a1516"
 # ADMIN_PASSWORD    = your chosen admin password
 # ADMIN_TOKEN       = a random secret (e.g. run: python -c "import secrets; print(secrets.token_hex(32))")
 # WORKER_API_TOKEN  = a different random secret for worker.py
-
-[assets]
-binding = "STATIC_ASSETS"
-directory = "./dist"
-

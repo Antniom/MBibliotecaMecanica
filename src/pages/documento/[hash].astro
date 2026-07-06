@@ -149,7 +149,11 @@ ${doc.body}`;
         <!-- PDF Embed Viewer -->
         {doc.data.storage_url ? (
           <div style="border: 1px solid var(--panel-border); border-radius: var(--radius-sm); overflow: hidden; background: #EEE; height: 600px; display: flex; flex-direction: column;">
-            <iframe src={doc.data.storage_url} style="width: 100%; height: 100%; border: none;"></iframe>
+            <iframe 
+              src={`https://docs.google.com/viewer?url=${encodeURIComponent(doc.data.storage_url)}&embedded=true`} 
+              style="width: 100%; height: 100%; border: none;"
+              title="Visualizador de Documento"
+            ></iframe>
           </div>
         ) : (
           <div class="card" style="text-align: center; padding: 48px 24px; background: #FAF9F5; border-style: dashed;">
