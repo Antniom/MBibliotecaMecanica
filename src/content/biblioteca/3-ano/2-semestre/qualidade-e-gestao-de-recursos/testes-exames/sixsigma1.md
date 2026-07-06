@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "sixsigma1.JPG"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/sixsigma1.JPG"
 hash: "8d99f5cf6aaf934d1f68fb327cb95a1cfce5370188c61a30c02c3860483494a4"
 ---
 

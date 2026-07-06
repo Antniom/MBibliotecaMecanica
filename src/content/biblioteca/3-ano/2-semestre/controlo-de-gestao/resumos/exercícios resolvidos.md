@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "exercícios resolvidos.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/exercícios resolvidos.pdf"
 hash: "318c4f40d36d0520f26aec839024039aeaec36f60f0ca6467a3730df9223cfcb"
 ---
 

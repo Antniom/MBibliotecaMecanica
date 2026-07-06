@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Ficha Resolvida Concentração de Tensões.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Ficha Resolvida Concentração de Tensões.pdf"
 hash: "27fa56aec6b8205387c8a5822b3e2db5aff630598d2b2cffb18e14a6d58d59d1"
 ---
 

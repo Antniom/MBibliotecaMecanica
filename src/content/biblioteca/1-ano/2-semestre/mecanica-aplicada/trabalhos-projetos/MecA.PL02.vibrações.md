@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecA.PL02.vibrações.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecA.PL02.vibrações.pdf"
 hash: "6f3a05ebcfdf98d8f7f28f738fd0a76dae71825138dfeaa82c975ad9b492bc26"
 ---
 

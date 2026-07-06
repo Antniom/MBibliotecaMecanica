@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "QCB-RS-Installation-Guide-2023.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/QCB-RS-Installation-Guide-2023.pdf"
 hash: "39dd2c0c4ecc13b51e74596db564aa8095d86a462106cedcc83d74c35797d070"
 ---
 

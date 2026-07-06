@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Grupo_4_Trabalho_Teorico_Tema_3-_Fabrico_Hibrido.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Grupo_4_Trabalho_Teorico_Tema_3-_Fabrico_Hibrido.docx"
 hash: "077bbb4261895d3e4e09c7ba3199e3c461a1b4f08fbb1267757925ae738c6455"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "questoes_materiais_ferramentas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/questoes_materiais_ferramentas.pdf"
 hash: "d0fc330125f08d9a1fb438e5609a8c7be3099b17dd38f8649cac3e4b7e9c6881"
 ---
 

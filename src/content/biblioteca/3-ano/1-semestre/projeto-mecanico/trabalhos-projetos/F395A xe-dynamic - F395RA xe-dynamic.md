@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "F395A xe-dynamic - F395RA xe-dynamic.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/F395A xe-dynamic - F395RA xe-dynamic.pdf"
 hash: "b71cae04f0407e0fa133529549b5df06a3b914e33d7719a8457e716dfa5921a9"
 ---
 

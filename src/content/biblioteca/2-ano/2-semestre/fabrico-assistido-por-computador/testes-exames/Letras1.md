@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Letras1.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Letras1.png"
 hash: "95451196dabc3208db3b1cd5e0f69cfe601f8812c0a695a703fa312ee84e6253"
 ---
 

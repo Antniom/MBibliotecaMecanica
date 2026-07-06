@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "ma.trabalho.lab01 - Tarefas em Xcos(2).pptx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/ma.trabalho.lab01 - Tarefas em Xcos(2).pptx"
 hash: "d2a8934c0a8c7e5fec9dc4c32f86b08e585f337b52824c8d87b732a2c98397cf"
 ---
 

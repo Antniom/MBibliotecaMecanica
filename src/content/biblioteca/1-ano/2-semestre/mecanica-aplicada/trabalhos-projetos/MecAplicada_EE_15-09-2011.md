@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecAplicada_EE_15-09-2011.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecAplicada_EE_15-09-2011.pdf"
 hash: "a700e33934687df5f0bdac1df045647a37615339ca403258d65af87fa17de096"
 ---
 

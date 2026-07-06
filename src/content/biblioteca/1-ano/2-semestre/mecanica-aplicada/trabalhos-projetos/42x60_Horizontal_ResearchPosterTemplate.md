@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "42x60_Horizontal_ResearchPosterTemplate.pptx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/42x60_Horizontal_ResearchPosterTemplate.pptx"
 hash: "3644a6510170ce48c96632b41d057f9c08f55d386d24369e90d46308faeaf053"
 ---
 

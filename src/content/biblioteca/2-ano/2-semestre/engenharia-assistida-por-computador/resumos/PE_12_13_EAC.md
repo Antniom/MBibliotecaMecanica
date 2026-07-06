@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "PE_12_13_EAC.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/PE_12_13_EAC.pdf"
 hash: "bae6d22d51baa9c7248252ed1b4dfc7aaadc78fd600a9810303b8f55b7926d09"
 ---
 

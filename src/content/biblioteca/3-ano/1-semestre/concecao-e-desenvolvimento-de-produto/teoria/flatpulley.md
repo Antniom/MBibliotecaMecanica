@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "flatpulley.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/flatpulley.jpg"
 hash: "e2cd453122cfc4787d1711c0caf13abf499348f04c8d128a0fdc974a892bed4a"
 ---
 

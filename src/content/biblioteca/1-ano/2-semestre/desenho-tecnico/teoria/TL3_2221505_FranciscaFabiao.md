@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "TL3_2221505_FranciscaFabiao.dwg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/TL3_2221505_FranciscaFabiao.dwg"
 hash: "7d27ddaa162bdf51cba0740d9767c23d04e18bc65c3757e574bf4395d30be2fb"
 ---
 

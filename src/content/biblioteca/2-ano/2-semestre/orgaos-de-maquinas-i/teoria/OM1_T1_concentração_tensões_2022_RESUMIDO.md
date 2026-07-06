@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OM1_T1_concentração_tensões_2022_RESUMIDO.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_T1_concentração_tensões_2022_RESUMIDO.pdf"
 hash: "9c0976ad59dfa890ba8abe83b7edbc993b749022006db7dc7d3976b513d17616"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "CX-ANSI-IP20.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/CX-ANSI-IP20.jpg"
 hash: "ae96f69b2d633bec22a4111a50613b2d4edbd311e222d4bb8c765ac0688179b8"
 ---
 

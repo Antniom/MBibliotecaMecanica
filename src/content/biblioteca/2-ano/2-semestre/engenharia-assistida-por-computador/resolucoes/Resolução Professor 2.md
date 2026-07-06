@@ -7,7 +7,7 @@ tipo: "resolucoes"
 fonte_original: "Resolução Professor 2.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Resolução Professor 2.jpg"
 hash: "fea36d27da2a3da01a7e26600bc62eae10f62e9dc13264503a48c76232ad7810"
 ---
 

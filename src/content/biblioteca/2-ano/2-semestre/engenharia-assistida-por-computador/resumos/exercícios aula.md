@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "exercícios aula.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/exercícios aula.pdf"
 hash: "7ff76371589a74e0608d28532ff4e82a2fb7f81d0196e0f74fa2496ef5d50d70"
 ---
 

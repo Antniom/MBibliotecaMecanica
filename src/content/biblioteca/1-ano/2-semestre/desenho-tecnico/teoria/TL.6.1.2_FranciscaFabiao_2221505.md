@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "TL.6.1.2_FranciscaFabiao_2221505.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/TL.6.1.2_FranciscaFabiao_2221505.pdf"
 hash: "db7fb0c161b082bdb2d73725c0215498bd790e36dab838fb3800840d97cc416d"
 ---
 

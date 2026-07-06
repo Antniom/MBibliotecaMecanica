@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "ma.2013.rotacao.actividade.01.zcos.v06.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/ma.2013.rotacao.actividade.01.zcos.v06.zip"
 hash: "6cf2128bacec65996841a9dbbd6f619ae24df47d04439632518cb1a61b2c0ecc"
 ---
 

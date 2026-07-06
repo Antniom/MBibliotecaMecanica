@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SolderBevel.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SolderBevel.htm"
 hash: "a7c9333b79fa0aeafab4a0a75783ff0fd6246c87effa9c4d1eb91c97d5181904"
 ---
 

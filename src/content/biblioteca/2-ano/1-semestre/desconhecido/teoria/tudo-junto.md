@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "tudo-junto.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/tudo-junto.docx"
 hash: "e7e115746f9bc42f70699add60b273d3f55fbdbff3ca3bd2d64ec1de1a7a6d64"
 ---
 

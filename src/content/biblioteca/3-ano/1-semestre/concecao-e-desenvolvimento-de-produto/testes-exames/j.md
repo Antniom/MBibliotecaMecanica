@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "j.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/j.jpg"
 hash: "199b62fe3eefb50cd118b6247981a4da8dead7c66dd24cac86aa47f54e4efe40"
 ---
 

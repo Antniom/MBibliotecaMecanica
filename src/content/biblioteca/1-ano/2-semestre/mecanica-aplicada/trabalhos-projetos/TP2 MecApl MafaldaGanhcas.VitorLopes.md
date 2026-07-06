@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "TP2 MecApl MafaldaGanhcas.VitorLopes.pptx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/TP2 MecApl MafaldaGanhcas.VitorLopes.pptx"
 hash: "9885e2f0f290b13cc2acfaa7d45a2f31d72170ad4980c3146d2b2e9fe3c33a24"
 ---
 

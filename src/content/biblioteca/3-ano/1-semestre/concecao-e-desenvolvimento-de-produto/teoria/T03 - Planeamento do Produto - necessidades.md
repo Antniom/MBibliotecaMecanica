@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "T03 - Planeamento do Produto - necessidades.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/T03 - Planeamento do Produto - necessidades.pdf"
 hash: "961e3f5556095721112073a20ce87040a85e292c51bc2ff61d60783d1fc29526"
 ---
 

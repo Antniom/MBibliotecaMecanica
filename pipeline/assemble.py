@@ -99,6 +99,22 @@ def write_document_files(doc_meta, markdown_body):
         disciplina,
         tipo
     )
+
+    # Extract any subfolders under the category folder (tipo)
+    # E.g. if path_original is .../trabalhos-projetos/trabalho-1/doc.pdf, the subfolder is 'trabalho-1'
+    subfolder = ""
+    norm_path = doc_meta["path_original"].replace("\\", "/")
+    cat_keyword = f"/{tipo}/"
+    if cat_keyword in norm_path:
+        parts = norm_path.split(cat_keyword, 1)
+        if len(parts) > 1:
+            sub_parts = parts[1].split("/")
+            if len(sub_parts) > 1:
+                subfolder = "/".join(sub_parts[:-1])
+
+    if subfolder:
+        dest_dir = os.path.join(dest_dir, subfolder)
+
     os.makedirs(dest_dir, exist_ok=True)
     
     base_name = os.path.splitext(os.path.basename(doc_meta["path_original"]))[0]

@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "FE 12_Spc completo.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FE 12_Spc completo.pdf"
 hash: "3a72d5992107fe9f6752743910e03d7c0cc6a6b10f54247c699b7bcc31a5c83b"
 ---
 

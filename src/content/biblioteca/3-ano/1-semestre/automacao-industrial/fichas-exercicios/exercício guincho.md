@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "exercício guincho.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/exercício guincho.pdf"
 hash: "8027984600f39d2618cd5fc41e42b3fe528f681fc13e15a75afa73d414edd5dc"
 ---
 

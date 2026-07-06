@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OM1_Modulo_2_T3_parametros_fadiga_2019_VISTO.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_Modulo_2_T3_parametros_fadiga_2019_VISTO.pdf"
 hash: "5b88ec03ec11b356fab194ec865c40990c4a6b60fb9680b862536ee7a6dbd222"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula Teórica 2 14 15 Vibraçoes forçadas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula Teórica 2 14 15 Vibraçoes forçadas.pdf"
 hash: "1d734f23ae1ea46c786d565df7c7b608724e5bada727f4026a1aa0643dc5a420"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "WORD.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/WORD.docx"
 hash: "e0f429033e03759ef5f3e23720f2767cd95d8712d0b9560b202c387b442cb83e"
 ---
 

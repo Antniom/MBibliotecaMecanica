@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "WhatsApp Image 2020-06-06 at 19.25.05.jpeg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/WhatsApp Image 2020-06-06 at 19.25.05.jpeg"
 hash: "cf101df57cf02cdfdb9b25ee0669ae9b5276084c83d3354cc92165cf928cc283"
 ---
 

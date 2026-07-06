@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Lado Movel 2D.PDF"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Lado Movel 2D.PDF"
 hash: "6b87719464c634689350bf8415029f53264a4afe4b3ee65f6105fe97c187983a"
 ---
 

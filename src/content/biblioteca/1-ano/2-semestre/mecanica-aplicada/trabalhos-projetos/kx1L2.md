@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "kx1L2.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/kx1L2.docx"
 hash: "7a6ff100022bde88d23c6dd10dd6356db905f342de6ee9c70e592b13b32038be"
 ---
 

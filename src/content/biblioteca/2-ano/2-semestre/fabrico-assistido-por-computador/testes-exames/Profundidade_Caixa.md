@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Profundidade_Caixa.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Profundidade_Caixa.png"
 hash: "e019ca0baa63ca86dade0ca24b2aa3bd557009193187a0cbfdbb4452f4115a85"
 ---
 

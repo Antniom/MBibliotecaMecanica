@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecA 4 Condições Iniciais.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecA 4 Condições Iniciais.docx"
 hash: "27dc4c7359104370c379760d20c3aba45375241da0ac63689f00a7e09f2322eb"
 ---
 

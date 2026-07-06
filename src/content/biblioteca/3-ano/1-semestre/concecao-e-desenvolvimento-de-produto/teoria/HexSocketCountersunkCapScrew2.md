@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "HexSocketCountersunkCapScrew2.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/HexSocketCountersunkCapScrew2.jpg"
 hash: "e7eb7a7db7be56ecfe52e15d414aa3a732b1a41f813330fa8c1378e1f1aa1cbf"
 ---
 

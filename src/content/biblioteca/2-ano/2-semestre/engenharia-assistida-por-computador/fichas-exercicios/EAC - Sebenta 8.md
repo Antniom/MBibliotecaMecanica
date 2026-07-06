@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "EAC - Sebenta 8.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/EAC - Sebenta 8.pdf"
 hash: "9ed855e18efe5906efa103c5d54bb656c3cd3848b4bb1471d1ad27cbfb2b2126"
 ---
 

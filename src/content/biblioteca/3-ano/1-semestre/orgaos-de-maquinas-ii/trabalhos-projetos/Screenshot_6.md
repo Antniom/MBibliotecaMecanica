@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Screenshot_6.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Screenshot_6.png"
 hash: "cc0040c87a863fa85ecee08d0d9b11d5cfa6929ed12d1030ff60a474ec10ea88"
 ---
 

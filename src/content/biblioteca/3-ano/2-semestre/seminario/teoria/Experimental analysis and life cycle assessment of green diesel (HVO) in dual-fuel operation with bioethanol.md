@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Experimental analysis and life cycle assessment of green diesel (HVO) in dual-fuel operation with bioethanol.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Experimental analysis and life cycle assessment of green diesel (HVO) in dual-fuel operation with bioethanol.pdf"
 hash: "481c15f4657d39d2c5742ffb574ea3a48b336eeb9b0762fe39f9636f6b5bdf7f"
 ---
 

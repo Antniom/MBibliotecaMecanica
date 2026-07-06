@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Cap01_02_PCapacidade_4F.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Cap01_02_PCapacidade_4F.pdf"
 hash: "1c5f31bcd171e108562eee3ce71361330127666432bc261ef767c9990a048cc5"
 ---
 

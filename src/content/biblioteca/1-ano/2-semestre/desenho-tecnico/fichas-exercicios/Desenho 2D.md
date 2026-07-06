@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Desenho 2D.PDF"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Desenho 2D.PDF"
 hash: "48b4b6399ec250b7f45e90641f4d9f2e512152e93880c80fe3828d0a618ceb2c"
 ---
 

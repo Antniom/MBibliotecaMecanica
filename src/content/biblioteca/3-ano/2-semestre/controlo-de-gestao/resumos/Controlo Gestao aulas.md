@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Controlo Gestao aulas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Controlo Gestao aulas.pdf"
 hash: "69be73fd5ef6eaa0f7e14776b78b4e8c9f68f0f759a9f28c97e601c55564cbe7"
 ---
 

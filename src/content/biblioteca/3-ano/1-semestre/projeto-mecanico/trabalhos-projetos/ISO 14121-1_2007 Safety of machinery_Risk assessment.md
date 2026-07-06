@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "ISO 14121-1_2007 Safety of machinery_Risk assessment.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ISO 14121-1_2007 Safety of machinery_Risk assessment.pdf"
 hash: "b5147d2633b5813017bb06655f5ace4f4b5a6e8445d6f7fbab29b93495dd6961"
 ---
 

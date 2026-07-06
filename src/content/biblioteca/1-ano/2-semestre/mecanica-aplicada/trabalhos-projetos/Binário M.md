@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Binário M.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Binário M.png"
 hash: "956e67478a752e6b489d41e835e1d6344e6ca2721d7f6d0e975f2f4d128423a8"
 ---
 

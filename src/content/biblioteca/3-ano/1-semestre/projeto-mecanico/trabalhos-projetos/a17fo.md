@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "a17fo.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/a17fo.pdf"
 hash: "cdb6b6fedfb8ef0f72291c654d30ba35e839f2cb0c411abb1782f02a3e0f4f5c"
 ---
 

@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Resumos QGR.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Resumos QGR.docx"
 hash: "5106d05dbd7ec59974eb81b3fe3b5b0c61e08558f51eb9bc9cb250af83536188"
 ---
 

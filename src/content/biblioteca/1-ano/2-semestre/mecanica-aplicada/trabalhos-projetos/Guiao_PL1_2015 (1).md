@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Guiao_PL1_2015 (1).pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Guiao_PL1_2015 (1).pdf"
 hash: "fd9324938337c1479a8933c3a869cf0ea707c440c11a1f19fc447013e67a9003"
 ---
 

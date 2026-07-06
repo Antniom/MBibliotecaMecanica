@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Rolamentos_Esferas_Contacto_Angular.xlsx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Rolamentos_Esferas_Contacto_Angular.xlsx"
 hash: "2788633399726f55b572b3fdcfb5991c32e5db203cf098b130b365351f1877a4"
 ---
 

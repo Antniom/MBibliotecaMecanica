@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "KeyParallelHub.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/KeyParallelHub.htm"
 hash: "e8beefaba0553cd1482d08f60214341ade6003fb42a9522659889fa253def7e4"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "WhatsApp Image 2025-01-20 at 19.55.22 (1).jpeg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/WhatsApp Image 2025-01-20 at 19.55.22 (1).jpeg"
 hash: "b68f966637319fce73b19ef01fcf929fab75bca0144b65bad1ca5ab88a4051ce"
 ---
 

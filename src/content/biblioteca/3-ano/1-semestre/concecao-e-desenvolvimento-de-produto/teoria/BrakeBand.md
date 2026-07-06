@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "BrakeBand.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/BrakeBand.htm"
 hash: "6c7b296d4a30d82ac7fc53d2af6bf99badafa1501764311f811ceb79ceb6d6b1"
 ---
 

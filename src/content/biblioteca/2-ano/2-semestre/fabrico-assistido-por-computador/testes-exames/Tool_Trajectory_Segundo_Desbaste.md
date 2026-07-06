@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Tool_Trajectory_Segundo_Desbaste.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Tool_Trajectory_Segundo_Desbaste.png"
 hash: "d1b4c95a68e73f505bf26765f23f09863a37073b6d889fda211fea83086a4ff9"
 ---
 

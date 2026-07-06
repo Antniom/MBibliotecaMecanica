@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Captura de ecrã 2024-05-04, às 11.57.20.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Captura de ecrã 2024-05-04, às 11.57.20.png"
 hash: "964d643f14690f032d768388bac580cb0f0ab68da33087584034c865d3afeb12"
 ---
 

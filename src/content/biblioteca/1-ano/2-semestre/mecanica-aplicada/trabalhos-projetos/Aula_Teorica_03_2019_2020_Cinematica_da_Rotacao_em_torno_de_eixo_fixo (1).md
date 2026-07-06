@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula_Teorica_03_2019_2020_Cinematica_da_Rotacao_em_torno_de_eixo_fixo (1).pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula_Teorica_03_2019_2020_Cinematica_da_Rotacao_em_torno_de_eixo_fixo (1).pdf"
 hash: "af1e6297386aae5b4fe1818f2a64c5b51341ebef300bd2a47ee6d7e07cac2d0e"
 ---
 

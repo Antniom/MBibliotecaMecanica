@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "catalogo_cilindros_hidraulicos.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/catalogo_cilindros_hidraulicos.pdf"
 hash: "d21cc5a03ab8c33058981aa734ab7858a313631d71a43f20cebd97c313846712"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula TP 11  14 15 Mecanismo de 4 barras.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula TP 11  14 15 Mecanismo de 4 barras.pdf"
 hash: "d3276e6a38affefcf91d928af4251235b05fe6d5e0d9aa39f2debda1672749e0"
 ---
 

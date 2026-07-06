@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Parallel_A.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Parallel_A.jpg"
 hash: "62549a0d236e574caebed5260b5202126e078a533244411da7fcd910ba585000"
 ---
 

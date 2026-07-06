@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "eq_regime_basic.txt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/eq_regime_basic.txt"
 hash: "91127cd3e589d91af70a7e1ab70716a3896b435b08f9d27f78f6c3ad45457ffe"
 ---
 

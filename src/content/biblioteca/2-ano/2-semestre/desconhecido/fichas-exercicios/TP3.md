@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "TP3.rar"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/TP3.rar"
 hash: "98f5dd190517ba3f52059cfa7f3d5629f1c9ae538f64de4a1c4451b7fbd409e3"
 ---
 

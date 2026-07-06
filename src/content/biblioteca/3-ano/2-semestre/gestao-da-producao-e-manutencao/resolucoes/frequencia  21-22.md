@@ -7,7 +7,7 @@ tipo: "resolucoes"
 fonte_original: "frequencia  21-22.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/frequencia  21-22.pdf"
 hash: "6a5265231cbe243012e0c5ed1c87efc26aa981138fa2966bd172bf0a89bc54ae"
 ---
 

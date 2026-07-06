@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "T12 - SCAMPER.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/T12 - SCAMPER.pdf"
 hash: "2b4f5b5092c28515bac8e8d6493ae4948f604e922391e61170df874bfe9d4947"
 ---
 

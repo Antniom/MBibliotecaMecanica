@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Fresadora para madeira.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Fresadora para madeira.pdf"
 hash: "a74ed272c488dda46f63546284c25289a964ca5600f1b55d10244652197a1ee5"
 ---
 

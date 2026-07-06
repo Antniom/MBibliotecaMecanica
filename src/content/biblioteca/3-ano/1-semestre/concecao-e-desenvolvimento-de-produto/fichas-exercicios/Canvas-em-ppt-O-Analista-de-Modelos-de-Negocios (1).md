@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Canvas-em-ppt-O-Analista-de-Modelos-de-Negocios (1).pptx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Canvas-em-ppt-O-Analista-de-Modelos-de-Negocios (1).pptx"
 hash: "30ee75d268a8030309d7961417c4fea6a11015a1e5a6ef9aa9f146d2b55a0520"
 ---
 

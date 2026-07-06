@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Moldação Manual_Moldação Projeção_eb94a18913df33ce5d7f58c77f026b0c.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Moldação Manual_Moldação Projeção_eb94a18913df33ce5d7f58c77f026b0c.pdf"
 hash: "d3ad8a6bb0d97d020f01a23cb572653c5914007595f5b7983291923e5b49bf28"
 ---
 

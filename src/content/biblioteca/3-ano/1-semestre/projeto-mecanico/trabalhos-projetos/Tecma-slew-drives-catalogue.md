@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Tecma-slew-drives-catalogue.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Tecma-slew-drives-catalogue.pdf"
 hash: "33fa20b99fde98b7192ec55d1e4fb5871642f4c725dd5138d78e3abc3aba8b53"
 ---
 

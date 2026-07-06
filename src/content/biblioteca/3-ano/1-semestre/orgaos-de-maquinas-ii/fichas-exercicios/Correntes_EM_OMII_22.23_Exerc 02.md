@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Correntes_EM_OMII_22.23_Exerc 02.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Correntes_EM_OMII_22.23_Exerc 02.pdf"
 hash: "7c1eb182063b2bab79526642601e50c85d40d7a3f03474cc432c81f272197692"
 ---
 

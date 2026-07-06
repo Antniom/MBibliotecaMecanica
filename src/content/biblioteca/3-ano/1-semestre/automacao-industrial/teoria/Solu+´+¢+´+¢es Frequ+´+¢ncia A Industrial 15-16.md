@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Solu+´+¢+´+¢es Frequ+´+¢ncia A Industrial 15-16.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Solu+´+¢+´+¢es Frequ+´+¢ncia A Industrial 15-16.pdf"
 hash: "f03be2e175a90fb3fdf361fa33cb296c273f45afbc536f9f9ad2b95569f767b6"
 ---
 

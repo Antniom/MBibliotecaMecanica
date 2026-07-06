@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "T09 - SWOT.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/T09 - SWOT.pdf"
 hash: "357d25f154aad935e205114203ccd446177f3190da5fc8f9d1ef8670e0460949"
 ---
 

@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "exames para pe2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/exames para pe2.pdf"
 hash: "441910ff4317c7495c13c27a1ab79118cf77f800c67d106b168f18784b7b7fb0"
 ---
 

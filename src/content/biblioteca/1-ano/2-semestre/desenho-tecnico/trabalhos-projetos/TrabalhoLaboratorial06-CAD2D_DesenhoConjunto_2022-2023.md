@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "TrabalhoLaboratorial06-CAD2D_DesenhoConjunto_2022-2023.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/TrabalhoLaboratorial06-CAD2D_DesenhoConjunto_2022-2023.pdf"
 hash: "413b7ba32a3057f9bca92b31e70fa594b7866b6aa386dfa522efed979689c785"
 ---
 

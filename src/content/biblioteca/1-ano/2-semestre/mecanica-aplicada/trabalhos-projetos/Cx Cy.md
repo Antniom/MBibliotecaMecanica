@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Cx Cy.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Cx Cy.jpg"
 hash: "6119eb03a8db43482c272d98f7ea2da91a2262582232b781dd76a7a2b098936b"
 ---
 

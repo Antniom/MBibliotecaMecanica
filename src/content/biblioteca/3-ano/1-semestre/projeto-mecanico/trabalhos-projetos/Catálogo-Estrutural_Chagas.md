@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Catálogo-Estrutural_Chagas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Catálogo-Estrutural_Chagas.pdf"
 hash: "c08d696dbef06f19764b2ac780c28a9527d0deddd744af0abb72cc0c2002cf58"
 ---
 

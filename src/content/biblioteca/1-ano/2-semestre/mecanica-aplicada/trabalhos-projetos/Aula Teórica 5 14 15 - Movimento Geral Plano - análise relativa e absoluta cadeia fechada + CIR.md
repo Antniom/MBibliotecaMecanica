@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula Teórica 5 14 15 - Movimento Geral Plano - análise relativa e absoluta cadeia fechada + CIR.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula Teórica 5 14 15 - Movimento Geral Plano - análise relativa e absoluta cadeia fechada + CIR.pdf"
 hash: "62a8667b670e8afafe8232b80564196a14543eee9e54a99b977f6f638956729b"
 ---
 

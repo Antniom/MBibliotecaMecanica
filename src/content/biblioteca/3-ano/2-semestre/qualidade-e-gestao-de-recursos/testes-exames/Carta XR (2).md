@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Carta XR (2).pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Carta XR (2).pdf"
 hash: "8cd64f8efed0bbaba2b85412364b9d3d1a6adfee7cdf80ca244a0cd309cf59bb"
 ---
 

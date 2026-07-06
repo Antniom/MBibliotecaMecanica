@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "WeldSpot.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/WeldSpot.htm"
 hash: "94fd78f29fbd757ede185495d245ea89af92fc92337ba037ec8ae3d827f52f19"
 ---
 

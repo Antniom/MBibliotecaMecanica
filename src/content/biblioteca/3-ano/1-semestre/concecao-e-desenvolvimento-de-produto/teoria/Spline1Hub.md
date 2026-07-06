@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Spline1Hub.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Spline1Hub.htm"
 hash: "f36e7e5bd3f6fb88d946bd39663527dd5bc5a8d4406131497af75b5d460b17ea"
 ---
 

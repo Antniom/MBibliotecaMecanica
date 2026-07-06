@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "sem nome.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/sem nome.png"
 hash: "c181d0d36c6f2f99d3104024b99188207927b2644ebd929fdcd52bd336b5dc0d"
 ---
 

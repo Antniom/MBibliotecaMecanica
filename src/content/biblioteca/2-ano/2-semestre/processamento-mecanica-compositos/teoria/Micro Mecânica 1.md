@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Micro Mecânica 1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Micro Mecânica 1.pdf"
 hash: "2434494dd131b2ac298aa6107c3644b31188371fcc7726499ac263ead1866cf5"
 ---
 

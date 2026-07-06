@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "EAC_Trabalho-Pratico_2023-24.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/EAC_Trabalho-Pratico_2023-24.pdf"
 hash: "21795242bd11faec82394e337410a9ffc1daf48cd334b3022ee51e192f92e23d"
 ---
 

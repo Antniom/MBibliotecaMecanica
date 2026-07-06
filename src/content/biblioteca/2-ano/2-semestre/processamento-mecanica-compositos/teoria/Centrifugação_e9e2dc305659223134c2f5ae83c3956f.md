@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Centrifugação_e9e2dc305659223134c2f5ae83c3956f.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Centrifugação_e9e2dc305659223134c2f5ae83c3956f.pdf"
 hash: "c51baf59eba5f9151888b0a36015ac5bc4f364500d76766c02198953f645b779"
 ---
 

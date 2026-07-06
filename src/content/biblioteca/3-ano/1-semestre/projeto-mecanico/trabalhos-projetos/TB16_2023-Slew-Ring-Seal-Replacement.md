@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "TB16_2023-Slew-Ring-Seal-Replacement.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/TB16_2023-Slew-Ring-Seal-Replacement.pdf"
 hash: "4daa770c000f51f2fde66d20370f1b1ef960788443758c5513f510e011ce5b7d"
 ---
 

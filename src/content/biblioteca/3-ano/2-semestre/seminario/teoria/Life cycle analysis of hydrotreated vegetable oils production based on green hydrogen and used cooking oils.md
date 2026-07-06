@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Life cycle analysis of hydrotreated vegetable oils production based on green hydrogen and used cooking oils.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Life cycle analysis of hydrotreated vegetable oils production based on green hydrogen and used cooking oils.pdf"
 hash: "d12856d10355a85f63de53b80fff13ca86b56bfb492a7a94538099678cc66b00"
 ---
 

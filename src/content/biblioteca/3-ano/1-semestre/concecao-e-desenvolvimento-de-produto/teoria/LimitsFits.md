@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "LimitsFits.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/LimitsFits.htm"
 hash: "961920898dd01095117ea2d02ce3b96225339a3487213b9d555fbb67b9175b19"
 ---
 

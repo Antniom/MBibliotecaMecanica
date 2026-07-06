@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "ANSI (mm).dwg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ANSI (mm).dwg"
 hash: "75a37ac36e2c1d82ebc69a69fc4b40c134cb825b9f0a4f9ff198ab12eea724f1"
 ---
 

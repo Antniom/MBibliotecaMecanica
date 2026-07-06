@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "info para tl1 de ptp.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/info para tl1 de ptp.docx"
 hash: "843e4cc2a8e827314827e82a4a5bb43adc2ac7906e1660a1df967b5370d18b22"
 ---
 

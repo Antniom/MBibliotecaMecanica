@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Unflanged.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Unflanged.jpg"
 hash: "dd8b669f91d7219892cb0fa80190b309ac9a8f47f39b9fee49be30063ee6e997"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Mecânica Aplicada_Letícia.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Mecânica Aplicada_Letícia.pdf"
 hash: "970719ba816c795efec0768bf8457d20a2b7da159b1a0d75111f09ff762417f9"
 ---
 

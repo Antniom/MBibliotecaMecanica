@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Especificacoes_artigo8.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Especificacoes_artigo8.docx"
 hash: "fd5cd26c0057d9dbdd306ea12a14a1d95c7eea2ec3096630b2c243f4d1fc3b30"
 ---
 

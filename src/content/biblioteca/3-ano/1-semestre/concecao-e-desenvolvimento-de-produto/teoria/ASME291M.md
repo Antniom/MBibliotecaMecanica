@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "ASME291M.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ASME291M.jpg"
 hash: "8c412756db4cf9aea110615dbe01491fa43df86e19ea47f58cc128e3d98e0c96"
 ---
 

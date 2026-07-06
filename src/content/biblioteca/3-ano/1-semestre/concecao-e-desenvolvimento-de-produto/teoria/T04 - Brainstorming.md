@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "T04 - Brainstorming.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/T04 - Brainstorming.pdf"
 hash: "2d0c34a28ad106affa4ef3286ccaf2945050950088b2e167ccb99fac3a9b94b7"
 ---
 

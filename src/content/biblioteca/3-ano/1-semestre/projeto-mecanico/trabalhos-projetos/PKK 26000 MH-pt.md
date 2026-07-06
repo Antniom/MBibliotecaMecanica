@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "PKK 26000 MH-pt.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PKK 26000 MH-pt.pdf"
 hash: "e0afb5e597aae6470789af5550c3f640ce0006033f98ef10c044f7b1dd756536"
 ---
 

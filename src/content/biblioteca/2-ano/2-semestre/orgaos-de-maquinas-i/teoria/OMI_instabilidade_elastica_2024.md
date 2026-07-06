@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OMI_instabilidade_elastica_2024.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OMI_instabilidade_elastica_2024.pdf"
 hash: "9084e0071c61f569f4b06c1c110e6c6e6047c4dcfd1aae38296a5100d397d1ed"
 ---
 

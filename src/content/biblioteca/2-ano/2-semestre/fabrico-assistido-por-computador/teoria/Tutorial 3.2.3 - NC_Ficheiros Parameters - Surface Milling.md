@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Tutorial 3.2.3 - NC_Ficheiros Parameters - Surface Milling.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Tutorial 3.2.3 - NC_Ficheiros Parameters - Surface Milling.zip"
 hash: "7a4f8b305f1f98b682ef63327d6f554c638638003544104053499b2ec4feebdb"
 ---
 

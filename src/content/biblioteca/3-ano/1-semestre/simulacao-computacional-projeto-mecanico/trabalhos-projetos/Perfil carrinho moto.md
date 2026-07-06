@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Perfil carrinho moto.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Perfil carrinho moto.png"
 hash: "75ae98670e1fb2501bc2181c7161f5bbdf85f8d99a6dd04ab91371ebcd9242b1"
 ---
 

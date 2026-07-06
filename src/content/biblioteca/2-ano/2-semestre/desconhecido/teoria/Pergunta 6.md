@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Pergunta 6.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Pergunta 6.docx"
 hash: "ac26b9b4b92045784a4c99334c8a7f0028c7c6d2fb284a0ef24f1a33e30aa843"
 ---
 

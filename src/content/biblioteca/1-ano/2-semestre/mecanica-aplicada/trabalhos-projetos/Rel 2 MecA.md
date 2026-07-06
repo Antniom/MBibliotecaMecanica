@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Rel 2 MecA.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Rel 2 MecA.png"
 hash: "07e283b0424e464cfffb5c81dfc9917f0799e6e6f0958aa9ed0510fd414add34"
 ---
 

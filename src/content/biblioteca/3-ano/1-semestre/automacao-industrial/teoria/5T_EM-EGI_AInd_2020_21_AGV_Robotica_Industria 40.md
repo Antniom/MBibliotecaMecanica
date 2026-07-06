@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "5T_EM-EGI_AInd_2020_21_AGV_Robotica_Industria 40.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/5T_EM-EGI_AInd_2020_21_AGV_Robotica_Industria 40.pdf"
 hash: "a608537114a376485af6f8bfdb58cbd82ba7667acf69e7a9091f0e8f97119fd1"
 ---
 

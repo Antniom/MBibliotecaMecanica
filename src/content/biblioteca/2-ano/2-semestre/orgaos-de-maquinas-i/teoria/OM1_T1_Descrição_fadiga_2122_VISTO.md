@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OM1_T1_Descrição_fadiga_2122_VISTO.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_T1_Descrição_fadiga_2122_VISTO.pdf"
 hash: "84a482ded23da87751e3c3db39dcc63c8acbc3fdd98fd5230b0278bd0f9210e2"
 ---
 

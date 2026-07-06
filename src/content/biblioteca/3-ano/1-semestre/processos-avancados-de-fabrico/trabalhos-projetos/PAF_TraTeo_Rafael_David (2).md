@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "PAF_TraTeo_Rafael_David (2).docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PAF_TraTeo_Rafael_David (2).docx"
 hash: "eb125a2377abbebdd558a3657c99034574c5e69159184fdac2bbcac4d12f6f4d"
 ---
 

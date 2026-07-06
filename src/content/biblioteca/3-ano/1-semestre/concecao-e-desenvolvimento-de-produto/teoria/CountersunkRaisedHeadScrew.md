@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "CountersunkRaisedHeadScrew.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/CountersunkRaisedHeadScrew.jpg"
 hash: "a82781a8dbb7e565399dc70c128408610e952b75806e19bff915efc5f2f25e47"
 ---
 

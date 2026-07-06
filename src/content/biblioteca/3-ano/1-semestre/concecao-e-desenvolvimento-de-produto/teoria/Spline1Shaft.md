@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Spline1Shaft.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Spline1Shaft.htm"
 hash: "3843593760193c1b8b82ed89a302be790f2b2ed1f7a379eb671f28ceab004988"
 ---
 

@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Reciclagem.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Reciclagem.pdf"
 hash: "2aa82f7fd68a2d055db25b3cc3a61fe641e27d93b52db441a0cd120de2a2ebcd"
 ---
 

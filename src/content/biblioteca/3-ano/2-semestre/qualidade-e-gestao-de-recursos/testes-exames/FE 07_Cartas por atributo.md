@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "FE 07_Cartas por atributo.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FE 07_Cartas por atributo.pdf"
 hash: "4494eb9e1f3b0aef3b7ca31b89efe2173652e30e1d87eaf13c49817d7f1f4040"
 ---
 

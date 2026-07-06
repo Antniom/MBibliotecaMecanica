@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Trabalho de mecânica aplicada - Duarte Raimundo - 2141007.rar"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Trabalho de mecânica aplicada - Duarte Raimundo - 2141007.rar"
 hash: "3ff811056ccb0196bb03130e77e21926b4c770c366f0ddfcb1e87a049dc06e6a"
 ---
 

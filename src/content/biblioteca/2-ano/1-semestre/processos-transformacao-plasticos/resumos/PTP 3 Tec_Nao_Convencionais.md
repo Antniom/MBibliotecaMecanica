@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "PTP 3 Tec_Nao_Convencionais.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/PTP 3 Tec_Nao_Convencionais.pdf"
 hash: "53da9f6be2afa79f9630fa7b8aeb4d77c5c944fdfb7e413210cb6eee1be89618"
 ---
 

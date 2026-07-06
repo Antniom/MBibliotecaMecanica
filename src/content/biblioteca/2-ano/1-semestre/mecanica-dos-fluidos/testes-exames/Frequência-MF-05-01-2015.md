@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Frequência-MF-05-01-2015.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Frequência-MF-05-01-2015.pdf"
 hash: "fc9113e9032cf6cf8829b7255ae110f2ce7d2e29e6ea2f865c66d09a9d5e6718"
 ---
 

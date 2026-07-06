@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Grafcet1 ADDOns.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Grafcet1 ADDOns.pdf"
 hash: "59c2245f614e398bf8806c975208c3ca1d3a21792021837fb17a4baf6b2b5f9b"
 ---
 

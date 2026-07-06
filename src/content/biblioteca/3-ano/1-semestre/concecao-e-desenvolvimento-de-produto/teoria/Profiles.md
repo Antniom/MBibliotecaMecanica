@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Profiles.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Profiles.htm"
 hash: "133b3b65621423df39ac91f79aff8376e2f231e0686dc9622b6046d80b6f88c1"
 ---
 

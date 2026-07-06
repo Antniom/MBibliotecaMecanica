@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Imagem WhatsApp 2024-05-12 às 22.36.35_3aaa25e6.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Imagem WhatsApp 2024-05-12 às 22.36.35_3aaa25e6.jpg"
 hash: "f6cc8c5a796f80e30d68263bbfc862dade7617c5ac6e733834c0488670e36dd3"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "allmi-guidance-notes-stabiliserforces.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/allmi-guidance-notes-stabiliserforces.pdf"
 hash: "f5b8174bc64e1d0026caf7c50d97241e21fbf5852e78abfb76d289d5bf3e8e2a"
 ---
 

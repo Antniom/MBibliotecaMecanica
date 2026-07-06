@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Enrolamento_Filamentar.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Enrolamento_Filamentar.pdf"
 hash: "8a5351aa2498d41cc866324edb4f020e8ecda873631df43573b261e150be6de1"
 ---
 

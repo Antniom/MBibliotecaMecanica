@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Calendário 2º Semestre.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Calendário 2º Semestre.pdf"
 hash: "4234b8c936b0584e3cc01427f22be51d02749c9ee1481c3b66e145180fd9323f"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "VMS_Normal.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/VMS_Normal.png"
 hash: "b52d856a888726c8e687e6747072e95061d12d609862d7c8f8c6a1eab640c5f2"
 ---
 

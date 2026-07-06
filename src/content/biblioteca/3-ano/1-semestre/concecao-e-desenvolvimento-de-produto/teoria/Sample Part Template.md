@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Sample Part Template.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Sample Part Template.pdf"
 hash: "e68ee26e85a663657d171208a035da24576743d0ac63c533f9042c546c97ddd5"
 ---
 

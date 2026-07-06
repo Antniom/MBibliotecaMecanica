@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "TL1-Teórico.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/TL1-Teórico.docx"
 hash: "8bf5e23cf1ce25a5d196b6bb64a3ab44aeced03aa9bdfe950a4a1ef36266119d"
 ---
 

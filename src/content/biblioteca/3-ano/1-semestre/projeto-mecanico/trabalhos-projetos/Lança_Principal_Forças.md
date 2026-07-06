@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Lança_Principal_Forças.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Lança_Principal_Forças.pdf"
 hash: "ce2c6ba95f2df00f610e36f7876b890d9e94ef2b1c7ea8afb1cefbec1969ba3e"
 ---
 

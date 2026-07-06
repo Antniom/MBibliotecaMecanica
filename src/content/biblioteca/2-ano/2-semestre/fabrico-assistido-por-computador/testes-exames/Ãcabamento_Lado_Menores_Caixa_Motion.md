@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Ãcabamento_Lado_Menores_Caixa_Motion.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Ãcabamento_Lado_Menores_Caixa_Motion.png"
 hash: "22d7ecba79fc21abe330399c33d227434b52d5e2bbd7a39f66a65b883d91bf9c"
 ---
 

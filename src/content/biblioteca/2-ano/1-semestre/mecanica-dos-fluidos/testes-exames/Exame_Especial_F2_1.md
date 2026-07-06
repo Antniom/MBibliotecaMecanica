@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Exame_Especial_F2_1.jpeg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Exame_Especial_F2_1.jpeg"
 hash: "612665b007a84aeef9f92e3d135a47cd94cda72fde47cb19aaa9dde1de23c307"
 ---
 

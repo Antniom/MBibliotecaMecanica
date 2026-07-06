@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "S-Belt.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/S-Belt.htm"
 hash: "113fa340797f7a282f731cae66d4647f99c81323c40438c7529c25d48df58020"
 ---
 

@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "TP1 - Enunciado - Seis Sigma.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/TP1 - Enunciado - Seis Sigma.pdf"
 hash: "fedc892e55ad042503bad1b029cdcc58e03cd519142f4f32ffd4751d08a2db43"
 ---
 

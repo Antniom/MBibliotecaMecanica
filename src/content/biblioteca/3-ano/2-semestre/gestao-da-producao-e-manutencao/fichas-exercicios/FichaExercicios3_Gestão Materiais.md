@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "FichaExercicios3_Gestão Materiais.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FichaExercicios3_Gestão Materiais.pdf"
 hash: "ba2108ec89f3825958eb8823687e1c60090e0b785334e0ffe4f16f9fbb640ce8"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SplineInv_Prop_Common.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SplineInv_Prop_Common.htm"
 hash: "9133a139159946f8f31b05658addce07f46d6590658998aace090a9e9d7398f1"
 ---
 

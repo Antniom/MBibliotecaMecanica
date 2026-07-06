@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Caderno Gestão .pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Caderno Gestão .pdf"
 hash: "f74d4ac9aad486699cb7f34348220ebc5357fcb130400e5e33b55bb709d8ca92"
 ---
 

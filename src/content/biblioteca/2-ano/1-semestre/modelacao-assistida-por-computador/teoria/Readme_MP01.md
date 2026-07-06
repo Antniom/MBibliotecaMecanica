@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Readme_MP01.txt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Readme_MP01.txt"
 hash: "7f20a5d62ee949dd0365d776094c07181f54c3acad99a9da5d172367337ab853"
 ---
 

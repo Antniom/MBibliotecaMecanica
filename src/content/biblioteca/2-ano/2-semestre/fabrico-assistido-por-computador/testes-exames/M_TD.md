@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "M_TD.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/M_TD.png"
 hash: "33b96dc33f41dae206c25ad5fbb0e346379eb635c00902fd254a7b53a0285c60"
 ---
 

@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Problemas Micromecânica2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Problemas Micromecânica2.pdf"
 hash: "f10ff1d5ec93509dc4750870d008c0942d9aad6e2839e2d738fd0f06e06a8411"
 ---
 

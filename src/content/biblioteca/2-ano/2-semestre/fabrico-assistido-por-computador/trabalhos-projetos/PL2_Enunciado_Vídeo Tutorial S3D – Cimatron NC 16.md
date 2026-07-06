@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "PL2_Enunciado_Vídeo Tutorial S3D – Cimatron NC 16.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/PL2_Enunciado_Vídeo Tutorial S3D – Cimatron NC 16.docx"
 hash: "b062d31b65edb79561c128c5c3166eedc546054fc1634f2a93a9adeb62aad49c"
 ---
 

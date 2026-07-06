@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MA_EGI_ER_M1_21jul2023_solucoes.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MA_EGI_ER_M1_21jul2023_solucoes.pdf"
 hash: "033715a2634c876bccab9f272efa8780a9a33a8f610ed65261a5bded764fc57b"
 ---
 

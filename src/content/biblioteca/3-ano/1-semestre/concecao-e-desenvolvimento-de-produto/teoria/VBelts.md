@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "VBelts.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/VBelts.htm"
 hash: "881ee9205c656ce1de27fc070ed3499333268e5a0e966ca8fd94e98ec4126b1e"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "nbr-iso-12100-sm-principios-gerais-de-projeto-apreciacao-e-reducao-de-riscos-150616192951-lva1-app6892.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/nbr-iso-12100-sm-principios-gerais-de-projeto-apreciacao-e-reducao-de-riscos-150616192951-lva1-app6892.pdf"
 hash: "dbaecb3fbd0503e7bd87e2347bebe178b679e075677bc1c6bf6d2cfa4f4a339a"
 ---
 

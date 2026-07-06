@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Gustavsberg ARTic 4300.3dm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Gustavsberg ARTic 4300.stp"
 hash: "93fdaf2b0e7b7c51bea4a36f83bff3dc786352a8d5d203ffeec750dc3286d0fa"
 ---
 

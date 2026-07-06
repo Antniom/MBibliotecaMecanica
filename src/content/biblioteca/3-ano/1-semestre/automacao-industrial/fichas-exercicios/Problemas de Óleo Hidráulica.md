@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Problemas de Óleo Hidráulica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Problemas de Óleo Hidráulica.pdf"
 hash: "e0c85728e51682ad32f82d463caad72d3198bea078ddb3fa2fd84182d3b5f21c"
 ---
 

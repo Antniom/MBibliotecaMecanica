@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Frequência-MF-21-01-2013-Resolução.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Frequência-MF-21-01-2013-Resolução.pdf"
 hash: "ea8fcff9b68002faf83862bef0e6954ffa66c224b5c1e67a3e1d1af693387b22"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Exame_Epoca_Especial_Setembro_2011_2012.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Exame_Epoca_Especial_Setembro_2011_2012.pdf"
 hash: "49406ded0cfbcb3d739aef4ab39fbb296110d6df9bca2073da95d236b1111b27"
 ---
 

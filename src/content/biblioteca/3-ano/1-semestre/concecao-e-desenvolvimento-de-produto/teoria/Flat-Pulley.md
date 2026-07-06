@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Flat-Pulley.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Flat-Pulley.htm"
 hash: "efb8d554cdbaa0badfc23910f83b3420314850638b1c75041e616975b4e0ef78"
 ---
 

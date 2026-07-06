@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SecurePin.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SecurePin.htm"
 hash: "14019dc869102518b671dac88c0402110482970917c69df56392972315bd79ec"
 ---
 

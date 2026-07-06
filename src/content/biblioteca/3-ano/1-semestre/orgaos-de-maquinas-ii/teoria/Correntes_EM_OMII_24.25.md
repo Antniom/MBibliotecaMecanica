@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Correntes_EM_OMII_24.25.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Correntes_EM_OMII_24.25.pdf"
 hash: "d42d18ff68cd3413735529de10db8a6ba8f52fd916b2e6c2b9ded1b8d1a3227b"
 ---
 

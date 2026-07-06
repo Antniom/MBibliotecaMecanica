@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "FE 01_diagrama de causa efeito.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FE 01_diagrama de causa efeito.pdf"
 hash: "975abe2b55604bf01c91e43e4ceae1b683c9867ac62b655daf40f25d54b9c64c"
 ---
 

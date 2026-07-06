@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Parafusos.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Parafusos.docx"
 hash: "f89b9a4ed1b3a02687d799a3b644645c2a7a8cc8554d35ba3114aff1f7ec171a"
 ---
 

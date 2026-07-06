@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula_Teorica_07_2019_2020_Dinamica_de_um_corpo_rigido_na_rotacao_e_no_movimento_geral_plano.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula_Teorica_07_2019_2020_Dinamica_de_um_corpo_rigido_na_rotacao_e_no_movimento_geral_plano.pdf"
 hash: "c28eae04b1bda715db983f432e1bdb8807decd21e3394bc587e9b73ea9ed3530"
 ---
 

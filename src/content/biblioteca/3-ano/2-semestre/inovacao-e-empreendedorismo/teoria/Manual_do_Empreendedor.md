@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Manual_do_Empreendedor.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Manual_do_Empreendedor.pdf"
 hash: "a59ee0f458ea584d9b03b005e21ee65faf58e41c421b5ff15d3b828f9c31d98a"
 ---
 

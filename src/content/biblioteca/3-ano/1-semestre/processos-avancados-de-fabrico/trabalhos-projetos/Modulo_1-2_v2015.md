@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Modulo_1-2_v2015.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Modulo_1-2_v2015.pdf"
 hash: "cbfb57375243d3313a6661d039adb0a3bf9d23acb890875d384629c5e7ba1370"
 ---
 

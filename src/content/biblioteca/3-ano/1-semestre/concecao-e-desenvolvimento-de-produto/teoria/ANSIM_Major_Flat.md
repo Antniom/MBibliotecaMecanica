@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "ANSIM_Major_Flat.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ANSIM_Major_Flat.png"
 hash: "034767b5a22af833dca20c5abc9633fef28f106003fa538d08793e02e89281d6"
 ---
 

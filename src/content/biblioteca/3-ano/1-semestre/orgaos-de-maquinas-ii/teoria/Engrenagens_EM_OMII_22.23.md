@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Engrenagens_EM_OMII_22.23.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Engrenagens_EM_OMII_22.23.pdf"
 hash: "edda74e2733dee72dfc6101fa5f7c95639aff9d4594312e0f1d278cdf0beba8a"
 ---
 

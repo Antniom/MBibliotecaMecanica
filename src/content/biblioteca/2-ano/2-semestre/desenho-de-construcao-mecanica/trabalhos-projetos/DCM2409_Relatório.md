@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "DCM2409_Relatório.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/DCM2409_Relatório.pdf"
 hash: "7635b03d0157758809210f0fa92dff40e0b1bb6ce17abf409eb704f4b9b47331"
 ---
 

@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Mini Resumos PE1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Mini Resumos PE1.pdf"
 hash: "1fc17bfe252a0f3251a6f7dd0b446e6b0b7cf78134ede73f57ee2d4780dadac1"
 ---
 

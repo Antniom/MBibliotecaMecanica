@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Exercícios Final Aula.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Exercícios Final Aula.pdf"
 hash: "880d77145024aef667bb590adb94b4c2f774bcd4a9008cc208e31d7bb5e11843"
 ---
 

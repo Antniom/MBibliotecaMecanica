@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "clearance.xls"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/clearance.xls"
 hash: "27a840ce71435585ce095b303bf0072a9c362bf22d351f24d596f608a57da9ab"
 ---
 

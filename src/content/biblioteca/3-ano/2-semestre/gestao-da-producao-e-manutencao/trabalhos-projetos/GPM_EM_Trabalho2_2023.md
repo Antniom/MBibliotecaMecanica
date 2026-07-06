@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "GPM_EM_Trabalho2_2023.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/GPM_EM_Trabalho2_2023.pdf"
 hash: "3e8d941997d667f6a19aba190ba342d4642d5b03f212ff45b6ddc22b11cffbe0"
 ---
 

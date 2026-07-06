@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "2018 Exame.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/2018 Exame.pdf"
 hash: "2cc7cfb4c0db8a25f615799ce07a51fb260d57a0afde2b0e927270d799ee26c0"
 ---
 

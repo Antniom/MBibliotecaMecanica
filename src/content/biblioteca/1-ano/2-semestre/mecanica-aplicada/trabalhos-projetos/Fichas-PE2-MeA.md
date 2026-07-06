@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Fichas-PE2-MeA.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Fichas-PE2-MeA.pdf"
 hash: "34fdf362311f99356b6aeb05068943dfad0f388ad0dddab41d651166bb0ec3a7"
 ---
 

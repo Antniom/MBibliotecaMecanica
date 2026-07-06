@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "AI_EM_10_11_-_Frequencia.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/AI_EM_10_11_-_Frequencia.pdf"
 hash: "1a7fa1bba4c38cc2fb46c7e84622712f612226e6643ca553e4a862b177ea8174"
 ---
 

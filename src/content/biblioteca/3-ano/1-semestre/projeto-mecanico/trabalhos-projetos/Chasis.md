@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Chasis.dwg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Chasis.dwg"
 hash: "b633a46ca51cd788a230f2db503104185ab80717218d274ed9dcced49b76973f"
 ---
 

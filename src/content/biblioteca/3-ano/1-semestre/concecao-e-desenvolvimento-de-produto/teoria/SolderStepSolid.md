@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SolderStepSolid.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SolderStepSolid.htm"
 hash: "f59f6809749f85a634e13d263f317b3117669ce73323458ec2cf81bcb29aab11"
 ---
 

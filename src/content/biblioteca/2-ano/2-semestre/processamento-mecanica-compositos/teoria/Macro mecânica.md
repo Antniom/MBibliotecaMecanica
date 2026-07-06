@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Macro mecânica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Macro mecânica.pdf"
 hash: "ca50d77fade9c63fd96ef7cd32447c9c7e201cc2a780702c9ed124026237fd81"
 ---
 

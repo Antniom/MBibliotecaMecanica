@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Primeiro_Desbaste_Motion.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Primeiro_Desbaste_Motion.png"
 hash: "cb750cc6ebf494a9c5cedc01eef4be9d5545c6d864ebe44685e9eb309ceb26dc"
 ---
 

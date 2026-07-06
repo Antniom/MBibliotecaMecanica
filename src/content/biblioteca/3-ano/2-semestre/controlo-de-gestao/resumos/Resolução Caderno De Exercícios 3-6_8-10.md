@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Resolução Caderno De Exercícios 3-6_8-10.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Resolução Caderno De Exercícios 3-6_8-10.pdf"
 hash: "2affc3a7c70007f77bb5074d73f4e8fb88d00655fa63dd5f7d1fe23831e7be10"
 ---
 

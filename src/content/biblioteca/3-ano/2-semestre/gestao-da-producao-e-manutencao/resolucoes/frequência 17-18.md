@@ -7,7 +7,7 @@ tipo: "resolucoes"
 fonte_original: "frequência 17-18.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/frequência 17-18.pdf"
 hash: "d975e3bc62389cfa2cb7746e93f4777dac0fd5c15244f898c281b4f83080eb2a"
 ---
 

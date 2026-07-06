@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "O_Marketing_Mix_Produto_Online.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/O_Marketing_Mix_Produto_Online.pdf"
 hash: "454ef71f81e296a3c396c4d90d452566ab4b5ed98c931f31f9362c445262b17a"
 ---
 

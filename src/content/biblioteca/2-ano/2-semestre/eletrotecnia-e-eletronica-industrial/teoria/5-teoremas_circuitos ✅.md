@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "5-teoremas_circuitos ✅.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/5-teoremas_circuitos ✅.pdf"
 hash: "f6f56e3a36d28c9f49b3cb0f2e98e37b422bf2fe991de0124302ee7eed69bac1"
 ---
 

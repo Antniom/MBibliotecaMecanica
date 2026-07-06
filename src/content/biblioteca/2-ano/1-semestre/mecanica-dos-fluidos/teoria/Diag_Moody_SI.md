@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Diag_Moody_SI.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Diag_Moody_SI.pdf"
 hash: "3ab549f90dd3cb0e96f8dc02f587ad1b8b24e17d3833beb6c045df4214820ec9"
 ---
 

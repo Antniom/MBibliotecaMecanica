@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "840mmX1189mm_Vertical_Research_Poster_Template.pptx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/840mmX1189mm_Vertical_Research_Poster_Template.pptx"
 hash: "76b56e3ea447a45dc71ef6d82a735f53074455d0732677da1b34102d301e875e"
 ---
 

@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Exer Custos da Qualidade - Dados.xlsx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Exer Custos da Qualidade - Dados.xlsx"
 hash: "18b92247f86ba5d0c97f2f7b8370ec639e5dc07b83806818d7cf2eece8e47bea"
 ---
 

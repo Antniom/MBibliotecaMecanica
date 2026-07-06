@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OM1_M4_T2_Parafusos_2122.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_M4_T2_Parafusos_2122.pdf"
 hash: "4d34dbad76aed19668f60bfcfac921f7ccff46cc9cfc9f133df6c9da423b8891"
 ---
 

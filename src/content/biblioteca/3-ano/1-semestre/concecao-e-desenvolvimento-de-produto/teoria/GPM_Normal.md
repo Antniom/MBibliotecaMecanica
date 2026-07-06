@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "GPM_Normal.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/GPM_Normal.png"
 hash: "e8393ed63c99332d1d0986ac0ccc241836305046513eb4e299c337df6ecb0318"
 ---
 

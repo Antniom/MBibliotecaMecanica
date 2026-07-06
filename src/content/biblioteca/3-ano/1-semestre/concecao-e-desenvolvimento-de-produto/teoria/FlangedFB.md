@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "FlangedFB.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FlangedFB.jpg"
 hash: "8516a4436bc92eb9ada90f7713cbf1018c5a3c335f48f5ef4aa69c1d884c9ead"
 ---
 

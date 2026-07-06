@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecAplicada Trab 01 Enunciado10 PL1 14 15.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecAplicada Trab 01 Enunciado10 PL1 14 15.pdf"
 hash: "38a646c63f5b7d0603ac4cdbed5d84775b5271066e37185d2f2fd6d89de85ac0"
 ---
 

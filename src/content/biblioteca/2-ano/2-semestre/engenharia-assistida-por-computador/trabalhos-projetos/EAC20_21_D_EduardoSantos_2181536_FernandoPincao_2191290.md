@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "EAC20_21_D_EduardoSantos_2181536_FernandoPincao_2191290.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/EAC20_21_D_EduardoSantos_2181536_FernandoPincao_2191290.pdf"
 hash: "8d849706b8939868bfef0b4c3022cf094449e90e8fe730f4d110090ddb981a24"
 ---
 

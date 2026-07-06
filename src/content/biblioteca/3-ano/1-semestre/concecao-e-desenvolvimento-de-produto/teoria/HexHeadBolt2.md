@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "HexHeadBolt2.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/HexHeadBolt2.jpg"
 hash: "02591a6e8f63f061385625edf848fc83579f384876fbe204e3ee6da24b974606"
 ---
 

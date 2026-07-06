@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MA_EMD_2024_T1_JoãoRamos_2212303_PedroAlexandre_2211102.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MA_EMD_2024_T1_JoãoRamos_2212303_PedroAlexandre_2211102.zip"
 hash: "c922b07ad013754fbd803e1272712dd93ba39bb55c254d74b6c07132aa143df0"
 ---
 

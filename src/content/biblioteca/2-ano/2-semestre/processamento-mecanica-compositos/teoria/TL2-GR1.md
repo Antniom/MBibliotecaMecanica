@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "TL2-GR1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/TL2-GR1.pdf"
 hash: "5d9da3a0211b362e83daaf4c4e080d5f29a724cfd4f1d45edb86dbdd69b5c213"
 ---
 

@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Freq%20e%20Exame%20Fluídos%202015.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Freq%20e%20Exame%20Fluídos%202015.pdf"
 hash: "46e337df624c45ca62a188300c81d28e90d089fda257578adbf0a6c7b4620e6c"
 ---
 

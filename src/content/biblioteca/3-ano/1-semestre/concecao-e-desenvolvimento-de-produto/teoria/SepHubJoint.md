@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SepHubJoint.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SepHubJoint.htm"
 hash: "7971c6b5a17749b4dbb40102bf1583f708ee1860cfb796854bac2b39a108b759"
 ---
 

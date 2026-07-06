@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Acabamento_Semi_Circulo2.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Acabamento_Semi_Circulo2.png"
 hash: "9f1c466f2a92f59ce249556b20ed173e4aa48bb8474bd6e05a8de701ccba9f19"
 ---
 

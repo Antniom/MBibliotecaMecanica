@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "T16 - Análise económica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/T16 - Análise económica.pdf"
 hash: "6a031a1a456c70dfbb81725842d2571e4ad3f624f165c7d1a55089f1d1d8bc92"
 ---
 

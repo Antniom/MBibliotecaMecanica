@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Relatório_Mec_Aplicada_Grupo_30_PL_2.doc"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Relatório_Mec_Aplicada_Grupo_30_PL_2.pdf"
 hash: "aa510e497495c0a04f3cf001cb59fdc0ff0e858183c90e505dac38ddeb2df2ce"
 ---
 

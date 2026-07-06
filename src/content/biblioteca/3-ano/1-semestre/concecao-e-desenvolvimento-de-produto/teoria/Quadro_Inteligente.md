@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Quadro_Inteligente.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Quadro_Inteligente.docx"
 hash: "f5a77d8b44dd44ae6e528ea85ab321190820fea072b5b8310b90ae642f1aa344"
 ---
 

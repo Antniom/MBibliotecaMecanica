@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Anilha.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Anilha.pdf"
 hash: "d19ec0002b69c971b89bf34265c715ca90216f6fc96d6c425b5fedb5c0807729"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "polymers.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/polymers.pdf"
 hash: "c37edc61c54003144e6ceb2097287b8058778853207e027670033fef1a27c39d"
 ---
 

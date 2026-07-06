@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "A-ANSI-IP20.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/A-ANSI-IP20.jpg"
 hash: "1ab40549134d8b2646dacbede220751106d9f1dbb60f67b5eec17b1a6b113b44"
 ---
 

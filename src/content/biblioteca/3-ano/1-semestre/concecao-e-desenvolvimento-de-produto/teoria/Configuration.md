@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Configuration.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Configuration.htm"
 hash: "248bda10ed0025d9fdef1d525229ff2fdb963598583f3a34ef9e0af612c1030b"
 ---
 

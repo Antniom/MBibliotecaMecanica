@@ -7,7 +7,7 @@ tipo: "resolucoes"
 fonte_original: "RM-1ª-Frequência-2009-11-13-Resolução-HR.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/RM-1ª-Frequência-2009-11-13-Resolução-HR.pdf"
 hash: "af2834fe15bbbad372766bfafa5ebd348d98f9e5170ae8b902f08cc9f78d0713"
 ---
 

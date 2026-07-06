@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "RM_exercicios_Activ_7_F T_2013_2014.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/RM_exercicios_Activ_7_F T_2013_2014.pdf"
 hash: "e7e976cf6f87795d81626c2ca52a12dbb90e4f73d4fd18db9d15614a37854309"
 ---
 

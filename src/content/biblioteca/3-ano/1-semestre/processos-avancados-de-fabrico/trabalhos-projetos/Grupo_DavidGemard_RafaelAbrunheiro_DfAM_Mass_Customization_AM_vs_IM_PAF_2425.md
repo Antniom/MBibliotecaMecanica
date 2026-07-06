@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Grupo_DavidGemard_RafaelAbrunheiro_DfAM_Mass_Customization_AM_vs_IM_PAF_2425.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Grupo_DavidGemard_RafaelAbrunheiro_DfAM_Mass_Customization_AM_vs_IM_PAF_2425.pdf"
 hash: "7d4e669aa029df1f3bf8095da87b9146212db2eeac608601f2793e66befc0cef"
 ---
 

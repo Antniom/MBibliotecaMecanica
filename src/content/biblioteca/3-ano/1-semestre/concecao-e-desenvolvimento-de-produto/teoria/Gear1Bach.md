@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Gear1Bach.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Gear1Bach.htm"
 hash: "d40c90648ec217771d52097b343c5e9dc6697e8136e37d72b4fd7e71570a5a73"
 ---
 

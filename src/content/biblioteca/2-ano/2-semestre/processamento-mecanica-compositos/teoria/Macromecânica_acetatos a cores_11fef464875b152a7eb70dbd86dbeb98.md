@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Macromecânica_acetatos a cores_11fef464875b152a7eb70dbd86dbeb98.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Macromecânica_acetatos a cores_11fef464875b152a7eb70dbd86dbeb98.pdf"
 hash: "bd2c57a0212d25a1a85a44d57e7d53a7ef450669484a7ffba0f704a2f661bb98"
 ---
 

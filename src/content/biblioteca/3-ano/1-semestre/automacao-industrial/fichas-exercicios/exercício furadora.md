@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "exercício furadora.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/exercício furadora.pdf"
 hash: "b540b46d41e2ec47f97e5146ba474694de6827f824086eee4632acc4d530b830"
 ---
 

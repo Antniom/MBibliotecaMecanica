@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "WhatsApp Image 2021-05-13 at 23.19.16.jpeg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/WhatsApp Image 2021-05-13 at 23.19.16.jpeg"
 hash: "4f215f6e8eb1e34bb06135b63bbe14ae87133b09179167efe4f09ea342aecc6c"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "PM2411_Apresentacao_tipo_PO2.pptx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PM2411_Apresentacao_tipo_PO2.pptx"
 hash: "069a5ae37dec75ebd1a47dad16061733e31aad4bb1d676041bc0849e1b53d132"
 ---
 

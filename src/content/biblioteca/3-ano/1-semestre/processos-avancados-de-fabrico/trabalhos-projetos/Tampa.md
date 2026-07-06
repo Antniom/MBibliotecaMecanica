@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Tampa.ipt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Tampa.stp"
 hash: "70acf1ef8717fa3091fa79b3d07ff7ec93694699ab4f3729a639d19c026a5b26"
 ---
 

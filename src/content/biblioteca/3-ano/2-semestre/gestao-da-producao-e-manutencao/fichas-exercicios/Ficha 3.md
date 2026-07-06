@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Ficha 3.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Ficha 3.pdf"
 hash: "91f90ea7308b0c2d015f6f3a3c3dddf926e961ef3ca0c8bca7231110afdf55b0"
 ---
 

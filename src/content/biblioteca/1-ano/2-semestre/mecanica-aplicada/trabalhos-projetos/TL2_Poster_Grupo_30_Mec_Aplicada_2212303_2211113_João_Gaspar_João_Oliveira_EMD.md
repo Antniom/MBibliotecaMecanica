@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "TL2_Poster_Grupo_30_Mec_Aplicada_2212303_2211113_João_Gaspar_João_Oliveira_EMD.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/TL2_Poster_Grupo_30_Mec_Aplicada_2212303_2211113_João_Gaspar_João_Oliveira_EMD.pdf"
 hash: "94b2b83b5eb08cdeb6243c3b75a5825f08b2dc5c0b9832215b4ffbd8c1c831eb"
 ---
 

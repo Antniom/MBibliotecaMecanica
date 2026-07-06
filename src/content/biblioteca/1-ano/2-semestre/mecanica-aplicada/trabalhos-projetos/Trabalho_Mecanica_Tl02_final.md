@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Trabalho_Mecanica_Tl02_final.ods"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Trabalho_Mecanica_Tl02_final.ods"
 hash: "58ef6c47cccfe903bec418213cb57889aff6b34cbb1096cfccd1ddcb7ef1fe57"
 ---
 

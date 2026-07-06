@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Din6921-saida.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Din6921-saida.pdf"
 hash: "6a4385c28680ee290d6ac851ca7e3293abed18bdfb2fc95da0409880315ef586"
 ---
 

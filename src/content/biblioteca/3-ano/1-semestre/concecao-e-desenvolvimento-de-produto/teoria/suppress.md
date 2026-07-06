@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "suppress.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/suppress.jpg"
 hash: "cb78f0c0ff8989294501c0ba31bd02e6e72077cb61583b7700ab84261a174b20"
 ---
 

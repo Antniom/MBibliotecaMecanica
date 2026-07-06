@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "OM1_exercicios_concentraçao_tensões_1617.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_exercicios_concentraçao_tensões_1617.pdf"
 hash: "8c1c6c4a2f27a43ba9ca999d955c5b09a5a2c38cbc0ad768b50731bdd9111750"
 ---
 

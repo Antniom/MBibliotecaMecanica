@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Dispensador_Pastilhas.ipj"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Dispensador_Pastilhas.stp"
 hash: "7cbd30ce882bfe733f551ace73f1d9abe1f68d8871e793fa291da66dba374bda"
 ---
 

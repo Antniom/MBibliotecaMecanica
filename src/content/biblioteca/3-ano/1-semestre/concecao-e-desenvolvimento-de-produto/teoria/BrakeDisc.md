@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "BrakeDisc.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/BrakeDisc.htm"
 hash: "61240d8b4e66a72bae5cae95faacce2737e26085898e798503258f16c08210e2"
 ---
 

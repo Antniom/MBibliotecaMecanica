@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OM1_Modulo_4_T5_parafusos_carregamento_excentrico_com_som_e982719694418d1060320139dda003d1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_Modulo_4_T5_parafusos_carregamento_excentrico_com_som_e982719694418d1060320139dda003d1.pdf"
 hash: "630dcfe60d911095be45b465f5f14c930c75bc977d57225c4c93c0c2a6f3d5bc"
 ---
 

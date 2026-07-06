@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MA_TP2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MA_TP2.pdf"
 hash: "e4b7d1eb51214fd71383db1c21c51c3e3bc6218238e0780361773313e1c0e49c"
 ---
 

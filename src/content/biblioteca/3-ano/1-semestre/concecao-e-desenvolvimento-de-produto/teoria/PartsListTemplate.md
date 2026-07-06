@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "PartsListTemplate.xls"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PartsListTemplate.xls"
 hash: "fcef158172a5e5321e1277a4721ac419d377dddc3c142fd4188bc40d92ff3626"
 ---
 

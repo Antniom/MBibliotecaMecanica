@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SMC_GMT.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/SMC_GMT.pdf"
 hash: "dd11c666fc322db9dde617cdbb4d8c40fd9639061350f519d7a1435b12afec8e"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "FAC_2023_2024_Enunciado_Tutorial 4_V2.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/FAC_2023_2024_Enunciado_Tutorial 4_V2.docx"
 hash: "8667d2cf2ce3b6e3163d42a19fd0f4055399899edd18c10a7dc4cea284f499f6"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "DCM2409_pdf2D.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/DCM2409_pdf2D.zip"
 hash: "60fbefa15ec73871855be82655c8a0d33d632348a0beaf398431d0c7d8126e03"
 ---
 

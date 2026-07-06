@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "WeldFilletSpa.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/WeldFilletSpa.htm"
 hash: "d1564a3e95a7e20922cd2d44a59bb1f1337892000f83104ff5fdcaa4f602559a"
 ---
 

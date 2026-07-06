@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "untitled.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/untitled.pdf"
 hash: "6835e63645d9e7fbab11a8a4549e112f9e07b9b89a4f9e61858cd8bc96ee89fc"
 ---
 

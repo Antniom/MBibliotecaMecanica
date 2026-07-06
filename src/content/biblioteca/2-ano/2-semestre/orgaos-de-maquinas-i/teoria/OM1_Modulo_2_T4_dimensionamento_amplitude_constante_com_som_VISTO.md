@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OM1_Modulo_2_T4_dimensionamento_amplitude_constante_com_som_VISTO.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_Modulo_2_T4_dimensionamento_amplitude_constante_com_som_VISTO.pdf"
 hash: "cc42f26761d9cb6736f4e675f7e77dae13ea420ec2927b56446878aff5f1d6ff"
 ---
 

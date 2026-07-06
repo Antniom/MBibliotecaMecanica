@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "EAC19-20_Exercicio3.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/EAC19-20_Exercicio3.pdf"
 hash: "21d8c3eb045a89f8e80c8a570348a6c8236ae99e2afe746b8f496433362be401"
 ---
 

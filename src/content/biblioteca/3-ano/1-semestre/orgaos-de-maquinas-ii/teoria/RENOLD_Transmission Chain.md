@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "RENOLD_Transmission Chain.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/RENOLD_Transmission Chain.pdf"
 hash: "f938bc1ebcd5bab3e06ea26fd035248073269005f53ea0e3424721de291cbfa5"
 ---
 

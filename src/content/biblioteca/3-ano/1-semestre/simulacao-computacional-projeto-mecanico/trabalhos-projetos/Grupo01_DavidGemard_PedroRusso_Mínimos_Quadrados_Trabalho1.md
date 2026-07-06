@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Grupo01_DavidGemard_PedroRusso_Mínimos_Quadrados_Trabalho1.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Grupo01_DavidGemard_PedroRusso_Mínimos_Quadrados_Trabalho1.pdf"
 hash: "a2ae87996f8ff87b18797b96d84fd92383531867c40a989aabd3103c8669163e"
 ---
 

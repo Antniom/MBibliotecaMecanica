@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Relatório de Pmc-Antigo.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Relatório de Pmc-Antigo.pdf"
 hash: "dacdd98f104117b67905dc5ed5fe82f8ed3626a7de8d628d8881dbc6a139aabe"
 ---
 

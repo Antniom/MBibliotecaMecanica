@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Cap06_Sequenciamento_Total_2PF.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Cap06_Sequenciamento_Total_2PF.pdf"
 hash: "329fc9a55acfa2a950a967d0335775c485019e9e40ca03f55ab9c1ffcac3a498"
 ---
 

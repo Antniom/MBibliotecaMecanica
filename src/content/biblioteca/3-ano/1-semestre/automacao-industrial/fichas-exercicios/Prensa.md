@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Prensa.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Prensa.pdf"
 hash: "65c838ca18a6f1b68244821ed42befa6f72fdc0c1c05f437f05064b107dce14a"
 ---
 

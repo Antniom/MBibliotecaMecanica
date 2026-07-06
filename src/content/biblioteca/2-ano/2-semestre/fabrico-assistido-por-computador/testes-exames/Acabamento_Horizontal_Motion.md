@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Acabamento_Horizontal_Motion.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Acabamento_Horizontal_Motion.png"
 hash: "6969f4e2887c9200d5ff0a230200961704b089d9a8508803d9a7d58589824c37"
 ---
 

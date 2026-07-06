@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Órgãos De Máquinas T.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Órgãos De Máquinas T.pdf"
 hash: "836365a333dad37b4b6f71e1fbd96661177c81d19c6e70d7d3d56bdb243855a2"
 ---
 

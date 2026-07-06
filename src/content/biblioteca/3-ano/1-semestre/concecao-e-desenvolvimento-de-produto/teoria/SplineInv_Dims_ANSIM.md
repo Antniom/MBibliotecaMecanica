@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SplineInv_Dims_ANSIM.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SplineInv_Dims_ANSIM.htm"
 hash: "670ebc3d4fe5e4e9437577c5294fc98269786647ad8a09fcd9c918c001d0fc3c"
 ---
 

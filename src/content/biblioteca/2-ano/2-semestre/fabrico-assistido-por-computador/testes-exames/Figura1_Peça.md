@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Figura1_Peça.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Figura1_Peça.png"
 hash: "b3ae5f597bfe715265c08d85f5149372c560ec8ac0419ba2d7362b47ead955e7"
 ---
 

@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "FE 08_Interpretação cartas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FE 08_Interpretação cartas.pdf"
 hash: "7faf97f6d9b2ea3839bb91b3aa0ab1cf8641aeb0b392c2a5f67b967e8e75ba44"
 ---
 

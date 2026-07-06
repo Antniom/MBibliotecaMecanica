@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "TL2_no20_PL1.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/TL2_no20_PL1.zip"
 hash: "83b110cea04312a33007ff1b89222ba45121c306037c16f672d93ec056ecb1e0"
 ---
 

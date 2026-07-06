@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "cabulas.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/cabulas.zip"
 hash: "f6210536ec19ab4ef2c5be91e802503fe209b6eb6171e3a97941089ccb1eadc5"
 ---
 

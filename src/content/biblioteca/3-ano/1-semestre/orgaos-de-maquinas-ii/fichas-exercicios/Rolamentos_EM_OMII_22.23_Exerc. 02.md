@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Rolamentos_EM_OMII_22.23_Exerc. 02.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Rolamentos_EM_OMII_22.23_Exerc. 02.pdf"
 hash: "56ea6ae1871055b2e210b32239bf9fc1c964347d96237d767dd8937eb452d25a"
 ---
 

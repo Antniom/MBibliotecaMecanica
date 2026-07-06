@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "2_Contabilidade_analitica_para_a_gestao.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/2_Contabilidade_analitica_para_a_gestao.pdf"
 hash: "69ff36bd328bc4db19579d882feb88170d7e55b2082afd5f4eca555b419a1424"
 ---
 

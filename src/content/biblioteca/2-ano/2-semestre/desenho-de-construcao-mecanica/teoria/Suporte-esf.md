@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Suporte-esf.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Suporte-esf.pdf"
 hash: "cf6a8efbded6eb5329433c915a6bea1f07f6f1e454e07768ea94b86dbf601c5c"
 ---
 

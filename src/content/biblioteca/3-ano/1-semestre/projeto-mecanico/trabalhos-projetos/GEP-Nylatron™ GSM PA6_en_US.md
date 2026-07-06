@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "GEP-Nylatron™ GSM PA6_en_US.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/GEP-Nylatron™ GSM PA6_en_US.pdf"
 hash: "a2bc949d423c059a68210530a8bde0aefe6c72460c1f703551d4d505641b4091"
 ---
 

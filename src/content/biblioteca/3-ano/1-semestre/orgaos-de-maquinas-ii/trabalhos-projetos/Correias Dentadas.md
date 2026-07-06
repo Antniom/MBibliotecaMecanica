@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Correias Dentadas.xlsx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Correias Dentadas.xlsx"
 hash: "2c6217dc365ecab955d8c43a524184a8aec6cd882e5660c9ea7661112e5d0bd5"
 ---
 

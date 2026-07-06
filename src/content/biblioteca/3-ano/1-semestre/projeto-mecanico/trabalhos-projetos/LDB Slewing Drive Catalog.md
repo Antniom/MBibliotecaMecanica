@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "LDB Slewing Drive Catalog.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/LDB Slewing Drive Catalog.pdf"
 hash: "e35c13b5e3ebe68701e9970a74f188b66d6cb487db5deac9dab9e551e6bcf219"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Poster_Grupo_30_Mec_Aplicada_PL_2.pptx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Poster_Grupo_30_Mec_Aplicada_PL_2.pptx"
 hash: "0de1b49ea92584356c77c0dd3a388f765f8f1705e8b0d9bb926d66db27fef1e9"
 ---
 

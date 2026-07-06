@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "S-Pulley.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/S-Pulley.htm"
 hash: "0cc7a4fc2e40d0e32b7b31cdb7b55d7ba8b69ae1464c10836d5a7c8469f49b57"
 ---
 

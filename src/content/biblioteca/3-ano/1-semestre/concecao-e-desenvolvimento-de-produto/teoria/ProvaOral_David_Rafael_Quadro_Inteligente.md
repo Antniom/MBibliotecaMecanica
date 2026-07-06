@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "ProvaOral_David_Rafael_Quadro_Inteligente.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ProvaOral_David_Rafael_Quadro_Inteligente.pptx"
 hash: "89c4f36ab72b542d7738ca3aaa2103d6a2bbcaaae93aa1f1be8fe7992a7711ef"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Relatório_Grupo_02_EAC_2324_David_Rafael.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Relatório_Grupo_02_EAC_2324_David_Rafael.pdf"
 hash: "ca24fa008147f8e634e3b5f1b3bff7443269a6ace5a6b1be1216917929aed0b5"
 ---
 

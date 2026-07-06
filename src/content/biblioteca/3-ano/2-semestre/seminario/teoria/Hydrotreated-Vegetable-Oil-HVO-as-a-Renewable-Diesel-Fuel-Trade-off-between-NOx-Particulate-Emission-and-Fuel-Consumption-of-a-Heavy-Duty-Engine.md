@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Hydrotreated-Vegetable-Oil-HVO-as-a-Renewable-Diesel-Fuel-Trade-off-between-NOx-Particulate-Emission-and-Fuel-Consumption-of-a-Heavy-Duty-Engine.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Hydrotreated-Vegetable-Oil-HVO-as-a-Renewable-Diesel-Fuel-Trade-off-between-NOx-Particulate-Emission-and-Fuel-Consumption-of-a-Heavy-Duty-Engine.pdf"
 hash: "2fd9c7b119ef269476cf41aaae71369b5563bceb31ef799646deb246595b4762"
 ---
 

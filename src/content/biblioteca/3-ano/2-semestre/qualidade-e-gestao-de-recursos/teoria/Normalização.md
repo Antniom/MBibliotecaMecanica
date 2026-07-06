@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Normalização.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Normalização.pdf"
 hash: "9256e46fe5aec8caba99869728dd0517d1137bcc43081e1f7c076f81a2bdfd64"
 ---
 

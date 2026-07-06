@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "MEIO.txt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/MEIO.txt"
 hash: "eee3faf99da93b488cddadbe92c5ef2dd69f49322d095a1244cd8c32acc6143e"
 ---
 

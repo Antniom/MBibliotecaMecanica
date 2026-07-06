@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "HexHeadCapScrew.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/HexHeadCapScrew.jpg"
 hash: "0a533d3de8514c935fad4a47cfc5b79efe040e4feb78a21cb284a93eb7ae8bfe"
 ---
 

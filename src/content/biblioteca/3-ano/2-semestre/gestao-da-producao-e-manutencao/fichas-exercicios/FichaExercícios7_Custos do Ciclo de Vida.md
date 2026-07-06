@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "FichaExercícios7_Custos do Ciclo de Vida.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FichaExercícios7_Custos do Ciclo de Vida.pdf"
 hash: "2d3126e6a958c2a9797ab32ec71cbd8c04976951ceff70106ccb89587e7f4b9f"
 ---
 

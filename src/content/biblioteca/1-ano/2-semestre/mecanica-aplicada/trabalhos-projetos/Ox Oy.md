@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Ox Oy.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ox Oy.jpg"
 hash: "c765c1164faf3570de9e16fa469f7cec4290fd1129cc9ccf1b095f95e542288d"
 ---
 

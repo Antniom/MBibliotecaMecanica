@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "FAC_2023_2024_TL4 - Enunciado_Tutorial TL4_Práticas.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/FAC_2023_2024_TL4 - Enunciado_Tutorial TL4_Práticas.docx"
 hash: "13a323d6f22e00414072b132c3e230427149724d6b7a98b37970ce8e8de57977"
 ---
 

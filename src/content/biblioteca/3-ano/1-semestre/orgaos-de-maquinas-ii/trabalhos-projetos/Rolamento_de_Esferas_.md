@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Rolamento_de_Esferas_.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Rolamento_de_Esferas_.pdf"
 hash: "eb49df6eb16726603edd59ac1b0f38bd6aa74917b926e676f4c8e280bb03c2b1"
 ---
 

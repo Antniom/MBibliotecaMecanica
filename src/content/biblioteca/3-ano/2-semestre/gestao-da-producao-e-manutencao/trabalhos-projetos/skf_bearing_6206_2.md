@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "skf_bearing_6206_2.iam"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/skf_bearing_6206_2.txt"
 hash: "50cee6cc99b39775009385918d496d05c167d692b3a609526f77e73ecf0c4320"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Trabalho1_GPM_2025_VF.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Trabalho1_GPM_2025_VF.pdf"
 hash: "ff36dfe27735b835810000829d2f60cc6f274ff6dda066562939ad05d64742a8"
 ---
 

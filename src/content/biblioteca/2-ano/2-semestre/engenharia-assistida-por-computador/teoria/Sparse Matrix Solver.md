@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Sparse Matrix Solver.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Sparse Matrix Solver.png"
 hash: "cc11e783a44a593c78d58b72ef46baf8ceed37daff6f2cc2c1efb01ac7351628"
 ---
 

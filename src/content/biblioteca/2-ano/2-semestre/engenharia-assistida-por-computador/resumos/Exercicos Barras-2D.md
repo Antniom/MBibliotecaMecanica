@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Exercicos Barras-2D.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Exercicos Barras-2D.pdf"
 hash: "e2f32a74a406a3c8779bd2f06df3a176f6bd116cb8845f8980f0673ded496915"
 ---
 

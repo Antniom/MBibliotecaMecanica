@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "IMPORTANTE.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/IMPORTANTE.docx"
 hash: "6edc06b3815da61ac32160b198239a9fd5d79288725e900076bf6953d26b5666"
 ---
 

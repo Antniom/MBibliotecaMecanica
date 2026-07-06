@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Mold_Cav2.stp"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Mold_Cav2.stp"
 hash: "401eeef40d0b4368dbc00bc0d0e71eb9e0fe4bdb66e3abede71a6c29370816ea"
 ---
 

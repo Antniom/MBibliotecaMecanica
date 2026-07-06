@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "ISO_Side_Fillet.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ISO_Side_Fillet.png"
 hash: "556b5320b972775e42411cdc8c0a1e26a5c14333516f845deb44b516bd675c95"
 ---
 

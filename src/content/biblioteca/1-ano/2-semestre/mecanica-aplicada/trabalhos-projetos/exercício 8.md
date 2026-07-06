@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "exercício 8.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/exercício 8.pdf"
 hash: "82885fb0f8c9436d1a7e2c221d20544dbcee56f4e8741f19c0e18f28401ea887"
 ---
 

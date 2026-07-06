@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula TP 10 14 15 Mecanismo Biela-Manivela_ estudo cinético.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula TP 10 14 15 Mecanismo Biela-Manivela_ estudo cinético.pdf"
 hash: "87798a811aa0488dfb766715ea61d149b01c669a5f1814b2ebd1cfdf8fde74fa"
 ---
 

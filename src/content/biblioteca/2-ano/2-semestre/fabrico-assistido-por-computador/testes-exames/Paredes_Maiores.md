@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Paredes_Maiores.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Paredes_Maiores.png"
 hash: "13abd925ecc610d83341ad4ccb2ab5a163e3b279dbb8bcf968753bc4b1173d9a"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Powerpoints1314.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Powerpoints1314.docx"
 hash: "688a9eaebc2d48ff59d0285d8dbe6ef0a3ce7a958392be4ec05b1989169e67d1"
 ---
 

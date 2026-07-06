@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "CilinOco.ipt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/CilinOco.pdf"
 hash: "04ac2026b51351fa7cf8d7d0fe81435fc79d27848fc907e661eccf6e0006bafc"
 ---
 

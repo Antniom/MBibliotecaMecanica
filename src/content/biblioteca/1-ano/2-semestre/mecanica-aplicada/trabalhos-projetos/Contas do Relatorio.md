@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Contas do Relatorio.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Contas do Relatorio.pdf"
 hash: "fb2ebe81eb1c63b964cd339f08cbebed69b4ca4a0b253e17f0204251e9392402"
 ---
 

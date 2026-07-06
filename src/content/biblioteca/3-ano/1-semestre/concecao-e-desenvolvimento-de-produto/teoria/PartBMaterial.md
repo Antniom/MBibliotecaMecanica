@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "PartBMaterial.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PartBMaterial.htm"
 hash: "84a9efd64b58f9fd62f1543c8007f4956cf75f181eb8298a695d4b23e53042cb"
 ---
 

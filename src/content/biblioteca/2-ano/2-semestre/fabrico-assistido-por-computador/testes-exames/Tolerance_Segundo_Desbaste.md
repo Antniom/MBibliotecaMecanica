@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Tolerance_Segundo_Desbaste.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Tolerance_Segundo_Desbaste.png"
 hash: "82714b8ccf03a6afa5ca69b87daa338b9affcfaae6cffde2c920b7953b0ab398"
 ---
 

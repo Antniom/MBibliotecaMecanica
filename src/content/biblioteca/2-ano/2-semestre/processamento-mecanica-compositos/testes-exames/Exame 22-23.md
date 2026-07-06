@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Exame 22-23.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Exame 22-23.pdf"
 hash: "68e54b7700851f44cfec6ed06a2e007ba7f5b04d600ed83d2fda07a44fd92e42"
 ---
 

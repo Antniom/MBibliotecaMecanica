@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Exercício Proposto Correntes 1 ✅.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Exercício Proposto Correntes 1 ✅.pdf"
 hash: "e85809566bd86f5bfe97b1d729979299493628fd290b776409e25a0418053e88"
 ---
 

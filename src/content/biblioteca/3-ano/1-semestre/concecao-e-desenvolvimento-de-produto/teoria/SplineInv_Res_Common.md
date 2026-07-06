@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SplineInv_Res_Common.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SplineInv_Res_Common.htm"
 hash: "72848f5d4d52ad613b3a53bdc0d7bacc1bf3a4ed545eeb1bbd95618576a2d96b"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Tab_Mom_Inercia.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Tab_Mom_Inercia.pdf"
 hash: "4c9a8e3c27f5ac388cc70eca2aad5047ef56da89bd5d1eb2907b183d538d1415"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula_Teorica_05_19_20_-_Movimento_Geral_Plano_-_analise_relativa_e_absoluta_cadeia_fechada__CIR.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula_Teorica_05_19_20_-_Movimento_Geral_Plano_-_analise_relativa_e_absoluta_cadeia_fechada__CIR.pdf"
 hash: "4b067a5abcb702f30dced55d71c472e81cbce761c7f52fcb9d8e5b417c98ea5c"
 ---
 

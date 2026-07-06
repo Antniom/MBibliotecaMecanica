@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "QFD_ABRE_NOZES_221230_EMD.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/QFD_ABRE_NOZES_221230_EMD.pdf"
 hash: "3c54b16a8bef28a43411d359479007675f884e69d0689eb519fcc9a64a29e464"
 ---
 

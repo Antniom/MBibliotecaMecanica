@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Mecanismo_4_barras_para_consulta_na_prova.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Mecanismo_4_barras_para_consulta_na_prova.pdf"
 hash: "9e0b24e523e10294734a44ecc0c5b44c1a5dcd3646badb1b20cf842f876bc97c"
 ---
 

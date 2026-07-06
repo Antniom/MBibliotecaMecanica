@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Grupo 10 OM I.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Grupo 10 OM I.pdf"
 hash: "1d3b9baaca8da19017b4d49e4ed52eb7653c4bba265305329640100b8bc907e0"
 ---
 

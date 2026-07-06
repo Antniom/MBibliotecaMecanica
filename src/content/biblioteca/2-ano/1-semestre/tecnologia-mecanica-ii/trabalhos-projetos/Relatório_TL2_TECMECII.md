@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Relatório_TL2_TECMECII.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Relatório_TL2_TECMECII.docx"
 hash: "44b2371afbf86ffd9bd3592af386511d219fb11a82614e3ce3c6ad272c52f734"
 ---
 

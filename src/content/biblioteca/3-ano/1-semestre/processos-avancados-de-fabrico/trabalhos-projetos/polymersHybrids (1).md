@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "polymersHybrids (1).pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/polymersHybrids (1).pdf"
 hash: "f4af954d1c5aac2b04beed3bed28c9cc6422d158c048ee940d1eeec4a06892b3"
 ---
 

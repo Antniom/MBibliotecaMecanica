@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "PerformanceLog.txt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/PerformanceLog.txt"
 hash: "4dac40a4c321788c70e0309ee742e6523d577cdf0f3501d1fd89395d6daa0ed2"
 ---
 

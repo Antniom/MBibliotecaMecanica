@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "TR1.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/TR1.png"
 hash: "71a1873ecb945aba90f9ca5dfb24fa99b3533d45fa2f8ed42f080cc553a28d3f"
 ---
 

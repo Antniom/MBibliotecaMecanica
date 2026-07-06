@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Análise_SWOT_David_Gemard_2222208.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Análise_SWOT_David_Gemard_2222208.pdf"
 hash: "2d4459277eedca12a5d30703c03b9e3a25178737481eddc182cb53393068ddcb"
 ---
 

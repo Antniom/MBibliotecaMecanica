@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "XXL-ISO5296.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/XXL-ISO5296.jpg"
 hash: "df274740481f944f837301c156ac39aac6c79793c4b7108614218c373a47aa17"
 ---
 

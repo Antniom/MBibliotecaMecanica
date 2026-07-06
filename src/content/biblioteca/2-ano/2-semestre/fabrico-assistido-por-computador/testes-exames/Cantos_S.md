@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Cantos_S.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Cantos_S.png"
 hash: "c08d86e2fae82865bdd37fefe917eaa83929b8eded2c7f8bbcd68982dae4c3c0"
 ---
 

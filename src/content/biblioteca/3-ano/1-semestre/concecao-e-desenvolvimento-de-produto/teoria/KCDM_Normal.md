@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "KCDM_Normal.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/KCDM_Normal.png"
 hash: "af6fe2ce049fb90ca020d8ddb9dc3289b9597bfa3f63f79d0bf929d41ba0f061"
 ---
 

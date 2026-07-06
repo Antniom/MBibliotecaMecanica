@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Rolamentos_EM_OMII_23.24 ✅.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Rolamentos_EM_OMII_23.24 ✅.pdf"
 hash: "4dad846eb027a529b7bdee7f3f502db12f3c18c9524d5ccd4ecfe8b20020b98a"
 ---
 

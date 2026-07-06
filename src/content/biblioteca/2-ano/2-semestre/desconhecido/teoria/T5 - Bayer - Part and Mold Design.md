@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "T5 - Bayer - Part and Mold Design.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/T5 - Bayer - Part and Mold Design.pdf"
 hash: "1849118b4da7ed6d0e4d8ec45da3a9f0a17260b2be11c955db5132708cc2a87a"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula_Teorica_04_2019_2020_Movimento_Geral_Plano_-_analise_relativa_e_absoluta_em_cadeia_aberta.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula_Teorica_04_2019_2020_Movimento_Geral_Plano_-_analise_relativa_e_absoluta_em_cadeia_aberta.pdf"
 hash: "b375782c20a176356e73ff76f0a8a587e51d9fefb09e4d8af888b8bbd0da8904"
 ---
 

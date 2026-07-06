@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Resolução Parte Prática 15-16.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Resolução Parte Prática 15-16.pdf"
 hash: "a6015489149bf4d616afbe5aa046f27202bffac564f338f7ad963a55d2f3a576"
 ---
 

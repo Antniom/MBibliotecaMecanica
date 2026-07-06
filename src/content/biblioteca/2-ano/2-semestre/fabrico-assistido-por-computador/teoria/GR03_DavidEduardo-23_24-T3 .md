@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "GR03_DavidEduardo-23_24-T3 .docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/GR03_DavidEduardo-23_24-T3 .docx"
 hash: "5456c4538d8a4088bb3559c848455233759958858cb98725dcf36ddd6b1ef8c0"
 ---
 

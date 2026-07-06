@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "MF_-_1_-_propriedades.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/MF_-_1_-_propriedades.pdf"
 hash: "ae746f50c91ec1486c82542ca23e2fd2c13c2f40870b3910bc8d3cfd85e1cbc5"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Frequência-2015.odt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Frequência-2015.odt"
 hash: "890d1d50165fbd2ce9bb009ed615926f84ba90480239415bda3855fc57157536"
 ---
 

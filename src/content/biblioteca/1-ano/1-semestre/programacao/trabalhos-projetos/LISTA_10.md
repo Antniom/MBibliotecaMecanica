@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "LISTA_10.csv"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/LISTA_10.csv"
 hash: "c813cea23fa73f938684b3c84e32da74823c5506923695c96c2d711bcc86a4c8"
 ---
 

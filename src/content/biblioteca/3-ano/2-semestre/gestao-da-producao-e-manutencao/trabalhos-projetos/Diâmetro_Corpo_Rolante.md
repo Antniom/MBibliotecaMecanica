@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Diâmetro_Corpo_Rolante.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Diâmetro_Corpo_Rolante.png"
 hash: "b6e5d1665f9493d6607d41f4f97af8c962e62961ba833913af3ab15ab659db10"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "empreendedorismo_empreendedor_24_25.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/empreendedorismo_empreendedor_24_25.pdf"
 hash: "5843bc4ecff7dd4fec06313adf8a8a0bcfd130fa1013db6bd7e5dd7ad49aa281"
 ---
 

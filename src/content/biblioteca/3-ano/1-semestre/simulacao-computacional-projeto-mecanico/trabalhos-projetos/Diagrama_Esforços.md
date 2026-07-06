@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Diagrama_Esforços.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Diagrama_Esforços.png"
 hash: "3867630a941cc892af912920f39e7986d539926091bd32160f5820070b9a471e"
 ---
 

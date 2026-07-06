@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Cap05_ Gestão Projectos_2F.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Cap05_ Gestão Projectos_2F.pdf"
 hash: "a4f537aa720d8d60051064ab8e2b325532987a7f3f1c6fa9e58dede24480ab70"
 ---
 

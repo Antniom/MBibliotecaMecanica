@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Resistência_tração_compósito.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Resistência_tração_compósito.pdf"
 hash: "3be8110a0d2e593fa5170015f1aa3d140d6893245cd0d2f3a00bef7a62e3f8c7"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MA_ficha2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MA_ficha2.pdf"
 hash: "5e754652f88eeb125019d49a91684e74961c62c29b9466a68ce5b49441466625"
 ---
 

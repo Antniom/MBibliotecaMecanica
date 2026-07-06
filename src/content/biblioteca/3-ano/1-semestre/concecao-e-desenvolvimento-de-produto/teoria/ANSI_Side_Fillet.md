@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "ANSI_Side_Fillet.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ANSI_Side_Fillet.png"
 hash: "62c41c6e3cbc6acd9df8dead39cf7027c739101728548e11f1a71ee9539e3290"
 ---
 

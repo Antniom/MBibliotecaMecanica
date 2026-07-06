@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "John-F-Hunt-Power-Green-D-HVO-Comparrison-Study.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/John-F-Hunt-Power-Green-D-HVO-Comparrison-Study.pdf"
 hash: "9697b7c1555e609b1554d8162ee9b449ded8bbe35f42cf8ffdbed0f7340e7cf0"
 ---
 

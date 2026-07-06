@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Guia_Relatório.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Guia_Relatório.pdf"
 hash: "b555f898d640170219f543f45aca2dbc4e9c2fda843f5f9155b6c119ae9201ed"
 ---
 

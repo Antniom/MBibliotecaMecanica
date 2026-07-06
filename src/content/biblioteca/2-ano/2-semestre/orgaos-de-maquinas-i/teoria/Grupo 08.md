@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Grupo 08.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Grupo 08.pdf"
 hash: "30efc66fff7d648d5d013e176941aefbf48654842d96cc631f4509c9e84b7a72"
 ---
 

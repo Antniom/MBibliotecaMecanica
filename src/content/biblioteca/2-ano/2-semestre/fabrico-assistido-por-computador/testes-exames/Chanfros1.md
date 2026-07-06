@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Chanfros1.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Chanfros1.png"
 hash: "ddde6096813dbbdb25dd3a7362054c228e664896ed63ad8cc7a7d4becfba29d9"
 ---
 

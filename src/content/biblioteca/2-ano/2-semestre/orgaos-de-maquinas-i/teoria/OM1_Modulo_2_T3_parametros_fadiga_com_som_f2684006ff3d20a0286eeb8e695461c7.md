@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OM1_Modulo_2_T3_parametros_fadiga_com_som_f2684006ff3d20a0286eeb8e695461c7.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_Modulo_2_T3_parametros_fadiga_com_som_f2684006ff3d20a0286eeb8e695461c7.pdf"
 hash: "0788916d1f7631b46739596b08247f7a0c81b6d0b82fedd6a097df5a53e33da3"
 ---
 

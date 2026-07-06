@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "WeldFilletCop.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/WeldFilletCop.htm"
 hash: "4594004b7fea304e3c31592e3056f8b6631282613dd590259a2150e4d1eed8cc"
 ---
 

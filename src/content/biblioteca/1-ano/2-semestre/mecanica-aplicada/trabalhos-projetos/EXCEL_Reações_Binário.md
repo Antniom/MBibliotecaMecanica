@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "EXCEL_Reações_Binário.xlsx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/EXCEL_Reações_Binário.xlsx"
 hash: "7fcb3dad9ca006d1a80f618d9ed2cfd56ba9f8f5a0d6566bd8ecd23950d36e25"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "ISO 12100_2010 (E) Seguranca de maquinas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ISO 12100_2010 (E) Seguranca de maquinas.pdf"
 hash: "a6d55d53c836ad56142e69a14a531b7d734c75fc4cf5c137808f302f7552d3d2"
 ---
 

@@ -7,7 +7,7 @@ tipo: "resolucoes"
 fonte_original: "GPM_Freq_2023.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/GPM_Freq_2023.pdf"
 hash: "640b04794935780342676d0c6d375097c6fc1dee4798cac82de1db76aa84257c"
 ---
 

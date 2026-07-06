@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "viscos.doc"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/viscos.doc"
 hash: "928df9669dc5ac477fbc9b40b7844f053915579098d6f8082a949447f7307661"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Captura_de_Ecra_460.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Captura_de_Ecra_460.png"
 hash: "0028017f93545f5376096f4dcc48d111c5364cd40dafafb4895a5be3fc15c7d6"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SCWorkingDiagram_Left.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SCWorkingDiagram_Left.png"
 hash: "882b228ff7a5fe9015a7217cc5e64e8fc07ef80b5ffe328c09d103b7aff28532"
 ---
 

@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Resumos PPT-4.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Resumos PPT-4.pdf"
 hash: "2698b1c21821004eabd18ee9d22f70022dfc583b85623785bf3de7485195cc1b"
 ---
 

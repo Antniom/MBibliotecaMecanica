@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Exame-Especial-MF-14-09-2015-Resolução.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Exame-Especial-MF-14-09-2015-Resolução.pdf"
 hash: "832d9da7def2ee279a6c4821b47ccf993ebb71a20d2efab19261778d55b8d4cf"
 ---
 

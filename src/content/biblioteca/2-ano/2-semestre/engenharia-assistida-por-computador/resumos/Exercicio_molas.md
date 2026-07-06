@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Exercicio_molas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Exercicio_molas.pdf"
 hash: "3102797d54a2157f3095626e2fd63de14a0b94fddd438369943a97b91829a47e"
 ---
 

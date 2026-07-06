@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "TT_A3.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/TT_A3.png"
 hash: "a3053956594c0706d97507fb2757a3d0c384ed7323e8666570a6c25791e75e1e"
 ---
 

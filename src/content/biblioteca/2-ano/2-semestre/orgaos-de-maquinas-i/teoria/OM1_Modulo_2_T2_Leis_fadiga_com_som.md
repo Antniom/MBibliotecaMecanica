@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OM1_Modulo_2_T2_Leis_fadiga_com_som.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_Modulo_2_T2_Leis_fadiga_com_som.pdf"
 hash: "a66d9ecc72a65fff816665a8825806c036cf1e468b673dca3007e7fdb82159ab"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Raio_Corpo_Rolante.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Raio_Corpo_Rolante.png"
 hash: "310b295d052927cc2faeff65b2a955d46d25ad395e286a2dc04f491275d17718"
 ---
 

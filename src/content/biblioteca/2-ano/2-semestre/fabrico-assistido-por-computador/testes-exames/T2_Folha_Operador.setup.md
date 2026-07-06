@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "T2_Folha_Operador.setup.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/T2_Folha_Operador.setup.pdf"
 hash: "6b171a33d73bd3673cc330bffd2a319b8e44e9df83120ecbac7ddb942d384b58"
 ---
 

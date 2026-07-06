@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "ENormal_EM-EGI_AInd_2020_2021.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ENormal_EM-EGI_AInd_2020_2021.pdf"
 hash: "67745d44c9fc7e1b04bd44172f5d946f631ffc4da5521d5d56f726e7dd38bee1"
 ---
 

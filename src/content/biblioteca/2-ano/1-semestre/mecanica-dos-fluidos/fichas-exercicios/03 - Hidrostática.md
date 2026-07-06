@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "03 - Hidrostática.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/03 - Hidrostática.pdf"
 hash: "f90766935de684cbd43effda61c38b8935ee77cd84d9d7f211311e56c8aae228"
 ---
 

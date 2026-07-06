@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula Teórica 1 14_15 Vibraçoes Livres.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula Teórica 1 14_15 Vibraçoes Livres.pdf"
 hash: "60cb7549ee2baf4c5ce2bd47fbc4343e4393bdd237357f7baef17d6f7fc15120"
 ---
 

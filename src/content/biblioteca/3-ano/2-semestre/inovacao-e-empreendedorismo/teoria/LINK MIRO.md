@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "LINK MIRO.txt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/LINK MIRO.txt"
 hash: "f602ade78d4d58d6261b1e7b7cbf2e994157aec1473bf823ca6f8837e3cb0561"
 ---
 

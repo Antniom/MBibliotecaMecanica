@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "T16 - Análise económica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/T16 - Análise económica.pdf"
 hash: "53bf75fac981e90dead7659dd1aa0285e55caec9fb51c2a2a18ae2904000d32f"
 ---
 

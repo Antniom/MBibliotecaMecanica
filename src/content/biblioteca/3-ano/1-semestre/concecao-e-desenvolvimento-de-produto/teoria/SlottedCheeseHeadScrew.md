@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SlottedCheeseHeadScrew.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SlottedCheeseHeadScrew.jpg"
 hash: "055e2c5d9b2202266bb018e34d8dde6a26d53983ef804c1f4a4d9bd2c4f581cb"
 ---
 

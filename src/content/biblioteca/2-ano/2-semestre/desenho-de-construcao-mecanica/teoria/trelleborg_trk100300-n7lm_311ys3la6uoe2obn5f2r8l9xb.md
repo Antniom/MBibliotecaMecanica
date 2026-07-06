@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "trelleborg_trk100300-n7lm_311ys3la6uoe2obn5f2r8l9xb.iam"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/trelleborg_trk100300-n7lm_311ys3la6uoe2obn5f2r8l9xb.txt"
 hash: "18156f6fa070a1a6daae8025b7c55821679a4ecdebe3d8dc5d1f6feb6acaebd2"
 ---
 

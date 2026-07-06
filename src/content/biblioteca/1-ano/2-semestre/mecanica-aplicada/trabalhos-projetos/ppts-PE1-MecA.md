@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "ppts-PE1-MecA.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/ppts-PE1-MecA.pdf"
 hash: "24feeb07b8e556a00434d6fe6efa2a0acf9ac37d71e2d1b70c2c91e2e04dae5d"
 ---
 

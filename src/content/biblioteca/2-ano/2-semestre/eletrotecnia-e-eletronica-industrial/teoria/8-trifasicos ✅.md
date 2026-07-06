@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "8-trifasicos ✅.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/8-trifasicos ✅.pdf"
 hash: "c25abb5cecc849161a713c98403748a5c0614060173929d4f08adbff4fd7a27b"
 ---
 

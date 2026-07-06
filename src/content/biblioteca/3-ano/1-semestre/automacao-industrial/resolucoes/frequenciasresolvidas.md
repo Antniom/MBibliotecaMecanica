@@ -7,7 +7,7 @@ tipo: "resolucoes"
 fonte_original: "frequenciasresolvidas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/frequenciasresolvidas.pdf"
 hash: "bbd276defb5249423ec95aa35cfe2e8d8289b62ae975210626fbfb0e023ec6dd"
 ---
 

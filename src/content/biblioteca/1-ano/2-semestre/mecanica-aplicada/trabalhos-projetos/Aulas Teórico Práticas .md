@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aulas Teórico Práticas .pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aulas Teórico Práticas .pdf"
 hash: "f9ba00b0af8a347c5732e91bbe31db228df1649b9c330c367f0ca040cfe08912"
 ---
 

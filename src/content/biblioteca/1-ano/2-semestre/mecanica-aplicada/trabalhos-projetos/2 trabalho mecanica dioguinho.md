@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "2 trabalho mecanica dioguinho.rar"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/2 trabalho mecanica dioguinho.rar"
 hash: "ea5d5fe3bfcf0c0127a196f36f1d488b594b4949e5614fed2037c0e506c544e7"
 ---
 

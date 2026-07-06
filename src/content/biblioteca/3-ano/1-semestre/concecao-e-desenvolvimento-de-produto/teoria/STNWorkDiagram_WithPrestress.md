@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "STNWorkDiagram_WithPrestress.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/STNWorkDiagram_WithPrestress.png"
 hash: "77e750c1079ea303a7b47eed3137404dd16236705a5973160a3effa3b646e9b3"
 ---
 

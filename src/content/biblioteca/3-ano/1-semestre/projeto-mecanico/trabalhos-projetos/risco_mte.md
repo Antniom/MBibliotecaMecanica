@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "risco_mte.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/risco_mte.pdf"
 hash: "e91b01b1adad72aee7b2444e83d3dfe0ba2e63e20be53801a1a67db681111135"
 ---
 

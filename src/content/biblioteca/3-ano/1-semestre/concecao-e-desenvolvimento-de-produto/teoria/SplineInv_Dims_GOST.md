@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SplineInv_Dims_GOST.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SplineInv_Dims_GOST.htm"
 hash: "e7e8315a3afe7bfc92755a0b9ff5c95225f5a28268bcade3b124da5cbf5c3c34"
 ---
 

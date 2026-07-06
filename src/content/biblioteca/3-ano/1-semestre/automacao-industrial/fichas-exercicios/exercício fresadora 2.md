@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "exercício fresadora 2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/exercício fresadora 2.pdf"
 hash: "6e1b04f1d961fbe66762232a9942de2d682638b7d7750a3a3c611275fbceac10"
 ---
 

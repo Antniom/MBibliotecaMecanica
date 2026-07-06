@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "KeyParallelKeyMaterial.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/KeyParallelKeyMaterial.htm"
 hash: "f7e2fd2b330a69f126bb2f99985333b3659721ba0e6606cd3b91fe6cbb1e5b1d"
 ---
 

@@ -7,7 +7,7 @@ tipo: "resolucoes"
 fonte_original: "Resolução Ultimate.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Resolução Ultimate.pdf"
 hash: "80c64f3ff3782235f273ab697fcfbf75d112a41392435be0bf4dfe88331466d6"
 ---
 

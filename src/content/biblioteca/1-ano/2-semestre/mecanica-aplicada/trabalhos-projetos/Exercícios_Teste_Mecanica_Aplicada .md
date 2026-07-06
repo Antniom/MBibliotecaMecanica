@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Exercícios_Teste_Mecanica_Aplicada .pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Exercícios_Teste_Mecanica_Aplicada .pdf"
 hash: "c90c5cf16ea78f41c218f23d91b108e48c761f695c36ad8e343bc350bdbec881"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MA_TP-PE1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MA_TP-PE1.pdf"
 hash: "1ff5edd02aa15283332d3347a4512971f8ae800e373eae3ac3332a7257191c08"
 ---
 

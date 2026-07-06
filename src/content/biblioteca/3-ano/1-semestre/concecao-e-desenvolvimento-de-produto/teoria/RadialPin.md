@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "RadialPin.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/RadialPin.htm"
 hash: "124a9191bb6ded0e28d2ec52b9d84b58066c3cbb25f868f062c03a28f1360e2e"
 ---
 

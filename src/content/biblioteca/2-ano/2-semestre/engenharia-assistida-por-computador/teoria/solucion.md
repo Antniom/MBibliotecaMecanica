@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "solucion.html"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/solucion.html"
 hash: "ad3e1ff858a2e3f891cc55ff681dbe5eebfb6eee2342691d788522cfbd064c46"
 ---
 

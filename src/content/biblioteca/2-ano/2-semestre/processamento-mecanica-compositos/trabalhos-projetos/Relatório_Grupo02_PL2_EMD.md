@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Relatório_Grupo02_PL2_EMD.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Relatório_Grupo02_PL2_EMD.pdf"
 hash: "b9d6208a1eec4d65453df87017227237266d33ec03563b7baa2ef9dfb1f67d15"
 ---
 

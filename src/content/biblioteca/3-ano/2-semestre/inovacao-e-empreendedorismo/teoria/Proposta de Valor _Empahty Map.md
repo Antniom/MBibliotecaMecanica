@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Proposta de Valor _Empahty Map.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Proposta de Valor _Empahty Map.pdf"
 hash: "1ee839397002d0b4e94ad4c05b88dfc9dd49735fc601e0e203443fd15eaa3d41"
 ---
 

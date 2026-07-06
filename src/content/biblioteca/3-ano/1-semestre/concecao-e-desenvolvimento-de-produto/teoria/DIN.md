@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "DIN.xml"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/DIN.dwg"
 hash: "90207be37eb12bae80ff85c1cf402a3e6bb941faa1c86d2ca357a3bfd45dbc81"
 ---
 

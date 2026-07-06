@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "tatra_7z0r9t_vyprostovak.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/tatra_7z0r9t_vyprostovak.jpg"
 hash: "7c7e9b95e830df96129b3dad2bf5f3bbd004fe65582f7c4cc5e1a08bbc67ecba"
 ---
 

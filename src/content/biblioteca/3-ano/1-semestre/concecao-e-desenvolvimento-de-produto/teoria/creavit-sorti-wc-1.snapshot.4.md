@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "creavit-sorti-wc-1.snapshot.4.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/creavit-sorti-wc-1.snapshot.4.zip"
 hash: "cae23c5ec318d8ce67f13c2f8c90d2db03450ada7a7d4486e3a3d410b52f3e92"
 ---
 

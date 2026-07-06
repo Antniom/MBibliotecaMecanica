@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Balanced Score Card.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Balanced Score Card.pdf"
 hash: "00f10419ed497248926a52443443c1e2138d96dca0610c42ca29a2558761fe69"
 ---
 

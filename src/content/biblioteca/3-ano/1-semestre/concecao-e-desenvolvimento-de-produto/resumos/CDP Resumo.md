@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "CDP Resumo.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/CDP Resumo.docx"
 hash: "c8efed56a6db1eb2af2e7469c5344a2d5a2ebcd850c2cb5643fd524a5226c9f9"
 ---
 

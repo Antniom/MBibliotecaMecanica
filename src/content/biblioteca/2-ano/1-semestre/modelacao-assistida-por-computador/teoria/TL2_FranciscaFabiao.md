@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "TL2_FranciscaFabiao.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/TL2_FranciscaFabiao.zip"
 hash: "dbbb6d52da87936c29d3ffd5e89c9ea6a8fe033a3f968094d60df3afd725fb71"
 ---
 

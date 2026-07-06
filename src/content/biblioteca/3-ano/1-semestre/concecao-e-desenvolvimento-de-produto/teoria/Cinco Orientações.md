@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Cinco Orientações.jpeg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Cinco Orientações.jpeg"
 hash: "d93fa6f30a114574990baab92ecc181677e3ed5eca3c2136eb19be0900195428"
 ---
 

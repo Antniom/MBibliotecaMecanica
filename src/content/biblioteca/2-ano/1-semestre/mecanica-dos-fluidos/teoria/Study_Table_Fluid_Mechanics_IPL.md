@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Study_Table_Fluid_Mechanics_IPL.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Study_Table_Fluid_Mechanics_IPL.pdf"
 hash: "a1938751e109da506c81d1662a5b568b2e088d1048e359212e6da7b8a7900956"
 ---
 

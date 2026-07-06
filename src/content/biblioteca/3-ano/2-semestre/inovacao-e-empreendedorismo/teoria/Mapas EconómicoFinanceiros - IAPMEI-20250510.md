@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Mapas EconómicoFinanceiros - IAPMEI-20250510.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Mapas EconómicoFinanceiros - IAPMEI-20250510.zip"
 hash: "a93eaf3d70e3650a186e0adab4515968b91a73982cd73bff96499c075e7b223d"
 ---
 

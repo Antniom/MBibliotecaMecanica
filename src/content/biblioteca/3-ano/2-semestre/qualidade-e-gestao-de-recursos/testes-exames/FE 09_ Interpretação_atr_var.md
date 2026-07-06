@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "FE 09_ Interpretação_atr_var.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FE 09_ Interpretação_atr_var.pdf"
 hash: "e1dd0b983693e3478890278dc993ca3acf7edf8c803a0dc6e6a0d724ddc66cfb"
 ---
 

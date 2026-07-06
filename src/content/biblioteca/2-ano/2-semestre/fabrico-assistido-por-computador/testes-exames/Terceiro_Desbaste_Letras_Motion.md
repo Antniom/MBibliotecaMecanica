@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Terceiro_Desbaste_Letras_Motion.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Terceiro_Desbaste_Letras_Motion.png"
 hash: "4022aee1ad0ead82a8f59aee14aa60b4f190834da592217cfbb37de8705c1852"
 ---
 

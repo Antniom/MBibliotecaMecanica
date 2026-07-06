@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "cod_1.txt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/cod_1.txt"
 hash: "11ef8cd54fc00863e2d2e79891eafd09f07654e418679815c09eaa2bff38ba6d"
 ---
 

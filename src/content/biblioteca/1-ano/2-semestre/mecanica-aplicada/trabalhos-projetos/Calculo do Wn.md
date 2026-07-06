@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Calculo do Wn.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Calculo do Wn.png"
 hash: "b5276a4ed4a88bf7c6b27e8084fdab78fcdb9462e16eb74c8600980e24c3bbfb"
 ---
 

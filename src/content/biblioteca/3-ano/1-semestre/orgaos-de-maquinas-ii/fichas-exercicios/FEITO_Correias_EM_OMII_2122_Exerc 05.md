@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "FEITO_Correias_EM_OMII_2122_Exerc 05.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FEITO_Correias_EM_OMII_2122_Exerc 05.pdf"
 hash: "cc079ded4e4d2301438a939048f01f735f9e6477456fcf8775d8770dcad7421f"
 ---
 

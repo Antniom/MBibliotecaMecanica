@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Demonstrações.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Demonstrações.pdf"
 hash: "465b4b4f8434b59340c2a6d5908e847b35e5284bc31f5f0c55a2fea165a70c02"
 ---
 

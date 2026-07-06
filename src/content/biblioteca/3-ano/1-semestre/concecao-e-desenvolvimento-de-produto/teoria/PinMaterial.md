@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "PinMaterial.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PinMaterial.htm"
 hash: "a66bae66663967ca6d8157db394c229ad5981be6b37251d71ed7d29ee00139e2"
 ---
 

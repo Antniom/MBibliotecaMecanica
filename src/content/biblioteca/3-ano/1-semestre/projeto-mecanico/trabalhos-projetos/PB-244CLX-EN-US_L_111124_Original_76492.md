@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "PB-244CLX-EN-US_L_111124_Original_76492.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PB-244CLX-EN-US_L_111124_Original_76492.pdf"
 hash: "cb33aa2d2e77c6257054af563b91ec8c77c246c67916a37a14ad3663831018c6"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "bend table (in).txt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/bend table (in).xls"
 hash: "2b7a2dfcf8f729c3fadd15edcf0c53c452a9db5ed691c4cb4b768de5d12f9611"
 ---
 

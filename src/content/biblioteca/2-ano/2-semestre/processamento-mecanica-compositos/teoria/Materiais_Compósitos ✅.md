@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Materiais_Compósitos ✅.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Materiais_Compósitos ✅.pdf"
 hash: "11ae34775de8bf9c3e8dc63a489e6e753fce97a9dcd8df2744020d768bc417e4"
 ---
 

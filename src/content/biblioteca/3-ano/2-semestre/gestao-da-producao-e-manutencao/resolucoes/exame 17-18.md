@@ -7,7 +7,7 @@ tipo: "resolucoes"
 fonte_original: "exame 17-18.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/exame 17-18.pdf"
 hash: "19802848b1a33139e836bd0b8713ffb5ff5cd7fbc5d71f84773733ac3539cb31"
 ---
 

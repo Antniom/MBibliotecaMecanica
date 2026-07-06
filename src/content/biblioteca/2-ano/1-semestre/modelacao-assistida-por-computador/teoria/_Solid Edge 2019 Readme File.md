@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "_Solid Edge 2019 Readme File.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/_Solid Edge 2019 Readme File.pdf"
 hash: "8308ae90433a64e26486079df54088aa3d967eaed85041f2411aada123897252"
 ---
 

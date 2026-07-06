@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Veio.ipt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Veio.pdf"
 hash: "e42d4e63111abba00c0eaa88c6a247e9657d4afcd131eb08cafca19419148f51"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula TP 03 -2019_2020 Cinemática da rotação do corpo rígido, em torno de eixo fixo.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula TP 03 -2019_2020 Cinemática da rotação do corpo rígido, em torno de eixo fixo.pdf"
 hash: "39eb2ddd14f1ed469b3e4217811586af369c8ff775909f9015bd0088ca4aa3ce"
 ---
 

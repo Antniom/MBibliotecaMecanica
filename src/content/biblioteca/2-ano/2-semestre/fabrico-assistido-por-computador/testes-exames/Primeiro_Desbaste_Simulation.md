@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Primeiro_Desbaste_Simulation.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Primeiro_Desbaste_Simulation.png"
 hash: "116930249f74236cd3371fb05fdeab76bf36f24aca4cfdf1ef70f9fdd6dd57a8"
 ---
 

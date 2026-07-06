@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "T13 - Design for X - Assembly.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/T13 - Design for X - Assembly.pdf"
 hash: "59091289013e21f013cf2e07d575daa52bb545055122d9e2f56b5243e2a447d8"
 ---
 

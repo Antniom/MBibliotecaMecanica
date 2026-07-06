@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "CasqAnt.ipt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/CasqAnt.pdf"
 hash: "5a766212fc953a46d020eb1ae5b7729a522023bb142e6bdce590228c0e557197"
 ---
 

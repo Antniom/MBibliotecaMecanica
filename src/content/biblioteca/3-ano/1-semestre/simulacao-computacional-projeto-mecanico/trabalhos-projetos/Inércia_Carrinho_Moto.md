@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Inércia_Carrinho_Moto.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Inércia_Carrinho_Moto.png"
 hash: "42f5303045de8669e1cf74b9ff5029bebd68af280100e5bfabc86756d3b93835"
 ---
 

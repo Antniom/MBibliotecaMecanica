@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MA_TP8.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MA_TP8.pdf"
 hash: "68b42da540676823b99e5ecc6cfa5c58c0d982718539b970762a7581c9522a09"
 ---
 

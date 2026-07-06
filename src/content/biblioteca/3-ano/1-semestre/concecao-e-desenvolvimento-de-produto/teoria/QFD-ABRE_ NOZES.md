@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "QFD-ABRE_ NOZES.xlsx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/QFD-ABRE_ NOZES.xlsx"
 hash: "5dd10341cd9a32902fcb7dc42844d94e8d85f14cc34b4b9de35f28fa940b1191"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OM1_exercicios_soldadura_2022.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_exercicios_soldadura_2022.pdf"
 hash: "225d22746bd35ee8f45d8f2e2732c23520b977a4ab2e96d56b7ea0ab46f23e41"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "aceleração.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/aceleração.jpg"
 hash: "72a966a510d8755e24ef08f17e5850a547bdc2ebafc87b33cd6c3b4595ddd26a"
 ---
 

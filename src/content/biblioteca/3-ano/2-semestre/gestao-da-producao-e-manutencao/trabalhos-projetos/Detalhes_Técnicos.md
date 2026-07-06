@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Detalhes_Técnicos.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Detalhes_Técnicos.pdf"
 hash: "91644086ea10ec262a245cd8fedda25f0013ab7ee7237942d16d93f728b80745"
 ---
 

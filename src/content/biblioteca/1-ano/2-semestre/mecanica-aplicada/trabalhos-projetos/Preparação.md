@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Preparação.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Preparação.pdf"
 hash: "02b637eec647b39eaebe982782c5067db64db08a1b85cf7462d77436b3809b5e"
 ---
 

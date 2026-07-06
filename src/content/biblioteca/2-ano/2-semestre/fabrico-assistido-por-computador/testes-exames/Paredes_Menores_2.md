@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Paredes_Menores_2.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Paredes_Menores_2.png"
 hash: "913e1e65dff47f9b4fac69f5367e61c231eebe1bb21d38635402dd597a0a9c74"
 ---
 

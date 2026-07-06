@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "ExercicioTP6.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/ExercicioTP6.png"
 hash: "cbb8dbf11c91838880ae2f436cb3bf64c7c9fbc04dbffb8a03557c5a672f945f"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "mecF_aula10.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/mecF_aula10.pdf"
 hash: "c1dce1d6ca0b1aea95b1f4a6a7fbabda3926b90a542e9617099027cffd98d2eb"
 ---
 

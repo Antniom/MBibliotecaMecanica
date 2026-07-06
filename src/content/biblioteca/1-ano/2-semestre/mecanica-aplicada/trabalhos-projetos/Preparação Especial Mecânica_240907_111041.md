@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Preparação Especial Mecânica_240907_111041.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Preparação Especial Mecânica_240907_111041.pdf"
 hash: "6e7920620925bcdf8361148649bfa0f77f143fa2a5e081410db4bdf26fc04dbc"
 ---
 

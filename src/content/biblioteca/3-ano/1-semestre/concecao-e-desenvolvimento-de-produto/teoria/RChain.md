@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "RChain.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/RChain.htm"
 hash: "9d7599b15af54a1bd4cdf17ca408c2257fbf6bbce310c11125f271522342581b"
 ---
 

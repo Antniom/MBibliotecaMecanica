@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "B_A3.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/B_A3.png"
 hash: "8372810fe82d6cab02243419cd7b258102fa1a933402ecbbb52c56743916a3df"
 ---
 

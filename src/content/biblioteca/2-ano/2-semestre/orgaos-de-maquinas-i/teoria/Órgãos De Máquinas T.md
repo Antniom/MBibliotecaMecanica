@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Órgãos De Máquinas T.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Órgãos De Máquinas T.pdf"
 hash: "a525991767b303263a1251b3b5f29de980f264b079445e9df157438e7af38c90"
 ---
 

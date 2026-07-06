@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "ProvaAvaliacao_Tipo_MecF.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/ProvaAvaliacao_Tipo_MecF.pdf"
 hash: "ab4536e8ceda4b2f28bdba4c2c0cb079c2378371f8076884fbcb9bb811fc628e"
 ---
 

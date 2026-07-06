@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "TP4_2202515_ModelBussinessCanva.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/TP4_2202515_ModelBussinessCanva.docx"
 hash: "4aa2b8f230e82720faa2f72dbc5935249e71cbcc29ca571962191de1a2d25353"
 ---
 

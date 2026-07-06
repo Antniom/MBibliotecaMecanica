@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "TM2_CorteAP_3_Ferramentas_Materiais_p1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/TM2_CorteAP_3_Ferramentas_Materiais_p1.pdf"
 hash: "66c62524507c2cfa036cc0225f5e284eec022da23f40c8d07ec23c5753e35275"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "FolhaExerc_04.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/FolhaExerc_04.pdf"
 hash: "1e2dcdc77e76a361d62bb410d09711bafdb89ab80952f143ac9f5ea52c303bf4"
 ---
 

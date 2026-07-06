@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Relatório-DMP-Gonçalo-Fabião.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Relatório-DMP-Gonçalo-Fabião.docx"
 hash: "67132c761cb0fa08668ee043792a16e80a7dfc6838b50546da86a7257423f2b4"
 ---
 

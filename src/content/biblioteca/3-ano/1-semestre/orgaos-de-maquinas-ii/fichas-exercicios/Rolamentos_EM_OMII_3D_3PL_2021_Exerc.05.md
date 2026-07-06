@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Rolamentos_EM_OMII_3D_3PL_2021_Exerc.05.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Rolamentos_EM_OMII_3D_3PL_2021_Exerc.05.pdf"
 hash: "4cfe9379554da9772c775c91fd043dbeb85dda33cc406d900f4642fd069da428"
 ---
 

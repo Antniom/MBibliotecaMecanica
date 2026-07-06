@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "3-circuitos_resistivos ✅.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/3-circuitos_resistivos ✅.pdf"
 hash: "e60d3230ce24a8180f17e3fef50dc3ba1a979b559fe9f0992fbf0c0ca79103b0"
 ---
 

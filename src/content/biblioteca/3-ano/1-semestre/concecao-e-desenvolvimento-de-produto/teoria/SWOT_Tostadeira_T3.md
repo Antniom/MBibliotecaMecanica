@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SWOT_Tostadeira_T3.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SWOT_Tostadeira_T3.docx"
 hash: "411884ec2577ea7c6e51ce072ff714693284618c3abeaf37e39556a2523f3467"
 ---
 

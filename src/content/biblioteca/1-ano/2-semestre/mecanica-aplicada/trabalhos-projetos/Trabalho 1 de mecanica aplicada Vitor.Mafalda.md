@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Trabalho 1 de mecanica aplicada Vitor.Mafalda.pptx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Trabalho 1 de mecanica aplicada Vitor.Mafalda.pptx"
 hash: "1eaa556df1fe87daead3e12c9dc0e96187e1154930ab81c21252ac47e8ee8672"
 ---
 

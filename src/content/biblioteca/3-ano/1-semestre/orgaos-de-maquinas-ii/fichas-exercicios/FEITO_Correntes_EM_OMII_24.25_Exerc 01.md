@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "FEITO_Correntes_EM_OMII_24.25_Exerc 01.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FEITO_Correntes_EM_OMII_24.25_Exerc 01.pdf"
 hash: "bc7462c4dec4f60c87e0c7b41a4fd8d9c9a362f8c865af57c1a1f0eeef4c14ef"
 ---
 

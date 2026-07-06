@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "TL2_MEC_aplicada_Grupo_30_PL2.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/TL2_MEC_aplicada_Grupo_30_PL2.zip"
 hash: "e0f51f40792d45c573cdfcc7b58081222dc61ac900dda57fcf860f10435d2f70"
 ---
 

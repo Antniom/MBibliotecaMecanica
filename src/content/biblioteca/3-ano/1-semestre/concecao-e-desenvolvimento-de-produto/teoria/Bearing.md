@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Bearing.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Bearing.htm"
 hash: "844fc7301e1bd370522e9c72c35659ed1557f1d3f5abd39ae9b48ad953514430"
 ---
 

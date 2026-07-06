@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Chassis.igs"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Chassis.stp"
 hash: "575532b685c6cad6f42d88c4f3c8d2ca1f5ebdc929a3385b8204fea7d3b74c6b"
 ---
 

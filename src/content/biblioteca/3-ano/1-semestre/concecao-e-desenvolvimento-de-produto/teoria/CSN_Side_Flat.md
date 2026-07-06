@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "CSN_Side_Flat.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/CSN_Side_Flat.png"
 hash: "30dce1e10f56257070548675e1ff44b9b8a03121ed03c0b599a2c07378c4a596"
 ---
 

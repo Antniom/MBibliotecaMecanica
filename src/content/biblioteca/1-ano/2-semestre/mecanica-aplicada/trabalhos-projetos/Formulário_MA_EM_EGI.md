@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Formulário_MA_EM_EGI.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Formulário_MA_EM_EGI.pdf"
 hash: "761ddd684408822e3cb108de5fce2990448ea449db30bd0434f8995a56d36b1b"
 ---
 

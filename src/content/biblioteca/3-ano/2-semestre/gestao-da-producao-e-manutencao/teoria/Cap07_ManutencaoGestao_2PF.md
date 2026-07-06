@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Cap07_ManutencaoGestao_2PF.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Cap07_ManutencaoGestao_2PF.pdf"
 hash: "0a01c5d3847ed284530e9073c9629ceb5b78584f331b4132513670306be25453"
 ---
 

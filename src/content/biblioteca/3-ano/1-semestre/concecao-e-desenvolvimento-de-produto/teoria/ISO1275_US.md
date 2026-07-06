@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "ISO1275_US.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ISO1275_US.jpg"
 hash: "593d76f88e0cc9359e2b03be18acd18727e542947d1ecb4dd15aab84e0ae623e"
 ---
 

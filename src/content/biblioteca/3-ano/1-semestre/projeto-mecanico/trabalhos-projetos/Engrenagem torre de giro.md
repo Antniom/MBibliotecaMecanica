@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Engrenagem torre de giro.SLDPRT"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Engrenagem torre de giro.STEP"
 hash: "adaf92d7743aa8a183d3ce3616eea67cf9533439c88735570456ab4e50ca8215"
 ---
 

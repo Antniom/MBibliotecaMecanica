@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "materiais_ferramentas_corte.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/materiais_ferramentas_corte.pdf"
 hash: "529fe35758be610e39fddf9805c0a3fadcb09bfdf86a4094ad9f1dca5170307c"
 ---
 

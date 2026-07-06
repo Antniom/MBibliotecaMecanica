@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Segundo_Desbaste_Simulation.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Segundo_Desbaste_Simulation.png"
 hash: "595ba09f6c1683400fe0c46f1e0c8c72a4eeb6deaf614df12e1dac58ac99181d"
 ---
 

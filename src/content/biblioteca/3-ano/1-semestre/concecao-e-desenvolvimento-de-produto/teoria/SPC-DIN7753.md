@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SPC-DIN7753.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SPC-DIN7753.jpg"
 hash: "1a39abd8eee2cc330ea950954b5ebce6eb9c8a5801e8a8c46ff7aff9a38c0bb7"
 ---
 

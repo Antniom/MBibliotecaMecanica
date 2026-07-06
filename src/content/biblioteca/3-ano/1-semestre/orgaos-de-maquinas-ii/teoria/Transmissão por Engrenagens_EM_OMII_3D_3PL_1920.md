@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Transmissão por Engrenagens_EM_OMII_3D_3PL_1920.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Transmissão por Engrenagens_EM_OMII_3D_3PL_1920.pdf"
 hash: "ad876b5a9b9bb8678e7ee5326fe29eef385075f571ec215ebdfdf633e8e56ab5"
 ---
 

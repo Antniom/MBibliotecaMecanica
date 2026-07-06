@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Frequência-MF-05-01-2015-Resolução-2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Frequência-MF-05-01-2015-Resolução-2.pdf"
 hash: "c6166b33222e739cc90bdedb2acecbe16382d3695e6401bea0259141d13d8679"
 ---
 

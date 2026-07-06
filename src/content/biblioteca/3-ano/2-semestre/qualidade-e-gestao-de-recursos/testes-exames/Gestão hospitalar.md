@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Gestão hospitalar.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Gestão hospitalar.pdf"
 hash: "4cefc959d6c8c86325bc71c4f17666e090a42c197968f29461a79b95b687bcf3"
 ---
 

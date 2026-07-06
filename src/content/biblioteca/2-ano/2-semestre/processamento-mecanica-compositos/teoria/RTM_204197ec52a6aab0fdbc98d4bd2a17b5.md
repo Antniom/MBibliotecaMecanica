@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "RTM_204197ec52a6aab0fdbc98d4bd2a17b5.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/RTM_204197ec52a6aab0fdbc98d4bd2a17b5.pdf"
 hash: "74d225e7116cf90971b0ee8d0ad01e7683dc9b9cb742e08361bc1c681549a27a"
 ---
 

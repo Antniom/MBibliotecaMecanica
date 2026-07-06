@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Segment.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Segment.htm"
 hash: "5d34154bf4fd5e331bfa42cfdbcb95e60c13054e849e4b7409eb619eb779b9b5"
 ---
 

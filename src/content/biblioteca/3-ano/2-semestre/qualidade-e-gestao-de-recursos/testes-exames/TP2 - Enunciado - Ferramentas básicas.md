@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "TP2 - Enunciado - Ferramentas básicas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/TP2 - Enunciado - Ferramentas básicas.pdf"
 hash: "eb576817431c9393ae8533af64cdaf40bd338f59d109416d18d7e2d5d1af5668"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Análise VRIO.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Análise VRIO.pdf"
 hash: "dc02675281bfd0b7416467ad89b7737f9bb60fb2fc6265638d2300564577bf19"
 ---
 

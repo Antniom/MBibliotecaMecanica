@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "ParedesLetras3.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/ParedesLetras3.png"
 hash: "0d8881abd4cb2923d99b533871142454d1b6327cd2645a2a196d8d4d40fc40da"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "KeyParallelShaft.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/KeyParallelShaft.htm"
 hash: "bc74e39d44d2fdfd16829c24046b0348a502aefdfbc590edc73db0da3a8be5be"
 ---
 

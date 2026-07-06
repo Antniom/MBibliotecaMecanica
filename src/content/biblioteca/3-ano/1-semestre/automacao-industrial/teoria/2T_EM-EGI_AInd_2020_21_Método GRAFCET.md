@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "2T_EM-EGI_AInd_2020_21_Método GRAFCET.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/2T_EM-EGI_AInd_2020_21_Método GRAFCET.pdf"
 hash: "98dfb8f7eca540f1f77a7bea7a19f6bbeba7c7cd496d857254a78fa26ea943b3"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Analise_PESTAI_24_25.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Analise_PESTAI_24_25.pdf"
 hash: "cae1b423342d121cc8ed6cfcf58305eeb762307f1349f52598471e17fc21ffd3"
 ---
 

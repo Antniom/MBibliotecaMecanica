@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Ângelo Francisco_Catarina brites_EMD.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Ângelo Francisco_Catarina brites_EMD.docx"
 hash: "e4671b01ca935ffbfc0a81139484e586540e1006a338a4e5a7d2cffc2efd41e3"
 ---
 

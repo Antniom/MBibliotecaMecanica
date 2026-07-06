@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula_Teorica_06_2019_2020_Dinamica_do_corpo_rigido_translacao_rotacao_e_mov_geral_plano.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula_Teorica_06_2019_2020_Dinamica_do_corpo_rigido_translacao_rotacao_e_mov_geral_plano.pdf"
 hash: "f6dde09f0cf9d4656ac32870a6293981ed9471258300bacd5227d90cae01b140"
 ---
 

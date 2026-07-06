@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Din6921-Tapado.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Din6921-Tapado.pdf"
 hash: "acc975e541575dc5619346d3e8b8c5e987f5cd6682e8828a5cd255f2724e5714"
 ---
 

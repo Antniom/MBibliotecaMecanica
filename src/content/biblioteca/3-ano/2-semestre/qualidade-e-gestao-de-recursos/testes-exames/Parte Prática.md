@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Parte Prática.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Parte Prática.pdf"
 hash: "ca8a88e5074427712de558bf640cad09a14456b7284cd676d6383077d9326fc8"
 ---
 

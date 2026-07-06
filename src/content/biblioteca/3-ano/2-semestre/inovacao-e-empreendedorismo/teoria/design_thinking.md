@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "design_thinking.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/design_thinking.pdf"
 hash: "b0fa2a6f6597300f90729a8f0ae9f9e4bdf06088e0ad3677366fb64e858243b5"
 ---
 

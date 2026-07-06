@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Solução TP 06 contin..pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Solução TP 06 contin..pdf"
 hash: "0c8bbdd1bd10f86b8a6c39dc45cf04fc3aeba04a73fcd7137ae783ccb09298e2"
 ---
 

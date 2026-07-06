@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Lança_Telescópica_1_Forças.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Lança_Telescópica_1_Forças.pdf"
 hash: "09ca151cec47833c8e41138f3e8e4c62f2a7f93fba7d1e54c3a1e57d7e924691"
 ---
 

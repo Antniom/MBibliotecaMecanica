@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Correias Trapezoidais.xlsx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Correias Trapezoidais.xlsx"
 hash: "64cc5957bd7e004d845ca1006f7152012bda046fe3ba3657fe0cd997f510266f"
 ---
 

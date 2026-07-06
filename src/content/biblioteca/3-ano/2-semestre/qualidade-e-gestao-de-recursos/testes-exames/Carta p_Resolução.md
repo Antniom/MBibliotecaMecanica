@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Carta p_Resolução.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Carta p_Resolução.pdf"
 hash: "fe70f7f541dd2315159d5360267e71c3963b7ada09ad9af4277700b35851af50"
 ---
 

@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "3 Aspectos comportamentais para a gestao.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/3 Aspectos comportamentais para a gestao.pdf"
 hash: "bcf382a6fd4e8b74545779c453f25a936ba33686bfa1195607ed27db46b5e84f"
 ---
 

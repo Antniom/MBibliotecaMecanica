@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "EAC-Relatorio.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/EAC-Relatorio.pdf"
 hash: "07bd4a88fda7342d57042551978c403c93c877134bb5d5b07925f481830bbc79"
 ---
 

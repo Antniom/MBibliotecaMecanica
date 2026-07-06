@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "SixSigmaSchnell.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SixSigmaSchnell.pdf"
 hash: "a80b23decbab7bf04f965f7c353007b5d22a0ce754df2c59396c6887d9b82269"
 ---
 

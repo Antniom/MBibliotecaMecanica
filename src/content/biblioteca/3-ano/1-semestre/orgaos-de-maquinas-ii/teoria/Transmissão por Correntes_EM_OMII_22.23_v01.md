@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Transmissão por Correntes_EM_OMII_22.23_v01.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Transmissão por Correntes_EM_OMII_22.23_v01.pdf"
 hash: "d4dbce4c685d8fa607ec6ab811db9df762fc53095095903875f7774547361ae4"
 ---
 

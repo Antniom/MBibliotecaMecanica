@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecA.aulas.PL2.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecA.aulas.PL2.docx"
 hash: "35f21536d7e4d79fa0948786ad2b2b61cdc3985c5f45841415f7aa4bb9521c43"
 ---
 

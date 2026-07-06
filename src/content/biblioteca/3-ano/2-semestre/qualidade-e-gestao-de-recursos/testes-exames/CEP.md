@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "CEP.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/CEP.pdf"
 hash: "44ccf1e9a5649a11d1689739479d5598b0c555a32c8ac362db862bc01d142735"
 ---
 

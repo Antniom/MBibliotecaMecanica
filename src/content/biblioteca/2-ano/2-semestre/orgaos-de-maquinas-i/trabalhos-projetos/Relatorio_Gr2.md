@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Relatorio_Gr2.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Relatorio_Gr2.docx"
 hash: "9e4934a575e84f91d8f22af35088be4e40508aea2ae8d1f4b03e255cfe435730"
 ---
 

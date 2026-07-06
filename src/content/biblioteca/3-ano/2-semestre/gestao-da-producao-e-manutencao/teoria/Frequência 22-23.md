@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Frequência 22-23.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Frequência 22-23.pdf"
 hash: "8e75a837c251c6cf0df372eec60d33c46ca6dee088d7c746903dda51fa591d4d"
 ---
 

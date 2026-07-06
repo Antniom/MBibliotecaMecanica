@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "QCB-Thin-Section-Brgs-2024.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/QCB-Thin-Section-Brgs-2024.pdf"
 hash: "526351260ee900e43a5fd12d2c97cd5133dec5fe1a2bb3001500b41e28ec2623"
 ---
 

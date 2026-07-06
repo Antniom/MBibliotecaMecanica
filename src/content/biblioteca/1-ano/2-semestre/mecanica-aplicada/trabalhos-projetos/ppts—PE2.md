@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "ppts—PE2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/ppts—PE2.pdf"
 hash: "1d6fb65128bdb748d2223875d886c198901f116f2930f859871f34ec4d3ff421"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "JIS.xml"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/JIS.dwg"
 hash: "c55e57aa8981a40f77447a1cd6519509f1d7179a1c5ab440f14a222abaf0b696"
 ---
 

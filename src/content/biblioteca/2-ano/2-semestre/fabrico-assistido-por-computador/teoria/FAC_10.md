@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "FAC_10.JPG"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/FAC_10.JPG"
 hash: "9fa11c9f92745028024202f0699826f7b9c267701a865d9ef1f66c0deb7c49e8"
 ---
 

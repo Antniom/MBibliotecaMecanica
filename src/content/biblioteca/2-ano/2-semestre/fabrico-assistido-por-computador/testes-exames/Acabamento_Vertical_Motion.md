@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Acabamento_Vertical_Motion.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Acabamento_Vertical_Motion.png"
 hash: "af3dc0b9af959ea8233368f9c7594bcaa1ce1d81afc36d58ab78d3bbe3918997"
 ---
 

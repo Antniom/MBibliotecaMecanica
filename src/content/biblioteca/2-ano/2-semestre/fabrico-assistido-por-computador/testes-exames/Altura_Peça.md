@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Altura_Peça.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Altura_Peça.png"
 hash: "a29bbbacb4ced3f93d1ae15f6c9613131128ec2835a646b77551d19b35d3abd1"
 ---
 

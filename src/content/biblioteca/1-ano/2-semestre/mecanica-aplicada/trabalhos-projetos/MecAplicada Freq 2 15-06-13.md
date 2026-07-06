@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecAplicada Freq 2 15-06-13.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecAplicada Freq 2 15-06-13.pdf"
 hash: "51844cbb7f835ae1d111c044a886ddbe3150c49f83c0de3723ea8503e816ec23"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "T3_Folha_Operador.setup.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/T3_Folha_Operador.setup.pdf"
 hash: "656f15d48d595993e8872956e1d709ef78c248094afd1f4eaabd4e7de1bd527a"
 ---
 

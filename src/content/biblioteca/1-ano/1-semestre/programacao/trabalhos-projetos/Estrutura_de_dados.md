@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Estrutura_de_dados.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Estrutura_de_dados.pdf"
 hash: "43f3cfe0d01f514bb2e583a1523dfa79ffb68083a9f43f0c00e41016c712a152"
 ---
 

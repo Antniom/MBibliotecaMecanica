@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Pastilhas_Parte_Inferior.ipt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Pastilhas_Parte_Inferior.stp"
 hash: "67d74c523562f38011b4badc93ed44c25446183c79b6b99d447dc0d73d8a6bda"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Análise SWOT.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Análise SWOT.pdf"
 hash: "fef0d3929263b78034ccdd35c755dbdcf2db1ff9ac560e4fe37c32f84c022463"
 ---
 

@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Exame_Normal_F2.jpeg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Exame_Normal_F2.jpeg"
 hash: "b099ffe5ac541e94bc52aaa662e0b6d852d6784d643eb75d8d0983245f9298db"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Tabelas PE.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Tabelas PE.pdf"
 hash: "c563ce22003a0d75786acc3590821f4de40c0ca02c0de69a0fa2c76125d457e0"
 ---
 

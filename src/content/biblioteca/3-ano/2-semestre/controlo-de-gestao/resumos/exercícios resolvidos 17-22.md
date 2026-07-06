@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "exercícios resolvidos 17-22.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/exercícios resolvidos 17-22.pdf"
 hash: "d88ce506338b45988bfc267db3636d5f9726d32515c8a6d396fd4d00b12430eb"
 ---
 

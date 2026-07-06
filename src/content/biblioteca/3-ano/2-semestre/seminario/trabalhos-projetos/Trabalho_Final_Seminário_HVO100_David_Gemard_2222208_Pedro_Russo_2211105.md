@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Trabalho_Final_Seminário_HVO100_David_Gemard_2222208_Pedro_Russo_2211105.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Trabalho_Final_Seminário_HVO100_David_Gemard_2222208_Pedro_Russo_2211105.pdf"
 hash: "d4a9fd95b0988f5026225f2ee184bc2335fdc83b5323bcb957468c94dbd7d39c"
 ---
 

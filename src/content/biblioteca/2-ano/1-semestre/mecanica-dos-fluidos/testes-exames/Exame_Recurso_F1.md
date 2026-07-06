@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Exame_Recurso_F1.jpeg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Exame_Recurso_F1.jpeg"
 hash: "076dcb77a1c8832fd31ddef19d1bca1225d21b2e89f23c614bf63df36fe67836"
 ---
 

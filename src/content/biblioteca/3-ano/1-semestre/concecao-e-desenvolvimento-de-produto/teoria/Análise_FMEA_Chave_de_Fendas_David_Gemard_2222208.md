@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Análise_FMEA_Chave_de_Fendas_David_Gemard_2222208.xlsx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Análise_FMEA_Chave_de_Fendas_David_Gemard_2222208.xlsx"
 hash: "b3fa531d5737845d4d5d4e9c2d91ded2c188ea4c24482f90ab99b314829fb0d7"
 ---
 

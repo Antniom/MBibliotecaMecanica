@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "V-Belt.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/V-Belt.htm"
 hash: "220dd9b805615946f8cb68559ef39add1892edf563b389cd3991078f9b37e9a4"
 ---
 

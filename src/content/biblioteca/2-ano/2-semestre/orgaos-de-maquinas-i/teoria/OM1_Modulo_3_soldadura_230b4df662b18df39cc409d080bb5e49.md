@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OM1_Modulo_3_soldadura_230b4df662b18df39cc409d080bb5e49.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_Modulo_3_soldadura_230b4df662b18df39cc409d080bb5e49.pdf"
 hash: "77e4aed6939bffde7e5038d61314db156322d041ffd1c2ebcc1684b6b3d9a392"
 ---
 

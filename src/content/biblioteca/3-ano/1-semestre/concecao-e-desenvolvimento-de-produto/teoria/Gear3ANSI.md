@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Gear3ANSI.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Gear3ANSI.htm"
 hash: "5ea5fffe827088427ca96825d7c4ed44949d7176aa88a958511bb80c846e0ff1"
 ---
 

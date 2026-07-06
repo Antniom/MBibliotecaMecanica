@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "FE 06_Carta x,r.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FE 06_Carta x,r.pdf"
 hash: "626ac24e9c0d45354033c06f5de58a8372774d60fce45a877747bf71ef8337c6"
 ---
 

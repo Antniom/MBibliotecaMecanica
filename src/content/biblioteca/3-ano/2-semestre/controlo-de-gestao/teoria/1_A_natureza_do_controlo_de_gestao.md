@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "1_A_natureza_do_controlo_de_gestao.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/1_A_natureza_do_controlo_de_gestao.pdf"
 hash: "e12d3414e4fd79fdf0f282a18f1af7cc4b83e62c264a90ada83ec4e09c4d9b18"
 ---
 

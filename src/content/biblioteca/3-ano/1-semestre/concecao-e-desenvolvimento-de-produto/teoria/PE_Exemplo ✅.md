@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "PE_Exemplo ✅.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PE_Exemplo ✅.pdf"
 hash: "02e443e1955f59816c6cec9edca9a1b07fe25a35bed0c47e6ea6f75c3286b1df"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "XPB-DIN7753.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/XPB-DIN7753.jpg"
 hash: "27104e51f45dabf82c1f2e84c1f220f3b2579c032022a5b3cac5d3926e9e7ca9"
 ---
 

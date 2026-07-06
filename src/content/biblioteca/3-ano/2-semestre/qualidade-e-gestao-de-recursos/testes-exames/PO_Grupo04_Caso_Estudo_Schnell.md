@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "PO_Grupo04_Caso_Estudo_Schnell.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PO_Grupo04_Caso_Estudo_Schnell.pptx"
 hash: "7c6eea9a3bb8bede128350bdec3fd9e48308c9875f76e5e0dca2ec5fcc514316"
 ---
 

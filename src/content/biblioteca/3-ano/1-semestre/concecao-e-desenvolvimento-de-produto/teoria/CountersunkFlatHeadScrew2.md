@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "CountersunkFlatHeadScrew2.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/CountersunkFlatHeadScrew2.jpg"
 hash: "a1c6ffda3876461088ad521fc06ad2cb368401225f1e00f3642df2e7a87c4e73"
 ---
 

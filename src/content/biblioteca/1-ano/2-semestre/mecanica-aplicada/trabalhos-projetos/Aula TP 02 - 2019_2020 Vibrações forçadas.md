@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula TP 02 - 2019_2020 Vibrações forçadas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula TP 02 - 2019_2020 Vibrações forçadas.pdf"
 hash: "5e1883f4242f5e6d9bde83ed98923d0ce27eadf674d4f4615f06fab2a3de444d"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "A-DXL-ISO5296.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/A-DXL-ISO5296.jpg"
 hash: "5e16af0ba4064f0e893ba14206f15815a8b9b8837c5509ae03987746ba2b2ea8"
 ---
 

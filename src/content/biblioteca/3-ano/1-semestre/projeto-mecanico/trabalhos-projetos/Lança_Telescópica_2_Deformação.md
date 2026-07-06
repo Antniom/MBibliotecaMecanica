@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Lança_Telescópica_2_Deformação.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Lança_Telescópica_2_Deformação.pdf"
 hash: "768efba1052af7f1e48e920ecf897bfc2f9ae674c7e241dbde879bb00c8480f5"
 ---
 

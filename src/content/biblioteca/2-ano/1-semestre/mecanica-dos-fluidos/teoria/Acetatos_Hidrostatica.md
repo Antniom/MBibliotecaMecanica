@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Acetatos_Hidrostatica.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Acetatos_Hidrostatica.pdf"
 hash: "d4bc1089016d4c92d8e424e6ab37cf66062951443d358fd4d82ead8e5e38621a"
 ---
 

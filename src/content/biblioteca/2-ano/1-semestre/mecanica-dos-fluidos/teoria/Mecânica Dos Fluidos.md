@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Mecânica Dos Fluidos.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Mecânica Dos Fluidos.pdf"
 hash: "d97716be0d1606ccd6e122cba665a2eba58ff4f9a3c0f4a13f5b7daa323dbf40"
 ---
 

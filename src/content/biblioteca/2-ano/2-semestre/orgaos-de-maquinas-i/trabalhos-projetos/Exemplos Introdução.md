@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Exemplos Introdução.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Exemplos Introdução.pdf"
 hash: "098ce2db47feccc6f0ab7ca612c59e075c4755036726d9e70c2d06188ae86d99"
 ---
 

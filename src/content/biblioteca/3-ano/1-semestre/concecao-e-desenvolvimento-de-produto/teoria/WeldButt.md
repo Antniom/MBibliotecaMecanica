@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "WeldButt.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/WeldButt.htm"
 hash: "497ad478908c0e4b9fbda7e3ef8aadd0c0e09edd999ef777e96fed02aaea7e86"
 ---
 

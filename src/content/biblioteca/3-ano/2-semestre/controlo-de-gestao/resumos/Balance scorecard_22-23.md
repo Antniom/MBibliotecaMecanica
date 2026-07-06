@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Balance scorecard_22-23.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Balance scorecard_22-23.pdf"
 hash: "749f93a8731a09d5ba7377876398235dc3c7b2fdbf2c3211ec9384f92ed99b83"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "formulas.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/formulas.docx"
 hash: "a97dab861ba7b9a9fba1cdd2f6c9b565ec829bb258bc82a0fda799fbb1c027c0"
 ---
 

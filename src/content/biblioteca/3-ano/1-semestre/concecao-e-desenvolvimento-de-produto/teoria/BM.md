@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "BM.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/BM.png"
 hash: "1a11122c6d87bf89d0746c97f93f08d24e3cedb988965d02bc09fa51864420b1"
 ---
 

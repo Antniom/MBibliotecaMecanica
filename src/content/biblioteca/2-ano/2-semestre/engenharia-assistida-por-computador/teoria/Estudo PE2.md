@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Estudo PE2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Estudo PE2.pdf"
 hash: "da68442184c81940594604e4af98b646bbaea91bf5c66ac30a7240f4e9601e27"
 ---
 

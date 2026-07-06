@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "molde.cgr"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Molde.STEP"
 hash: "6821817c41be1fd377b09dc0c2c0559a03b74ba6604472998cedbd335cbee13a"
 ---
 

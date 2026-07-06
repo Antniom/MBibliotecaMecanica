@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Ficha Soldadura Semi Resolvida.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Ficha Soldadura Semi Resolvida.pdf"
 hash: "2ac76271dc156564afe836619d661f1e07d206bb19b24699cc751bdb5ddc3080"
 ---
 

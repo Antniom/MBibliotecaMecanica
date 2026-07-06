@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "FMEA SACCA ROLAS.xlsx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FMEA SACCA ROLAS.xlsx"
 hash: "bef514b4aa2a68d3f8cd13c4b3d2706b06d08da41c9848707877c0fc3e62c2dc"
 ---
 

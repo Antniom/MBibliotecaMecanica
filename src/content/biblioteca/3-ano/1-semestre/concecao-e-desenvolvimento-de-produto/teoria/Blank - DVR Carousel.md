@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Blank - DVR Carousel.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Blank - DVR Carousel.pdf"
 hash: "ac9af115e12b9d63ec42bec8d3ac1101511e9776cf375e19a9ef6e0d0c05eb38"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "catalogo64_pt.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/catalogo64_pt.pdf"
 hash: "c5b1f9f9a3f5d62cfd4dd9216a7418c1db35004e2a4890124d840866a50905e9"
 ---
 

@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "FE 02_ Pareto.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FE 02_ Pareto.pdf"
 hash: "370d3cb0fab6b2158a4a8cac852365d6c3aa57a7854673e8b180264e044a1936"
 ---
 

@@ -68,8 +68,14 @@ def main():
     print("\n[PASSO 1] Inventário e classificação de ficheiros...")
     run_inventory()
 
-    # ── Start background file uploader ──────────────────────────
-    start_background_uploader()
+    # ── Upload all original files first ──────────────────────────
+    print("\n[UPLOAD] A enviar todos os ficheiros originais para o GitHub antes de processar...")
+    try:
+        from upload_assets import run_uploads
+        run_uploads()
+        print("[UPLOAD] Upload concluído. Todos os ficheiros originais estão salvos no GitHub.")
+    except Exception as e:
+        print(f"[UPLOAD ERRO] Falha ao enviar ficheiros originais: {e}")
 
     # ── Immediate deploy: push any already-exported markdown files ──
     print("\n[DEPLOY INICIAL] A verificar se há conteúdo já pronto para publicar...")

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "T08 - Propriedade Industrial.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/T08 - Propriedade Industrial.pdf"
 hash: "c5f215a11566cb7a2c2d6e8cb930b70c378c8eeafdbe4d329a1a82101b4ab6a5"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "XPZ-DIN7753.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/XPZ-DIN7753.jpg"
 hash: "2ee89e9c9a44497c6126c762e38d1e9d693b5c85b0339bfa67f112f5d58f6325"
 ---
 

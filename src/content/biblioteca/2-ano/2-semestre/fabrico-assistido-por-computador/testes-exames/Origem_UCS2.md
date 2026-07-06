@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Origem_UCS2.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Origem_UCS2.png"
 hash: "163ecb0aa5f47f57828d0be66d6ab1b9f6e796888fca52b7017af2ac383e31c8"
 ---
 

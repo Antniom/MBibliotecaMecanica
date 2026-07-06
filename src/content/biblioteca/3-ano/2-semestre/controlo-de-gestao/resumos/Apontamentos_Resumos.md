@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Apontamentos_Resumos.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Apontamentos_Resumos.pdf"
 hash: "fb23adc69137a13f98dfeb485753047d3a95591e67864ff3059dd7a33300b370"
 ---
 

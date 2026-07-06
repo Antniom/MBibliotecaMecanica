@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "ConeDrive_Slew_08092024.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ConeDrive_Slew_08092024.pdf"
 hash: "3be74ad4211ac6509bdea5b1f8339b76b6a427d0931442c74118074edaed5631"
 ---
 

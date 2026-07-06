@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Enunciado Trab PL2_2021.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Enunciado Trab PL2_2021.pdf"
 hash: "db7849d97a899bca58d32627074de33385954c62c5f4d005eec9421298e6ba29"
 ---
 

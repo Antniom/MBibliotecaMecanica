@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Autodesk_Logo_Black.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Autodesk_Logo_Black.png"
 hash: "64a2710bc027197c1ef3ecf84e62e3bca4b6f0e8acc249b85cb3197c7b43b467"
 ---
 

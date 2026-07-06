@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "FichaExercícios6_Exploração Histórico.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FichaExercícios6_Exploração Histórico.pdf"
 hash: "89ffab68177bc4ee0a75d7f752729b6856f9358e56a789d96f67ac005c4f8a8b"
 ---
 

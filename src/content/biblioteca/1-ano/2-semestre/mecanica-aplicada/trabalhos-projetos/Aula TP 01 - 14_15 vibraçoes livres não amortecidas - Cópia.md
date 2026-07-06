@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula TP 01 - 14_15 vibraçoes livres não amortecidas - Cópia.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula TP 01 - 14_15 vibraçoes livres não amortecidas - Cópia.pdf"
 hash: "c592d02f2ce956b9db7d8e861efcc8572e5e08404126cb287966297e81ca2046"
 ---
 

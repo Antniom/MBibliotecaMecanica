@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Preparação Recurso_250716_100000.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Preparação Recurso_250716_100000.pdf"
 hash: "6c1257afd27e2010f6b827f45eb94899379ef043826881616750f7df1b1451a0"
 ---
 

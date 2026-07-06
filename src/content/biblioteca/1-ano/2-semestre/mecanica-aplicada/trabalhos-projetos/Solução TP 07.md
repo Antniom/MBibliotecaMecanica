@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Solução TP 07.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Solução TP 07.pdf"
 hash: "d34e805f26f1b71d3bea82deea54c75a50a6dc7ae8c34e5f22bf7f0fa793129f"
 ---
 

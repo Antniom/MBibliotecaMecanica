@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula Teórica 4 14 15 Movimento Geral Plano - análise relativa e absoluta em cadeia aberta.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula Teórica 4 14 15 Movimento Geral Plano - análise relativa e absoluta em cadeia aberta.pdf"
 hash: "0ff9b387daa740a08183e9fa55eb52314a9fa7018ffc7c416a5415486b9efe82"
 ---
 

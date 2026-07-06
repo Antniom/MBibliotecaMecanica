@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Vitor Mafalda (1).pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Vitor Mafalda (1).pdf"
 hash: "38e3ad0de4f745c2f5072fe9d43d8df1f945b7e206a1c782536ec2677b260ad3"
 ---
 

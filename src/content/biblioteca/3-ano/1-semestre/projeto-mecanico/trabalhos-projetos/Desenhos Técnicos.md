@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Desenhos Técnicos.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Desenhos Técnicos.pdf"
 hash: "4b991a1385d9760226e265b2689d8943e279704238d6be457295b81b902ae178"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "mecF_aula3.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/mecF_aula3.pdf"
 hash: "11a7250a88f13aff2da4ec5f9e7933482bbcca6c1b1610d6fc0c11d86208fa10"
 ---
 

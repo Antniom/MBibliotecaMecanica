@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "PTP_2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/PTP_2.pdf"
 hash: "666a815ca69372e04f01ecda63abc91907167cede5e66a9e312e5d4550cb1930"
 ---
 

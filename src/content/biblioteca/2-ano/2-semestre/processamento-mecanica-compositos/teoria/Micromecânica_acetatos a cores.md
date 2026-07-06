@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Micromecânica_acetatos a cores.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Micromecânica_acetatos a cores.pdf"
 hash: "7c10e967096a08e89107f531b991129573e81b26da396a88a027b349f1609f46"
 ---
 

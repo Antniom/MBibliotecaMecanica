@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "3VX-ANSI-IP-22.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/3VX-ANSI-IP-22.jpg"
 hash: "db4262cf7a2d849e1794483929591cb5df0fb8cf13f9d9c8a1700116b9bb2dd3"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aula TP 04 -14_15 Rotação em torno de eixo fixo.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aula TP 04 -14_15 Rotação em torno de eixo fixo.pdf"
 hash: "4830bc61c7b22de0583751f57d6b181afd9ed3be0142ee075954e43519e70177"
 ---
 

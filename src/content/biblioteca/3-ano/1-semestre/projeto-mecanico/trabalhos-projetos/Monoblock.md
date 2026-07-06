@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Monoblock.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Monoblock.pdf"
 hash: "837946d63b88ec01fb87de2eda3b060ecda7a28919b25b16ea02cb0a1b5c1fb3"
 ---
 

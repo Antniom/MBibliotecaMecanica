@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Relatorio_tl2_tec_mat.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Relatorio_tl2_tec_mat.docx"
 hash: "fbc4cfbbbc35591ef3214ff0f0b380a29e2a6a804400ceca5e42f6fb925dbead"
 ---
 

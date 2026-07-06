@@ -7,7 +7,7 @@ tipo: "resolucoes"
 fonte_original: "exame 21-22.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/exame 21-22.pdf"
 hash: "3d40f2a5f2f3d2de5c565cdf7b115689f374c8d6af096cb137e0df3e636b1481"
 ---
 

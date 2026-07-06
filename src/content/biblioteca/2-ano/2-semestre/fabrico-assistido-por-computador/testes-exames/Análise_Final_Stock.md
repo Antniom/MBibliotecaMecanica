@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Análise_Final_Stock.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Análise_Final_Stock.png"
 hash: "5ab92f3a8e89af3d158b633d281c0ba1d9b7182c150bc0db2cbccc4bc06bb74f"
 ---
 

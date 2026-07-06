@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "ISO606_US.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/ISO606_US.jpg"
 hash: "b77a3a6e4c5563b830555eaf47811976642ec934fe832f838a7aa47659445ee7"
 ---
 

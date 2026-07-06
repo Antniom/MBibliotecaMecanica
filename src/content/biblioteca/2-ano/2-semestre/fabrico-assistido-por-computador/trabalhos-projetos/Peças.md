@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Peças.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Peças.zip"
 hash: "e262732e91e78f2dc27f8ca54e4f29f9638d29d54da78f9e069899357b6e8510"
 ---
 

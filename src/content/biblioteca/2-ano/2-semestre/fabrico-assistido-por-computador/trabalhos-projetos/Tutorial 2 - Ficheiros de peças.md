@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Tutorial 2 - Ficheiros de peças.rar"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Tutorial 2 - Ficheiros de peças.rar"
 hash: "fdab9e40f044f99f6d0a49467ffea4cd70bda34877607104c17066fd46808f8a"
 ---
 

@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Acabamento_Horizontal_Simulation.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Acabamento_Horizontal_Simulation.png"
 hash: "e8c57b3bfdef01c342c0ebea649515cf8c883fa67118aedf18f7f6200358d471"
 ---
 

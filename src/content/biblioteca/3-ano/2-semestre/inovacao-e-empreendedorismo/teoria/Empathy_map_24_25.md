@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Empathy_map_24_25.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Empathy_map_24_25.pdf"
 hash: "92b369b274bd13271c4cc389b5fd2ddbca3da7b38a78d1265f68f3d4ffe64943"
 ---
 

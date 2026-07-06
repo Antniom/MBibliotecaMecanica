@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "DeepGoove.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/DeepGoove.jpg"
 hash: "4198b30ca0a208cb9e01100504355fd001b6dc2a858385e5d4108ccc877bb95f"
 ---
 

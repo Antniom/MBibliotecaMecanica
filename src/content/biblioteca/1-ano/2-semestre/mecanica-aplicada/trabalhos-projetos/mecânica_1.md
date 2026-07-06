@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "mecânica_1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/mecânica_1.pdf"
 hash: "9a4dcd5a68cbcbd437cdfde3d675b969abfa73629fcc040b4079066cdb1fd7f8"
 ---
 

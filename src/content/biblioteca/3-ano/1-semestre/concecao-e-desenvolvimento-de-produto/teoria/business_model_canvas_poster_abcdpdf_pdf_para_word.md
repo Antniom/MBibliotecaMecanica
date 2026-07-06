@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "business_model_canvas_poster_abcdpdf_pdf_para_word.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/business_model_canvas_poster_abcdpdf_pdf_para_word.docx"
 hash: "2469b19180f465cbaa3ad21d5f4255285ea5678afc4cc13703d6fce23e76fe46"
 ---
 

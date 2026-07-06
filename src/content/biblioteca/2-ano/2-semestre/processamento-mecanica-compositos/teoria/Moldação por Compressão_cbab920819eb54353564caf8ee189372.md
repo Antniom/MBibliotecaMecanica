@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Moldação por Compressão_cbab920819eb54353564caf8ee189372.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Moldação por Compressão_cbab920819eb54353564caf8ee189372.pdf"
 hash: "f18a163ed59ce9ee4b2511572c167d522c201768ca7c9ff07c1d1da2124992f0"
 ---
 

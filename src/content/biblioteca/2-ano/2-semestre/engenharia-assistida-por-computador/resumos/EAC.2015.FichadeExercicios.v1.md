@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "EAC.2015.FichadeExercicios.v1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/EAC.2015.FichadeExercicios.v1.pdf"
 hash: "8213a663936fa34b1ce61dbe7119bb0fe3c49967707b91d73081ba639d1e407f"
 ---
 

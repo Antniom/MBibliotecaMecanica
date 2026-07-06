@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "MedidasPeca.xlsx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/MedidasPeca.xlsx"
 hash: "f6929b07e80ba56db1afed8c9e75631614d82da1bddd86f1f3041521c27d4619"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecA.2014.Trab02.Enunciado.5.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecA.2014.Trab02.Enunciado.5.docx"
 hash: "772ed54708b0c80da0df00e13431f1a2108c0c996690c465040d01f4e1c09b07"
 ---
 

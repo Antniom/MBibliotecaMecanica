@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "PAF_Resumo_1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PAF_Resumo_1.pdf"
 hash: "a629ce38a836d1ffbb168f4c2899efa779910347c8ea2a30154b340641363f3d"
 ---
 

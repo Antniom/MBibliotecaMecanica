@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Exercício Proposto Correias 2 ✅.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Exercício Proposto Correias 2 ✅.pdf"
 hash: "9762270377ee8daf9f2589cf24fda6f66a8ca489bea66c1a76642e00163eeef4"
 ---
 

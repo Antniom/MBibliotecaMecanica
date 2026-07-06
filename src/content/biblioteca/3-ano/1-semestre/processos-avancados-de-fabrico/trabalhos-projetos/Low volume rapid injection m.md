@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Low volume rapid injection m.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Low volume rapid injection m.pdf"
 hash: "77945f60a3fc785dccff6eb7b66d2a77d05c15bdfe95b025ed5a1e8df246c5a2"
 ---
 

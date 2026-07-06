@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Ficha EAC parte1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Ficha EAC parte1.pdf"
 hash: "b7f9bcd3475c706b12d4086c52d2f9e606600686a86d2420a8c3c6e3fad736dd"
 ---
 

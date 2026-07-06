@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Modelo_relatorio_trabalho_pratico_EAC_2.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Modelo_relatorio_trabalho_pratico_EAC_2.docx"
 hash: "fc6a2e39c4c8482fa65392bc351ea60daa8077038cd6ea2d7b501616aef93971"
 ---
 

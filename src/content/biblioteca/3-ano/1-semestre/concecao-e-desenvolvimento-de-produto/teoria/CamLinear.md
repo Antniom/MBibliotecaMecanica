@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "CamLinear.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/CamLinear.htm"
 hash: "ab578a44465063dd93141c5e89f4c347b4e6491a58841d0b228c24cd6341c75d"
 ---
 

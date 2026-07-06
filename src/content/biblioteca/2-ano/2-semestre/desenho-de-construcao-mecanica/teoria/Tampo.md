@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Tampo.ipt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Tampo.pdf"
 hash: "34cc8b1b9f4e5acb8eb9fdc2885cb2b7be7e4ac50091e9d4b311e996a04011ae"
 ---
 

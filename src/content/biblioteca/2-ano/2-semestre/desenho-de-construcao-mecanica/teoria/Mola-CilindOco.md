@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Mola-CilindOco.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Mola-CilindOco.pdf"
 hash: "36d7211fdbb14e2f37259d18c251ca6e0c61082fb31d5a93cfc1db43fed9f1b9"
 ---
 

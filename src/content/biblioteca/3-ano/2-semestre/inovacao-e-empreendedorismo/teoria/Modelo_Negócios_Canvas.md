@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Modelo_Negócios_Canvas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Modelo_Negócios_Canvas.pdf"
 hash: "b30774ea1e0181edeb5a1f02918ed76f0d26e9d7c2afba48762c9ba3584c335a"
 ---
 

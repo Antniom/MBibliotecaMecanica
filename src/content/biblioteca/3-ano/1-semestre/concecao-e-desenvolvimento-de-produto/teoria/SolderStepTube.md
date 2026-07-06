@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SolderStepTube.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SolderStepTube.htm"
 hash: "0fde78ba1a90cacf82747cd9d7df8893a2657ea81464d8b45dfd150ef9060653"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "CAD_3D_Grupo_DavidGemard_RafaelAbrunheiro_Technical_Note_2425.zip"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/CAD_3D_Grupo_DavidGemard_RafaelAbrunheiro_Technical_Note_2425.zip"
 hash: "7705f7d0ec3b1099dd4e6f7534f544cc70e5db6345ff1bc7138ec506c18b1fdf"
 ---
 

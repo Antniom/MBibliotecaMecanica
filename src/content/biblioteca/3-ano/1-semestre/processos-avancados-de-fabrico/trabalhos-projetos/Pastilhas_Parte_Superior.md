@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Pastilhas_Parte_Superior.ipt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Pastilhas_Parte_Superior.stp"
 hash: "e851d553c95e68f10d40ad2ff7b110b364a5d1a4108444e2c559ef1e795fe7d5"
 ---
 

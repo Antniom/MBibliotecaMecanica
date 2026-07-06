@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SPA-DIN7753.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SPA-DIN7753.jpg"
 hash: "6760be588fc69426d5af3c1d5f282194daf6f7be13b4e51eeea6ea799ce1b6f5"
 ---
 

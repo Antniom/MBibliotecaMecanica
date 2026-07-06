@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Poster.pub"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/poster.pptx"
 hash: "7eefd5cf0b537203512853a64ea50f4df9886b040b8be1ab373ce0725ec0e872"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Aulas PL de Mecânica Aplicada 2014.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Aulas PL de Mecânica Aplicada 2014.docx"
 hash: "28cfe14022358e229cfe1ca197fc631ea2d4e36aac685a3782aa67e3508be424"
 ---
 

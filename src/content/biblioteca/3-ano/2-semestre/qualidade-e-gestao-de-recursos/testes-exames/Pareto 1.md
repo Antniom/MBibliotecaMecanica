@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Pareto 1.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Pareto 1.pdf"
 hash: "24f8a29f22ee197a7238274743b50437243d1b8bc8adfecb77801ddd222565d3"
 ---
 

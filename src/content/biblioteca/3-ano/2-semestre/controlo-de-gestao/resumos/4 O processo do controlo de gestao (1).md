@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "4 O processo do controlo de gestao (1).pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/4 O processo do controlo de gestao (1).pdf"
 hash: "0b41ffd959a3a26b90e30e739ebfd8f5c2989a71db3b3cf042c348751c6fb6f2"
 ---
 

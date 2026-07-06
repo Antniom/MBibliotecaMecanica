@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MA_Freq2_10_11.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MA_Freq2_10_11.pdf"
 hash: "642fba1f602de817b08484e90d15912096e1b18bd5078d94240791075b8f35bf"
 ---
 

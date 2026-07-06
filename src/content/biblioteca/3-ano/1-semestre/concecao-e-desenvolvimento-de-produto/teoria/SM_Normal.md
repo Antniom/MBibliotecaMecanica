@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SM_Normal.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SM_Normal.png"
 hash: "0892662eeec11af45e1b8bbc0cdcb07e18102bfebc00df793a576df3460822b2"
 ---
 

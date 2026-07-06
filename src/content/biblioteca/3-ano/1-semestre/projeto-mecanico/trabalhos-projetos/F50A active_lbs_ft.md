@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "F50A active_lbs_ft.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/F50A active_lbs_ft.pdf"
 hash: "6c12cc5361ef7fa8e819f8be8f4c5c47373cb15afb12a5151434b7cd4ccce333"
 ---
 

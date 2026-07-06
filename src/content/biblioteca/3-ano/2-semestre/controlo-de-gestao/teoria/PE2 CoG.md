@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "PE2 CoG.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PE2 CoG.pdf"
 hash: "2c1dca8544cc310b552ef4eafb9d9e4c4196a8a2f310511e44c8f525570f28f6"
 ---
 

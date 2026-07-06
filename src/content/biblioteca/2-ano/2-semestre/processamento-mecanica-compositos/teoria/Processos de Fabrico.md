@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Processos de Fabrico.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Processos de Fabrico.pdf"
 hash: "e07f80051b665f4341f49b5da32154036eb2f5e098447b974ec8a3419cdd54ff"
 ---
 

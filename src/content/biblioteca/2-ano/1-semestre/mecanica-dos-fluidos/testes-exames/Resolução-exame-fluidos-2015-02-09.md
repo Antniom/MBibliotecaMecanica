@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Resolução-exame-fluidos-2015-02-09.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Resolução-exame-fluidos-2015-02-09.pdf"
 hash: "deb1879c8e180e68c27dd36d400853b216e3a95866509e90eeb60f1eb8c09ff9"
 ---
 

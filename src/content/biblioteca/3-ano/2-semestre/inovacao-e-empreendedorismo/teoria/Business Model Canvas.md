@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Business Model Canvas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Business Model Canvas.png"
 hash: "41371657fb463855eaaf2d5eeed436b72f1aefef9ff3bbd8775275ed717ca813"
 ---
 

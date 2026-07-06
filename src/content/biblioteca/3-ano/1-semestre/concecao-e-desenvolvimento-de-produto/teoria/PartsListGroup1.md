@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "PartsListGroup1.xls"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/PartsListGroup1.xls"
 hash: "8f586ddb21d7c58c67a208ff27bad7933fca0db7c9b98dd5741b1be98e0c05e6"
 ---
 

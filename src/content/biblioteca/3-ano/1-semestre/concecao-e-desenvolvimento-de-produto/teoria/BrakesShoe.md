@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "BrakesShoe.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/BrakesShoe.htm"
 hash: "589b50146d62f4d04b11e2da9fefb258db1b386b91a7041ea36c50a2edcd2630"
 ---
 

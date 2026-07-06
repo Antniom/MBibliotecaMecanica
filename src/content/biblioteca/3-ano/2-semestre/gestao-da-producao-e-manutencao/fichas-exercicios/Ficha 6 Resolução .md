@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Ficha 6 Resolução .pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Ficha 6 Resolução .pdf"
 hash: "8b1e7f6c4f1ee4650b2119a9f3c81e4f0bad28ff5377c68d89935a96f5202d37"
 ---
 

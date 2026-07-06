@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "V-Grv-Pulley.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/V-Grv-Pulley.htm"
 hash: "fd3f8dc4a770aad598955cef5235837e794f0c10c19d03a6f0932addf68b7119"
 ---
 

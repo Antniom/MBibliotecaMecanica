@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "CamCylindrical.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/CamCylindrical.htm"
 hash: "afab18afe17368106b047eacb009ae1b0a0e81052576bf33ef2992e5ad067e12"
 ---
 

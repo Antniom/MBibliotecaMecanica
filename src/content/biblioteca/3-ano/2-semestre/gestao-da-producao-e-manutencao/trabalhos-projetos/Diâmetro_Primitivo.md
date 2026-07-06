@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Diâmetro_Primitivo.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Diâmetro_Primitivo.png"
 hash: "7fd55d737baf561a7186f9fe93e37e085dacb82cebbc881c606eead72c59f598"
 ---
 

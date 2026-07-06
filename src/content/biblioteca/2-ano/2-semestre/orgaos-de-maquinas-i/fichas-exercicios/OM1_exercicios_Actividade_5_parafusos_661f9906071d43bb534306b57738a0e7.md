@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "OM1_exercicios_Actividade_5_parafusos_661f9906071d43bb534306b57738a0e7.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_exercicios_Actividade_5_parafusos_661f9906071d43bb534306b57738a0e7.pdf"
 hash: "4a75fdc17c3544c647fda29751f5d71320cbbf4017a370af13fdb2ccd1183cd1"
 ---
 

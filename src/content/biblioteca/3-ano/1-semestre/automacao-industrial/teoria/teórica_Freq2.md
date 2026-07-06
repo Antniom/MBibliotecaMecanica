@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "teórica_Freq2.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/teórica_Freq2.pdf"
 hash: "ca6bd6735ae7221e8787f55f23b0ff6b38553bbd4d116bb45ef7b7150e0a722a"
 ---
 

@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "DIN_Side_Flat.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/DIN_Side_Flat.png"
 hash: "0b803aa710a6cad6327f3fa2b5d5edc9ba617b69de5f6aee3a992e9aaf0d3e64"
 ---
 

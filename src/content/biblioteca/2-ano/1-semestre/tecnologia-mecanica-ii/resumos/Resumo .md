@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "Resumo .pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Resumo .pdf"
 hash: "4c8f057f41ff1b2afcd3bcf906e0b39f62c4eac2f26962e475cbaf36da5c4a0d"
 ---
 

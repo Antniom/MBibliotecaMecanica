@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Sem título.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Sem título.png"
 hash: "c0becba0dc125a3440d85908291e62d1edf8970f10f884f0bfd4f49d5f9858b9"
 ---
 

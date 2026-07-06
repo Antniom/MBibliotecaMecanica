@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Acabamento_Circular_Simulation.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Acabamento_Circular_Simulation.png"
 hash: "4000a35ddb76be2f25372c38af74b860284ae2cc0c38ebcf049e4f0ba0ebf882"
 ---
 

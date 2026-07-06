@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "8V-ANSI-IP-22.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/8V-ANSI-IP-22.jpg"
 hash: "965a925457725bf0d9ebcd277d36532099661350313b968f6f1925e9b9e5b991"
 ---
 

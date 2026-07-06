@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "7-sinusoidais ✅.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/7-sinusoidais ✅.pdf"
 hash: "8fc2f5c8816872c04e761da1485ef1de7a65c8ce56a6d565953e4f8b5abeaee8"
 ---
 

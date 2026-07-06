@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Rolamentos_Rolos_Cónicos.xlsx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Rolamentos_Rolos_Cónicos.xlsx"
 hash: "f4d0625c20cbbe616446e816ee8af8a0353f41115fd82f4da4ba544799e9adc0"
 ---
 

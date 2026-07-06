@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "AnsiMetricMProfile.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/AnsiMetricMProfile.jpg"
 hash: "d844030411ff5b70aa81bf86e252b7eb978bec6ee508915c76d11a03f2ae740f"
 ---
 

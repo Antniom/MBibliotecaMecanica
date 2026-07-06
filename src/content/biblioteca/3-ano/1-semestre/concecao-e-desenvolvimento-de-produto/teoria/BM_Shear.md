@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "BM_Shear.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/BM_Shear.png"
 hash: "002a68d42d902d4fc2fc263a2b514e4977e26542ae9864aa5f4e5ecb3e38167b"
 ---
 

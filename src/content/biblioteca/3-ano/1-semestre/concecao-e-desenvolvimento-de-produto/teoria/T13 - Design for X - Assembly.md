@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "T13 - Design for X - Assembly.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/T13 - Design for X - Assembly.pdf"
 hash: "b17ec44c11c5d0aa46d2b110077af238942403658658101af82eb1ed76bb09ef"
 ---
 

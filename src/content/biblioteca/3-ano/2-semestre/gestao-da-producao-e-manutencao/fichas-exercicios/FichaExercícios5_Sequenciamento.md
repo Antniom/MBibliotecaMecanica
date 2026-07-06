@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "FichaExercícios5_Sequenciamento.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FichaExercícios5_Sequenciamento.pdf"
 hash: "1df9c6cca2bab50b2684c50388bdec4d0f0a14b3f3e43fb385f3f56525f594c5"
 ---
 

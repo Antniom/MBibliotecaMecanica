@@ -7,7 +7,7 @@ tipo: "resumos"
 fonte_original: "EAC.txt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/EAC.txt"
 hash: "26cfe66aa02e9bd09cbb49dbb934af0debbfc774371fdd4b3eabb71a5db381de"
 ---
 

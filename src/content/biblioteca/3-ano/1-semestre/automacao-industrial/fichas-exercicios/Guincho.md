@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "Guincho.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Guincho.pdf"
 hash: "fa1e5706ffefdd1725293e84938718fd8f42d43165c799f0ef69648d14aa291f"
 ---
 

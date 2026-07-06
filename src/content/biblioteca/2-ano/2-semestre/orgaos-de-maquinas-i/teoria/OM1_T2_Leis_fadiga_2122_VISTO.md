@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "OM1_T2_Leis_fadiga_2122_VISTO.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/OM1_T2_Leis_fadiga_2122_VISTO.pdf"
 hash: "6d554f2f5949cb5722d140ca45fb3ed4226a88b20470d2a41d168c563bb62aff"
 ---
 

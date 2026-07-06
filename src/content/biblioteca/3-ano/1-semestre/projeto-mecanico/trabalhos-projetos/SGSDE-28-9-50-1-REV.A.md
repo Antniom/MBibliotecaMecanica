@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "SGSDE-28-9-50-1-REV.A.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/SGSDE-28-9-50-1-REV.A.pdf"
 hash: "9816b4a2e7c0c395959a3ef5e133deb34cfe8b02f8e389f4856bb31e879f67d6"
 ---
 

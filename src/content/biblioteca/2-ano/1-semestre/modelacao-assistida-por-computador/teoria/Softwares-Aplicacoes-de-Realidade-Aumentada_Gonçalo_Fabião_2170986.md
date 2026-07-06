@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Softwares-Aplicacoes-de-Realidade-Aumentada_Gonçalo_Fabião_2170986.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Softwares-Aplicacoes-de-Realidade-Aumentada_Gonçalo_Fabião_2170986.pdf"
 hash: "8343a7ca3158db3e0b5c7da6c17d14f18cc0b4050b9ddf09495843ccb59488f5"
 ---
 

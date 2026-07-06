@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Gear1Merrit.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Gear1Merrit.htm"
 hash: "462017df5365a12a0d638a93757bfacca6d8dd60c24db4e8e53deb221eaf65a5"
 ---
 

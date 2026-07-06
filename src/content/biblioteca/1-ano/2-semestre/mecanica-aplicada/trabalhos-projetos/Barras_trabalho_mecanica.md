@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Barras_trabalho_mecanica.odp"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Barras_trabalho_mecanica.odp"
 hash: "9cc67800be8aa1ddcad5d4d189a8973e0b2b2231ab94cf9fbeb10690f5d6872b"
 ---
 

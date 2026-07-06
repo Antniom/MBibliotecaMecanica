@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "SELicense_2019_IPLeiria.dat.txt"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/SELicense_2019_IPLeiria.dat.txt"
 hash: "c76b6145a4fc257606278ae48132d3e50ff4c15cec732c9d189c8b00af5209d4"
 ---
 

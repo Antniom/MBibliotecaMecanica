@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "BoltConnFat.htm"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/BoltConnFat.htm"
 hash: "0dc3d60b5ec4f85574cd9875e3781d20c597b24198082da2496dc67bf3763680"
 ---
 

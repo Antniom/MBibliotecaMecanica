@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "MF_-_EM_-_3_-_Bernoulli.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/MF_-_EM_-_3_-_Bernoulli.pdf"
 hash: "4df162f3787c7b8dd0cecaf195213eb8bd308ead987767b0aee1affb1452bb73"
 ---
 

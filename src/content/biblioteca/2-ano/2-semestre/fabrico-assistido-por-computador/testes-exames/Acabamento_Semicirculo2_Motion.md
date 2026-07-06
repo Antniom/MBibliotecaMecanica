@@ -7,7 +7,7 @@ tipo: "testes-exames"
 fonte_original: "Acabamento_Semicirculo2_Motion.png"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/Acabamento_Semicirculo2_Motion.png"
 hash: "b2506f9a191a81e699979e62b4acc89ea615eec0e22b49ed5a5b10ab4b4b020f"
 ---
 

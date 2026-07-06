@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "T10 - Design for X.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/T10 - Design for X.pdf"
 hash: "52d5338f4b5c20886c60f659ba59ae8c7b60823afb9213421a9d04d646c32768"
 ---
 

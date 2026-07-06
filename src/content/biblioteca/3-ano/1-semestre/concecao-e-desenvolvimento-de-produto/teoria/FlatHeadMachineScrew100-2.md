@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "FlatHeadMachineScrew100-2.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/FlatHeadMachineScrew100-2.jpg"
 hash: "22b3e577c1d07512275e3c0053be245ffd0803b83ca354bdc6ddc642108d0b38"
 ---
 

@@ -7,7 +7,7 @@ tipo: "fichas-exercicios"
 fonte_original: "FAC_2023_2024_TL4 - Enunciado_Tutorial TL4_Práticas.docx"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/2-ano/FAC_2023_2024_TL4 - Enunciado_Tutorial TL4_Práticas.docx"
 hash: "085cd8bbf9795a9dd9f0d3eaaeacb15deba317786f1e2763a4ad76b712f416d8"
 ---
 

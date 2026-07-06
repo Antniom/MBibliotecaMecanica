@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Como_construir_gerir_equipas.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Como_construir_gerir_equipas.pdf"
 hash: "0a99482a6930f2c810eee88bc81300bbef8da694e06eee9bd5bdb02e3948c185"
 ---
 

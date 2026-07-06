@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "MecA.PL04.rotação.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/MecA.PL04.rotação.docx"
 hash: "58fbd19eef0caa6633b7c32f7a6c57c83b4f048ece819a6dada189b3909b409e"
 ---
 

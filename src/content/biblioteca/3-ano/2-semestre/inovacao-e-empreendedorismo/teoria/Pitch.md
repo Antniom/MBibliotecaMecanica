@@ -7,7 +7,7 @@ tipo: "teoria"
 fonte_original: "Pitch.pdf"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/3-ano/Pitch.pdf"
 hash: "55abbfd3ce1431981d1efada4fa474364691b47ab2b1cc7aa04bf065d6bf9e8f"
 ---
 

@@ -7,7 +7,7 @@ tipo: "trabalhos-projetos"
 fonte_original: "Bx By.jpg"
 confianca_media: 0.00
 data_processamento: "2026-07-03"
-storage_url: ""
+storage_url: "https://github.com/Antniom/MBibliotecaMecanica/releases/download/1-ano/Bx By.jpg"
 hash: "02c0bb69adc2d8aeabaf35225875153ad3e458bba114d22650d30a5b29dbd5bc"
 ---
 
