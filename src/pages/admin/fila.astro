@@ -1,0 +1,477 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+const ALL_UCS = [
+  // 1º Ano
+  { name: "Análise Matemática", slug: "analise-matematica", ano: 1, semestre: 1 },
+  { name: "Álgebra Linear", slug: "algebra-linear", ano: 1, semestre: 1 },
+  { name: "Física", slug: "fisica", ano: 1, semestre: 1 },
+  { name: "Programação", slug: "programacao", ano: 1, semestre: 1 },
+  { name: "Inglês", slug: "ingles", ano: 1, semestre: 1 },
+  { name: "Química e Materiais", slug: "quimica-e-materiais", ano: 1, semestre: 1 },
+  { name: "Matemática Aplicada", slug: "matematica-aplicada", ano: 1, semestre: 2 },
+  { name: "Estatística", slug: "estatistica", ano: 1, semestre: 2 },
+  { name: "Desenho Técnico", slug: "desenho-tecnico", ano: 1, semestre: 2 },
+  { name: "Tecnologia dos Materiais", slug: "tecnologia-dos-materiais", ano: 1, semestre: 2 },
+  { name: "Tecnologia Mecânica I", slug: "tecnologia-mecanica-i", ano: 1, semestre: 2 },
+  { name: "Mecânica Aplicada", slug: "mecanica-aplicada", ano: 1, semestre: 2 },
+  // 2º Ano
+  { name: "Resistência dos Materiais", slug: "resistencia-dos-materiais", ano: 2, semestre: 1 },
+  { name: "Tecnologia Mecânica II", slug: "tecnologia-mecanica-ii", ano: 2, semestre: 1 },
+  { name: "Termodinâmica", slug: "termodinamica", ano: 2, semestre: 1 },
+  { name: "Mecânica dos Fluidos", slug: "mecanica-dos-fluidos", ano: 2, semestre: 1 },
+  { name: "Processos Transformação Plásticos", slug: "processos-transformacao-plasticos", ano: 2, semestre: 1 },
+  { name: "Modelação Assistida por Computador", slug: "modelacao-assistida-por-computador", ano: 2, semestre: 1 },
+  { name: "Órgãos de Máquinas I", slug: "orgaos-de-maquinas-i", ano: 2, semestre: 2 },
+  { name: "Processamento Mecânica Compósitos", slug: "processamento-mecanica-compositos", ano: 2, semestre: 2 },
+  { name: "Engenharia Assistida por Computador", slug: "engenharia-assistida-por-computador", ano: 2, semestre: 2 },
+  { name: "Fabrico Assistido por Computador", slug: "fabrico-assistido-por-computador", ano: 2, semestre: 2 },
+  { name: "Desenho de Construção Mecânica", slug: "desenho-de-construcao-mecanica", ano: 2, semestre: 2 },
+  { name: "Desenho de Moldes e Plásticos", slug: "desenho-de-moldes-e-plasticos", ano: 2, semestre: 2 },
+  { name: "Eletrotecnia e Eletrónica Industrial", slug: "eletrotecnia-e-eletronica-industrial", ano: 2, semestre: 2 },
+  // 3º Ano
+  { name: "Órgãos de Máquinas II", slug: "orgaos-de-maquinas-ii", ano: 3, semestre: 1 },
+  { name: "Processos Avançados de Fabrico", slug: "processos-avancados-de-fabrico", ano: 3, semestre: 1 },
+  { name: "Projeto Mecânico", slug: "projeto-mecanico", ano: 3, semestre: 1 },
+  { name: "Projeto de Moldes", slug: "projeto-de-moldes", ano: 3, semestre: 1 },
+  { name: "Conceção e Desenvolvimento de Produto", slug: "concecao-e-desenvolvimento-de-produto", ano: 3, semestre: 1 },
+  { name: "Simulação Computacional Projeto Mecânico", slug: "simulacao-computacional-projeto-mecanico", ano: 3, semestre: 1 },
+  { name: "Automação Industrial", slug: "automacao-industrial", ano: 3, semestre: 1 },
+  { name: "Qualidade e Gestão de Recursos", slug: "qualidade-e-gestao-de-recursos", ano: 3, semestre: 2 },
+  { name: "Gestão da Produção e Manutenção", slug: "gestao-da-producao-e-manutencao", ano: 3, semestre: 2 },
+  { name: "Estágio", slug: "estagio", ano: 3, semestre: 2 },
+  { name: "Seminário", slug: "seminario", ano: 3, semestre: 2 },
+  { name: "Controlo de Gestão", slug: "controlo-de-gestao", ano: 3, semestre: 2 },
+  { name: "Redes de Fluidos", slug: "redes-de-fluidos", ano: 3, semestre: 2 },
+  { name: "Inovação e Empreendedorismo", slug: "inovacao-e-empreendedorismo", ano: 3, semestre: 2 },
+];
+
+const TIPOS = [
+  { value: "teoria", label: "📖 Teoria / Apontamentos" },
+  { value: "fichas-exercicios", label: "✏️ Fichas de Exercícios" },
+  { value: "resumos", label: "📋 Resumos" },
+  { value: "resolucoes", label: "✔️ Resoluções" },
+  { value: "testes-exames", label: "📝 Testes e Exames" },
+  { value: "trabalhos-projetos", label: "🔧 Trabalhos e Projetos" },
+];
+---
+
+<Layout title="Fila de Revisão — Admin">
+  <!-- Auth guard -->
+  <div id="auth-guard" style="display:none;text-align:center;padding:80px 20px;">
+    <p style="color:var(--text-secondary);">A verificar sessão...</p>
+  </div>
+
+  <!-- Main content (shown after auth check) -->
+  <div id="main-content" style="display:none;">
+    <!-- Admin nav -->
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:32px;flex-wrap:wrap;gap:12px;">
+      <div>
+        <h1 class="hero-title" style="margin-bottom:4px;">📋 Fila de Revisão</h1>
+        <p style="color:var(--text-secondary);margin:0;">Ficheiros submetidos aguardando revisão.</p>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+        <a href="/admin/pipeline" class="btn-secondary" style="font-size:0.85rem;padding:8px 14px;">⚙️ Pipeline</a>
+        <button id="logout-btn" class="btn-secondary" style="font-size:0.85rem;padding:8px 14px;">Sair</button>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tab-bar" style="display:flex;gap:4px;margin-bottom:24px;border-bottom:2px solid var(--panel-border);padding-bottom:0;">
+      <button class="tab-btn active" data-tab="pending" id="tab-pending">Para Rever <span id="badge-pending" class="tab-badge"></span></button>
+      <button class="tab-btn" data-tab="processing" id="tab-processing">Em Processamento <span id="badge-processing" class="tab-badge"></span></button>
+      <button class="tab-btn" data-tab="done" id="tab-done">Concluído <span id="badge-done" class="tab-badge"></span></button>
+    </div>
+
+    <!-- Tab: Para Rever -->
+    <div id="panel-pending">
+      <div id="pending-list" style="display:flex;flex-direction:column;gap:16px;">
+        <div class="loading-placeholder">A carregar...</div>
+      </div>
+    </div>
+
+    <!-- Tab: Em Processamento -->
+    <div id="panel-processing" style="display:none;">
+      <div id="processing-list" style="display:flex;flex-direction:column;gap:16px;">
+        <div class="loading-placeholder">A carregar...</div>
+      </div>
+    </div>
+
+    <!-- Tab: Concluído -->
+    <div id="panel-done" style="display:none;">
+      <div id="done-list" style="display:flex;flex-direction:column;gap:16px;">
+        <div class="loading-placeholder">A carregar...</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Approve modal -->
+  <div id="approve-modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,0.4);z-index:200;display:none;align-items:center;justify-content:center;padding:20px;">
+    <div class="card" style="max-width:560px;width:100%;max-height:90vh;overflow-y:auto;padding:32px;">
+      <h2 style="margin:0 0 6px;">✅ Aprovar Submissão</h2>
+      <p id="modal-filename" style="color:var(--text-secondary);margin:0 0 24px;font-weight:600;"></p>
+
+      <div style="display:grid;grid-template-columns:1fr;gap:16px;">
+        <div>
+          <label style="display:block;font-weight:600;margin-bottom:6px;font-size:0.9rem;">Disciplina</label>
+          <select id="modal-disciplina" style="width:100%;padding:10px;border:1px solid var(--panel-border);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:0.9rem;background:var(--bg-main);">
+            <option value="">— Seleciona —</option>
+          </select>
+        </div>
+        <div>
+          <label style="display:block;font-weight:600;margin-bottom:6px;font-size:0.9rem;">Tipo</label>
+          <select id="modal-tipo" style="width:100%;padding:10px;border:1px solid var(--panel-border);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:0.9rem;background:var(--bg-main);">
+            <option value="">— Seleciona —</option>
+          </select>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:12px;">
+          <div>
+            <label style="display:block;font-weight:600;margin-bottom:6px;font-size:0.9rem;">Ano</label>
+            <select id="modal-ano" style="width:100%;padding:10px;border:1px solid var(--panel-border);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:0.9rem;background:var(--bg-main);">
+              <option value="">—</option>
+              <option value="1">1º Ano</option>
+              <option value="2">2º Ano</option>
+              <option value="3">3º Ano</option>
+            </select>
+          </div>
+          <div>
+            <label style="display:block;font-weight:600;margin-bottom:6px;font-size:0.9rem;">Semestre</label>
+            <select id="modal-semestre" style="width:100%;padding:10px;border:1px solid var(--panel-border);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:0.9rem;background:var(--bg-main);">
+              <option value="">—</option>
+              <option value="1">1º Semestre</option>
+              <option value="2">2º Semestre</option>
+            </select>
+          </div>
+        </div>
+      </div>
+
+      <div id="modal-error" style="color:var(--danger);font-size:0.85rem;margin-top:12px;min-height:18px;"></div>
+
+      <div style="display:flex;gap:12px;margin-top:24px;">
+        <button id="modal-confirm-btn" class="btn-primary" style="flex:1;justify-content:center;">✅ Confirmar Aprovação</button>
+        <button id="modal-cancel-btn" class="btn-secondary" style="justify-content:center;">Cancelar</button>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .tab-btn {
+    background: none;
+    border: none;
+    padding: 10px 18px;
+    font-family: var(--font-body);
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: var(--text-secondary);
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    margin-bottom: -2px;
+    transition: all 0.2s;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .tab-btn.active {
+    color: var(--accent);
+    border-bottom-color: var(--accent);
+  }
+  .tab-btn:hover:not(.active) { color: var(--text-primary); }
+
+  .tab-badge {
+    background: var(--accent);
+    color: #fff;
+    border-radius: 999px;
+    font-size: 0.7rem;
+    padding: 2px 7px;
+    min-width: 18px;
+    text-align: center;
+    display: none;
+  }
+  .tab-badge.visible { display: inline-block; }
+
+  .sub-card {
+    background: var(--bg-card);
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius-md);
+    padding: 20px 24px;
+    box-shadow: var(--shadow-card);
+    transition: box-shadow 0.2s;
+  }
+  .sub-card:hover { box-shadow: var(--shadow-hover); }
+
+  .sub-meta {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+  }
+
+  .status-pill {
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+    padding: 3px 10px;
+    border-radius: 999px;
+    font-size: 0.75rem;
+    font-weight: 600;
+  }
+  .status-pending  { background: rgba(208,140,96,0.15); color: var(--warning); }
+  .status-approved { background: rgba(45,106,79,0.12);  color: var(--success); }
+  .status-denied   { background: rgba(188,71,73,0.12);  color: var(--danger); }
+  .status-done     { background: rgba(45,106,79,0.12);  color: var(--success); }
+  .status-failed   { background: rgba(188,71,73,0.12);  color: var(--danger); }
+  .status-processing { background: rgba(217,108,83,0.12); color: var(--accent); }
+
+  .loading-placeholder {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-tertiary);
+    font-style: italic;
+  }
+
+  .empty-state {
+    text-align: center;
+    padding: 60px 20px;
+    color: var(--text-tertiary);
+  }
+  .empty-state .icon { font-size: 3rem; margin-bottom: 12px; }
+
+  #approve-modal.open { display: flex !important; }
+</style>
+
+<script define:vars={{ ALL_UCS, TIPOS }}>
+  // ── Auth ────────────────────────────────────────────────────────
+  const token = localStorage.getItem('admin_token');
+  if (!token) { window.location.replace('/admin'); }
+
+  document.getElementById('main-content').style.display = '';
+  document.getElementById('auth-guard').style.display = 'none';
+
+  document.getElementById('logout-btn').addEventListener('click', () => {
+    localStorage.removeItem('admin_token');
+    window.location.replace('/admin');
+  });
+
+  // ── Tabs ─────────────────────────────────────────────────────────
+  const tabBtns = document.querySelectorAll('.tab-btn');
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => {
+      tabBtns.forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const tab = btn.dataset.tab;
+      ['pending','processing','done'].forEach(t => {
+        document.getElementById(`panel-${t}`).style.display = t === tab ? '' : 'none';
+      });
+    });
+  });
+
+  // ── Populate modal dropdowns ──────────────────────────────────────
+  const modalDisciplina = document.getElementById('modal-disciplina');
+  const modalTipo = document.getElementById('modal-tipo');
+  ALL_UCS.forEach(uc => {
+    const opt = document.createElement('option');
+    opt.value = uc.slug;
+    opt.dataset.ano = uc.ano;
+    opt.dataset.semestre = uc.semestre;
+    opt.textContent = `${uc.ano}º Ano · ${uc.semestre}º Sem — ${uc.name}`;
+    modalDisciplina.appendChild(opt);
+  });
+  TIPOS.forEach(t => {
+    const opt = document.createElement('option');
+    opt.value = t.value;
+    opt.textContent = t.label;
+    modalTipo.appendChild(opt);
+  });
+
+  // Auto-fill ano/semestre when disciplina selected
+  modalDisciplina.addEventListener('change', () => {
+    const sel = modalDisciplina.selectedOptions[0];
+    if (sel?.dataset?.ano) document.getElementById('modal-ano').value = sel.dataset.ano;
+    if (sel?.dataset?.semestre) document.getElementById('modal-semestre').value = sel.dataset.semestre;
+  });
+
+  // ── API ───────────────────────────────────────────────────────────
+  function authHeaders() {
+    return { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` };
+  }
+
+  async function loadSubmissions() {
+    try {
+      const [pendingRes, processingRes, doneRes] = await Promise.all([
+        fetch('/api/admin/submissions?status=pending', { headers: authHeaders() }),
+        fetch('/api/admin/submissions?status=approved', { headers: authHeaders() }),
+        fetch('/api/admin/submissions?status=done', { headers: authHeaders() }),
+      ]);
+
+      if (pendingRes.status === 401) { window.location.replace('/admin'); return; }
+
+      const pending = (await pendingRes.json()).submissions ?? [];
+      const processing = (await processingRes.json()).submissions ?? [];
+      const done = (await doneRes.json()).submissions ?? [];
+
+      renderList('pending-list', pending, 'pending');
+      renderList('processing-list', processing, 'processing');
+      renderList('done-list', done, 'done');
+
+      updateBadge('badge-pending', pending.length);
+      updateBadge('badge-processing', processing.length);
+      updateBadge('badge-done', done.length);
+    } catch (e) {
+      console.error('Erro ao carregar submissões:', e);
+    }
+  }
+
+  function updateBadge(id, count) {
+    const el = document.getElementById(id);
+    el.textContent = count;
+    el.classList.toggle('visible', count > 0);
+  }
+
+  function fmtDate(str) {
+    if (!str) return '—';
+    return new Date(str + 'Z').toLocaleString('pt-PT', { day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit' });
+  }
+  function fmtSize(bytes) {
+    if (!bytes) return '—';
+    if (bytes < 1024*1024) return `${(bytes/1024).toFixed(0)} KB`;
+    return `${(bytes/1024/1024).toFixed(1)} MB`;
+  }
+  function fileIcon(name) {
+    const e = (name||'').split('.').pop().toLowerCase();
+    if (e === 'pdf') return '📄';
+    if (['docx','doc','odt'].includes(e)) return '📝';
+    if (['pptx','ppt','odp'].includes(e)) return '📊';
+    return '📎';
+  }
+
+  function renderList(containerId, items, mode) {
+    const el = document.getElementById(containerId);
+    if (!items.length) {
+      el.innerHTML = `<div class="empty-state"><div class="icon">${mode === 'done' ? '🎉' : '📭'}</div><p>${mode === 'done' ? 'Ainda sem itens concluídos.' : 'Nenhum item para mostrar.'}</p></div>`;
+      return;
+    }
+
+    el.innerHTML = items.map(s => `
+      <div class="sub-card" id="sub-${s.id}">
+        <div class="sub-meta">
+          <span style="font-size:1.6rem;">${fileIcon(s.file_name)}</span>
+          <div style="flex:1;min-width:0;">
+            <div style="font-weight:700;font-size:0.95rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;">${s.file_name}</div>
+            <div style="font-size:0.8rem;color:var(--text-tertiary);">${fmtSize(s.file_size)} · submetido ${fmtDate(s.created_at)}</div>
+          </div>
+          <span class="status-pill status-${s.status}">${statusLabel(s.status)}</span>
+        </div>
+
+        ${s.submitter_name ? `<div style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:6px;">👤 ${s.submitter_name}</div>` : ''}
+        ${s.suggested_disciplina ? `<div style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:2px;">💡 Disciplina sugerida: <strong>${s.suggested_disciplina}</strong></div>` : ''}
+        ${s.suggested_tipo ? `<div style="font-size:0.85rem;color:var(--text-secondary);margin-bottom:6px;">💡 Tipo sugerido: <strong>${s.suggested_tipo}</strong></div>` : ''}
+        ${s.notes ? `<div style="font-size:0.85rem;color:var(--text-secondary);background:var(--bg-main);border-radius:var(--radius-sm);padding:8px 12px;margin-bottom:12px;border-left:3px solid var(--panel-border);">"${s.notes}"</div>` : ''}
+        ${s.assigned_disciplina ? `<div style="font-size:0.85rem;color:var(--success);margin-bottom:4px;">✅ Pasta: ${s.assigned_disciplina} · ${s.assigned_tipo} · ${s.assigned_ano}º Ano · ${s.assigned_semestre}º Sem</div>` : ''}
+        ${s.error_message ? `<div style="font-size:0.82rem;color:var(--danger);margin-top:4px;">⚠️ ${s.error_message}</div>` : ''}
+
+        ${mode === 'pending' ? `
+        <div style="display:flex;gap:10px;margin-top:14px;flex-wrap:wrap;">
+          ${s.github_asset_url ? `<a href="${s.github_asset_url}" target="_blank" rel="noopener" class="btn-secondary" style="font-size:0.82rem;padding:7px 12px;">👁 Pré-visualizar</a>` : ''}
+          <button class="btn-primary" style="font-size:0.82rem;padding:7px 14px;" onclick="openApprove('${s.id}','${s.file_name.replace(/'/g,"\\'")}','${s.suggested_disciplina||''}','${s.suggested_tipo||''}')">✅ Aprovar</button>
+          <button class="btn-secondary" style="font-size:0.82rem;padding:7px 12px;color:var(--danger);border-color:var(--danger);" onclick="denySubmission('${s.id}')">❌ Rejeitar</button>
+        </div>` : ''}
+
+        ${mode === 'processing' ? `
+        <div style="margin-top:10px;">
+          ${s.github_asset_url ? `<a href="${s.github_asset_url}" target="_blank" rel="noopener" class="btn-secondary" style="font-size:0.82rem;padding:7px 12px;">👁 Ver ficheiro</a>` : ''}
+        </div>` : ''}
+      </div>
+    `).join('');
+  }
+
+  function statusLabel(s) {
+    const map = { pending:'⏳ Pendente', approved:'✅ Aprovado', denied:'❌ Rejeitado', downloading:'⬇️ A descarregar', processing:'⚙️ Em processamento', done:'🎉 Concluído', failed:'💥 Falhou' };
+    return map[s] || s;
+  }
+
+  // ── Approve modal ────────────────────────────────────────────────
+  let currentApproveId = null;
+  const modal = document.getElementById('approve-modal');
+  const modalError = document.getElementById('modal-error');
+
+  window.openApprove = (id, filename, sugDisciplina, sugTipo) => {
+    currentApproveId = id;
+    document.getElementById('modal-filename').textContent = filename;
+    modalError.textContent = '';
+    // Pre-fill with suggestion if available
+    if (sugDisciplina) modalDisciplina.value = sugDisciplina;
+    else modalDisciplina.value = '';
+    if (sugTipo) modalTipo.value = sugTipo;
+    else modalTipo.value = '';
+    // Auto-fill ano/semestre
+    const sel = modalDisciplina.selectedOptions[0];
+    if (sel?.dataset?.ano) document.getElementById('modal-ano').value = sel.dataset.ano;
+    if (sel?.dataset?.semestre) document.getElementById('modal-semestre').value = sel.dataset.semestre;
+    modal.classList.add('open');
+    modal.style.display = 'flex';
+  };
+
+  document.getElementById('modal-cancel-btn').addEventListener('click', () => {
+    modal.classList.remove('open');
+    modal.style.display = 'none';
+    currentApproveId = null;
+  });
+
+  document.getElementById('modal-confirm-btn').addEventListener('click', async () => {
+    const disciplina = document.getElementById('modal-disciplina').value;
+    const tipo = document.getElementById('modal-tipo').value;
+    const ano = parseInt(document.getElementById('modal-ano').value);
+    const semestre = parseInt(document.getElementById('modal-semestre').value);
+
+    if (!disciplina || !tipo || !ano || !semestre) {
+      modalError.textContent = 'Por favor preenche todos os campos.';
+      return;
+    }
+
+    const btn = document.getElementById('modal-confirm-btn');
+    btn.disabled = true;
+    btn.textContent = 'A aprovar...';
+    modalError.textContent = '';
+
+    try {
+      const res = await fetch(`/api/admin/submissions/${currentApproveId}`, {
+        method: 'PATCH',
+        headers: authHeaders(),
+        body: JSON.stringify({ action: 'approve', disciplina, tipo, ano, semestre }),
+      });
+      const data = await res.json();
+      if (res.ok) {
+        modal.classList.remove('open');
+        modal.style.display = 'none';
+        currentApproveId = null;
+        await loadSubmissions();
+      } else {
+        modalError.textContent = data.error || 'Erro ao aprovar.';
+      }
+    } catch {
+      modalError.textContent = 'Erro de ligação.';
+    }
+    btn.disabled = false;
+    btn.textContent = '✅ Confirmar Aprovação';
+  });
+
+  window.denySubmission = async (id) => {
+    if (!confirm('Confirmas que queres rejeitar esta submissão?')) return;
+    try {
+      await fetch(`/api/admin/submissions/${id}`, {
+        method: 'PATCH',
+        headers: authHeaders(),
+        body: JSON.stringify({ action: 'deny' }),
+      });
+      await loadSubmissions();
+    } catch {
+      alert('Erro ao rejeitar submissão.');
+    }
+  };
+
+  // ── Init & poll ───────────────────────────────────────────────────
+  loadSubmissions();
+  setInterval(loadSubmissions, 8000);
+</script>

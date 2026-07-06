@@ -1,0 +1,264 @@
+---
+import Layout from '../../layouts/Layout.astro';
+---
+
+<Layout title="Pipeline — Admin">
+  <!-- Auth guard -->
+  <div id="auth-guard" style="display:none;text-align:center;padding:80px 20px;">
+    <p style="color:var(--text-secondary);">A verificar sessão...</p>
+  </div>
+
+  <div id="main-content" style="display:none;">
+    <!-- Admin nav -->
+    <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:32px;flex-wrap:wrap;gap:12px;">
+      <div>
+        <h1 class="hero-title" style="margin-bottom:4px;">⚙️ Pipeline</h1>
+        <p style="color:var(--text-secondary);margin:0;">Estado do processador e registo de erros.</p>
+      </div>
+      <div style="display:flex;gap:10px;flex-wrap:wrap;align-items:center;">
+        <a href="/admin/fila" class="btn-secondary" style="font-size:0.85rem;padding:8px 14px;">📋 Fila de Revisão</a>
+        <button id="logout-btn" class="btn-secondary" style="font-size:0.85rem;padding:8px 14px;">Sair</button>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tab-bar" style="display:flex;gap:4px;margin-bottom:24px;border-bottom:2px solid var(--panel-border);">
+      <button class="tab-btn active" data-tab="pipeline">Pipeline</button>
+      <button class="tab-btn" data-tab="erros" id="tab-erros">Erros <span id="badge-erros" class="tab-badge"></span></button>
+    </div>
+
+    <!-- Tab: Pipeline -->
+    <div id="panel-pipeline">
+      <!-- Status card -->
+      <div class="card" style="margin-bottom:20px;">
+        <div style="display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:16px;margin-bottom:20px;">
+          <div>
+            <div style="font-size:0.8rem;font-weight:600;color:var(--text-tertiary);letter-spacing:0.05em;text-transform:uppercase;margin-bottom:4px;">Estado do Processador</div>
+            <div id="status-pill" class="big-status idle">⚪ Inativo</div>
+          </div>
+          <div style="text-align:right;">
+            <div style="font-size:0.8rem;color:var(--text-tertiary);">Último sinal</div>
+            <div id="heartbeat-label" style="font-weight:600;font-size:0.95rem;">—</div>
+          </div>
+        </div>
+
+        <!-- Progress bar -->
+        <div style="margin-bottom:8px;">
+          <div style="display:flex;justify-content:space-between;font-size:0.85rem;margin-bottom:6px;">
+            <span style="color:var(--text-secondary);">Progresso</span>
+            <span id="progress-label" style="color:var(--text-secondary);">—</span>
+          </div>
+          <div style="height:10px;background:var(--panel-border);border-radius:999px;overflow:hidden;">
+            <div id="progress-bar" style="height:100%;background:var(--accent);border-radius:999px;width:0%;transition:width 0.5s ease;"></div>
+          </div>
+        </div>
+
+        <div id="current-doc" style="font-size:0.85rem;color:var(--text-tertiary);font-style:italic;">—</div>
+        <div id="machine-label" style="font-size:0.8rem;color:var(--text-tertiary);margin-top:4px;"></div>
+
+        <!-- Offline warning -->
+        <div id="offline-warning" style="display:none;margin-top:16px;background:rgba(208,140,96,0.12);border:1px solid rgba(208,140,96,0.4);border-radius:var(--radius-sm);padding:12px 16px;color:var(--warning);font-size:0.9rem;">
+          ⚠️ O processador parece estar offline. Certifica-te de que o <code>start_worker.bat</code> está a correr na tua máquina.
+        </div>
+      </div>
+
+      <!-- Stats grid -->
+      <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:16px;margin-bottom:24px;">
+        <div class="stat-card"><div class="stat-num" id="stat-total">—</div><div class="stat-label">Total submetidos</div></div>
+        <div class="stat-card"><div class="stat-num" id="stat-pending">—</div><div class="stat-label">Por rever</div></div>
+        <div class="stat-card"><div class="stat-num" id="stat-processing">—</div><div class="stat-label">Em processamento</div></div>
+        <div class="stat-card"><div class="stat-num" id="stat-done" style="color:var(--success);">—</div><div class="stat-label">Concluídos</div></div>
+        <div class="stat-card"><div class="stat-num" id="stat-failed" style="color:var(--danger);">—</div><div class="stat-label">Falhados</div></div>
+      </div>
+
+      <!-- How to start -->
+      <div class="card" style="background:var(--bg-main);border-style:dashed;">
+        <h3 style="margin:0 0 12px;font-size:1rem;">Como iniciar o processador</h3>
+        <ol style="margin:0;padding-left:20px;color:var(--text-secondary);font-size:0.9rem;line-height:2;">
+          <li>Abre a pasta do projeto na tua máquina</li>
+          <li>Clica duas vezes em <code>start_worker.bat</code></li>
+          <li>O processador inicia automaticamente e aparece aqui quando ativo</li>
+          <li>Para parar: fecha a janela ou prime <kbd>Ctrl+C</kbd></li>
+        </ol>
+      </div>
+    </div>
+
+    <!-- Tab: Erros -->
+    <div id="panel-erros" style="display:none;">
+      <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:16px;">
+        <p style="margin:0;color:var(--text-secondary);font-size:0.9rem;">Erros de processamento — apenas para diagnóstico.</p>
+        <button id="clear-errors-btn" class="btn-secondary" style="font-size:0.82rem;padding:7px 12px;color:var(--danger);border-color:var(--danger);">🗑 Limpar todos</button>
+      </div>
+      <div id="error-list" style="display:flex;flex-direction:column;gap:12px;">
+        <div style="text-align:center;padding:40px;color:var(--text-tertiary);">A carregar...</div>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  .tab-btn {
+    background: none; border: none;
+    padding: 10px 18px;
+    font-family: var(--font-body); font-size: 0.9rem; font-weight: 600;
+    color: var(--text-secondary); cursor: pointer;
+    border-bottom: 3px solid transparent; margin-bottom: -2px;
+    transition: all 0.2s; display: inline-flex; align-items: center; gap: 6px;
+  }
+  .tab-btn.active { color: var(--accent); border-bottom-color: var(--accent); }
+  .tab-btn:hover:not(.active) { color: var(--text-primary); }
+
+  .tab-badge {
+    background: var(--danger); color: #fff; border-radius: 999px;
+    font-size: 0.7rem; padding: 2px 7px; min-width: 18px; text-align: center; display: none;
+  }
+  .tab-badge.visible { display: inline-block; }
+
+  .big-status {
+    font-size: 1.25rem; font-weight: 700; font-family: var(--font-heading);
+    padding: 6px 0;
+  }
+  .big-status.idle    { color: var(--text-tertiary); }
+  .big-status.running { color: var(--success); }
+  .big-status.paused  { color: var(--warning); }
+  .big-status.error   { color: var(--danger); }
+
+  .stat-card {
+    background: var(--bg-main);
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius-md);
+    padding: 16px 20px;
+    text-align: center;
+  }
+  .stat-num { font-size: 1.8rem; font-weight: 700; font-family: var(--font-heading); color: var(--text-primary); }
+  .stat-label { font-size: 0.8rem; color: var(--text-tertiary); margin-top: 4px; }
+
+  .error-row {
+    background: var(--bg-card);
+    border: 1px solid var(--panel-border);
+    border-left: 4px solid var(--danger);
+    border-radius: var(--radius-sm);
+    padding: 14px 18px;
+  }
+  .error-row details summary { cursor: pointer; color: var(--text-tertiary); font-size: 0.8rem; margin-top: 8px; }
+  .error-row pre { margin: 8px 0 0; font-size: 0.75rem; font-family: var(--font-mono); overflow-x: auto; white-space: pre-wrap; color: var(--text-secondary); background: var(--bg-main); padding: 10px; border-radius: var(--radius-sm); }
+</style>
+
+<script>
+  const token = localStorage.getItem('admin_token');
+  if (!token) window.location.replace('/admin');
+
+  document.getElementById('main-content').style.display = '';
+  document.getElementById('logout-btn').addEventListener('click', () => {
+    localStorage.removeItem('admin_token');
+    window.location.replace('/admin');
+  });
+
+  // Tabs
+  document.querySelectorAll('.tab-btn').forEach(btn => {
+    btn.addEventListener('click', () => {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      const tab = btn.dataset.tab;
+      document.getElementById('panel-pipeline').style.display = tab === 'pipeline' ? '' : 'none';
+      document.getElementById('panel-erros').style.display = tab === 'erros' ? '' : 'none';
+    });
+  });
+
+  function authHeaders() {
+    return { 'Content-Type': 'application/json', Authorization: `Bearer ${token}` };
+  }
+
+  function timeAgo(str) {
+    if (!str) return '—';
+    const diff = Math.floor((Date.now() - new Date(str + 'Z').getTime()) / 1000);
+    if (diff < 60) return `há ${diff}s`;
+    if (diff < 3600) return `há ${Math.floor(diff/60)}min`;
+    return `há ${Math.floor(diff/3600)}h`;
+  }
+
+  function fmtDate(str) {
+    if (!str) return '—';
+    return new Date(str + 'Z').toLocaleString('pt-PT', { day:'2-digit', month:'2-digit', year:'numeric', hour:'2-digit', minute:'2-digit' });
+  }
+
+  async function loadStatus() {
+    try {
+      const res = await fetch('/api/admin/status', { headers: authHeaders() });
+      if (res.status === 401) { window.location.replace('/admin'); return; }
+      const data = await res.json();
+
+      // Pipeline status
+      const ps = data.pipeline;
+      const statusEl = document.getElementById('status-pill');
+      const statusMap = { idle: ['⚪ Inativo','idle'], running: ['🟢 A correr','running'], paused: ['🟡 Pausado','paused'], error: ['🔴 Erro','error'] };
+      const [label, cls] = statusMap[ps?.status] ?? ['⚪ Inativo','idle'];
+      statusEl.textContent = label;
+      statusEl.className = `big-status ${cls}`;
+
+      // Heartbeat
+      const hbLabel = document.getElementById('heartbeat-label');
+      const offlineWarn = document.getElementById('offline-warning');
+      if (ps?.last_heartbeat) {
+        const ago = timeAgo(ps.last_heartbeat);
+        hbLabel.textContent = ago;
+        const diffS = Math.floor((Date.now() - new Date(ps.last_heartbeat + 'Z').getTime()) / 1000);
+        hbLabel.style.color = diffS > 300 ? 'var(--danger)' : diffS > 120 ? 'var(--warning)' : 'var(--success)';
+        offlineWarn.style.display = diffS > 300 && ps.status !== 'idle' ? '' : 'none';
+      } else {
+        hbLabel.textContent = '—';
+        offlineWarn.style.display = 'none';
+      }
+
+      // Progress
+      const done = ps?.progress_done ?? 0;
+      const total = ps?.progress_total ?? 0;
+      const pct = total > 0 ? Math.round((done / total) * 100) : 0;
+      document.getElementById('progress-bar').style.width = `${pct}%`;
+      document.getElementById('progress-label').textContent = total > 0 ? `${done} / ${total} (${pct}%)` : '—';
+      document.getElementById('current-doc').textContent = ps?.current_doc ? `A processar: ${ps.current_doc}` : '';
+      document.getElementById('machine-label').textContent = ps?.machine_name ? `Máquina: ${ps.machine_name}` : '';
+
+      // Stats
+      const c = data.counts ?? {};
+      document.getElementById('stat-total').textContent = c.total ?? 0;
+      document.getElementById('stat-pending').textContent = c.pending ?? 0;
+      document.getElementById('stat-processing').textContent = (c.processing ?? 0) + (c.approved ?? 0);
+      document.getElementById('stat-done').textContent = c.done ?? 0;
+      document.getElementById('stat-failed').textContent = c.failed ?? 0;
+
+      // Errors
+      const errors = data.errors ?? [];
+      const badge = document.getElementById('badge-erros');
+      badge.textContent = errors.length;
+      badge.classList.toggle('visible', errors.length > 0);
+
+      const errorList = document.getElementById('error-list');
+      if (!errors.length) {
+        errorList.innerHTML = '<div style="text-align:center;padding:40px;color:var(--text-tertiary);">✅ Nenhum erro registado.</div>';
+      } else {
+        errorList.innerHTML = errors.map(e => `
+          <div class="error-row">
+            <div style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin-bottom:4px;">
+              <strong style="font-size:0.9rem;">${e.error_message}</strong>
+              <span style="font-size:0.8rem;color:var(--text-tertiary);">${fmtDate(e.created_at)}</span>
+            </div>
+            <div style="font-size:0.8rem;color:var(--text-tertiary);">Fase: <strong>${e.stage}</strong>${e.submission_id ? ` · ID: ${e.submission_id}` : ''}</div>
+            ${e.stack_trace ? `<details><summary>Ver detalhes técnicos</summary><pre>${e.stack_trace.replace(/</g,'&lt;')}</pre></details>` : ''}
+          </div>
+        `).join('');
+      }
+    } catch (err) {
+      console.error('Erro ao carregar estado:', err);
+    }
+  }
+
+  document.getElementById('clear-errors-btn').addEventListener('click', async () => {
+    if (!confirm('Limpar todos os erros? Esta ação não pode ser desfeita.')) return;
+    await fetch('/api/admin/status', { method: 'DELETE', headers: authHeaders() });
+    await loadStatus();
+  });
+
+  loadStatus();
+  setInterval(loadStatus, 5000);
+</script>

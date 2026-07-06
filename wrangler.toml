@@ -1,0 +1,17 @@
+name = "mbibliotecamecanica"
+pages_build_output_dir = "dist"
+compatibility_date = "2025-01-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[d1_databases]]
+binding = "DB"
+database_name = "mbibliotecamecanica"
+database_id = "beb19e49-653b-4522-9ec3-1690165a1516"
+
+[vars]
+# These are set in the Cloudflare Pages dashboard under Settings > Environment Variables:
+# GITHUB_TOKEN      = your GitHub PAT with repo scope
+# GITHUB_REPO       = Antniom/MBibliotecaMecanica
+# ADMIN_PASSWORD    = your chosen admin password
+# ADMIN_TOKEN       = a random secret (e.g. run: python -c "import secrets; print(secrets.token_hex(32))")
+# WORKER_API_TOKEN  = a different random secret for worker.py

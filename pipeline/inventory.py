@@ -226,6 +226,27 @@ def classify_file(filepath):
             year = 1
             semestre = 1
 
+    # Overrides from environment (set by worker.py for Cloud submissions)
+    force_d = os.getenv("FORCE_DISCIPLINA")
+    force_t = os.getenv("FORCE_TIPO")
+    force_y = os.getenv("FORCE_ANO")
+    force_s = os.getenv("FORCE_SEMESTRE")
+
+    if force_d:
+        discipline = force_d
+    if force_t:
+        tipo = force_t
+    if force_y:
+        try:
+            year = int(force_y)
+        except ValueError:
+            pass
+    if force_s:
+        try:
+            semestre = int(force_s)
+        except ValueError:
+            pass
+
     return discipline, tipo, year, semestre
 
 def run_inventory():

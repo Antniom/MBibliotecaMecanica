@@ -1,0 +1,560 @@
+---
+import Layout from '../layouts/Layout.astro';
+
+// Full taxonomy — same as index.astro
+const YEARS = [
+  {
+    number: 1, title: "1º Ano",
+    semesters: [
+      { number: 1, title: "1º Semestre", ucs: [
+        { name: "Análise Matemática", slug: "analise-matematica" },
+        { name: "Álgebra Linear", slug: "algebra-linear" },
+        { name: "Física", slug: "fisica" },
+        { name: "Programação", slug: "programacao" },
+        { name: "Inglês", slug: "ingles" },
+        { name: "Química e Materiais", slug: "quimica-e-materiais" },
+      ]},
+      { number: 2, title: "2º Semestre", ucs: [
+        { name: "Matemática Aplicada", slug: "matematica-aplicada" },
+        { name: "Estatística", slug: "estatistica" },
+        { name: "Desenho Técnico", slug: "desenho-tecnico" },
+        { name: "Tecnologia dos Materiais", slug: "tecnologia-dos-materiais" },
+        { name: "Tecnologia Mecânica I", slug: "tecnologia-mecanica-i" },
+        { name: "Mecânica Aplicada", slug: "mecanica-aplicada" },
+      ]},
+    ],
+  },
+  {
+    number: 2, title: "2º Ano",
+    semesters: [
+      { number: 1, title: "1º Semestre", ucs: [
+        { name: "Resistência dos Materiais", slug: "resistencia-dos-materiais" },
+        { name: "Tecnologia Mecânica II", slug: "tecnologia-mecanica-ii" },
+        { name: "Termodinâmica", slug: "termodinamica" },
+        { name: "Mecânica dos Fluidos", slug: "mecanica-dos-fluidos" },
+        { name: "Processos Transformação Plásticos", slug: "processos-transformacao-plasticos" },
+        { name: "Modelação Assistida por Computador", slug: "modelacao-assistida-por-computador" },
+      ]},
+      { number: 2, title: "2º Semestre", ucs: [
+        { name: "Órgãos de Máquinas I", slug: "orgaos-de-maquinas-i" },
+        { name: "Processamento Mecânica Compósitos", slug: "processamento-mecanica-compositos" },
+        { name: "Engenharia Assistida por Computador", slug: "engenharia-assistida-por-computador" },
+        { name: "Fabrico Assistido por Computador", slug: "fabrico-assistido-por-computador" },
+        { name: "Desenho de Construção Mecânica", slug: "desenho-de-construcao-mecanica" },
+        { name: "Desenho de Moldes e Plásticos", slug: "desenho-de-moldes-e-plasticos" },
+        { name: "Eletrotecnia e Eletrónica Industrial", slug: "eletrotecnia-e-eletronica-industrial" },
+      ]},
+    ],
+  },
+  {
+    number: 3, title: "3º Ano",
+    semesters: [
+      { number: 1, title: "1º Semestre", ucs: [
+        { name: "Órgãos de Máquinas II", slug: "orgaos-de-maquinas-ii" },
+        { name: "Processos Avançados de Fabrico", slug: "processos-avancados-de-fabrico" },
+        { name: "Projeto Mecânico", slug: "projeto-mecanico" },
+        { name: "Projeto de Moldes", slug: "projeto-de-moldes" },
+        { name: "Conceção e Desenvolvimento de Produto", slug: "concecao-e-desenvolvimento-de-produto" },
+        { name: "Simulação Computacional Projeto Mecânico", slug: "simulacao-computacional-projeto-mecanico" },
+        { name: "Automação Industrial", slug: "automacao-industrial" },
+      ]},
+      { number: 2, title: "2º Semestre", ucs: [
+        { name: "Qualidade e Gestão de Recursos", slug: "qualidade-e-gestao-de-recursos" },
+        { name: "Gestão da Produção e Manutenção", slug: "gestao-da-producao-e-manutencao" },
+        { name: "Estágio", slug: "estagio" },
+        { name: "Seminário", slug: "seminario" },
+        { name: "Controlo de Gestão", slug: "controlo-de-gestao" },
+        { name: "Redes de Fluidos", slug: "redes-de-fluidos" },
+        { name: "Inovação e Empreendedorismo", slug: "inovacao-e-empreendedorismo" },
+      ]},
+    ],
+  },
+];
+
+const TIPOS = [
+  { value: "teoria", label: "📖 Teoria / Apontamentos" },
+  { value: "fichas-exercicios", label: "✏️ Fichas de Exercícios" },
+  { value: "resumos", label: "📋 Resumos" },
+  { value: "resolucoes", label: "✔️ Resoluções" },
+  { value: "testes-exames", label: "📝 Testes e Exames" },
+  { value: "trabalhos-projetos", label: "🔧 Trabalhos e Projetos" },
+];
+
+// Flat list of all UCs for dropdowns
+const ALL_UCS = YEARS.flatMap(y =>
+  y.semesters.flatMap(s =>
+    s.ucs.map(uc => ({
+      ...uc,
+      ano: y.number,
+      semestre: s.number,
+      label: `${y.title} · ${s.title} — ${uc.name}`,
+    }))
+  )
+);
+---
+
+<Layout title="Submeter Ficheiro" description="Submete apontamentos, resoluções, fichas ou testes para a biblioteca de Engenharia Mecânica do IPLeiria.">
+  <div class="hero-header">
+    <h1 class="hero-title">📤 Submeter Ficheiro</h1>
+    <p class="hero-subtitle">Contribui com apontamentos, fichas, testes ou resoluções para a biblioteca. O administrador irá rever antes de publicar.</p>
+  </div>
+
+  <!-- Success Screen (hidden by default) -->
+  <div id="success-screen" style="display:none;">
+    <div class="card" style="max-width:600px;margin:60px auto;text-align:center;padding:48px 40px;">
+      <div style="font-size:3rem;margin-bottom:16px;">✅</div>
+      <h2 style="margin-bottom:8px;">Ficheiro(s) recebido(s)!</h2>
+      <p style="color:var(--text-secondary);margin-bottom:24px;">
+        A tua submissão foi recebida e será revista em breve. Não é necessário fazer nada mais.
+      </p>
+      <div id="tracking-ids" style="background:var(--bg-main);border-radius:var(--radius-sm);padding:16px;margin-bottom:28px;font-family:var(--font-mono);font-size:0.8rem;color:var(--text-secondary);text-align:left;"></div>
+      <a href="/" class="btn-primary">← Voltar à Biblioteca</a>
+    </div>
+  </div>
+
+  <!-- Upload Form -->
+  <div id="upload-form" style="max-width:780px;margin:0 auto;">
+
+    <!-- Step 1: Files -->
+    <div class="card step-card" style="margin-bottom:20px;">
+      <div class="step-header">
+        <span class="step-num">1</span>
+        <div>
+          <h2 style="margin:0;font-size:1.2rem;">Adicionar Ficheiros</h2>
+          <p style="margin:4px 0 0;color:var(--text-secondary);font-size:0.9rem;">PDF, DOCX, PPTX, ODP, ODT — máximo 100 MB por ficheiro</p>
+        </div>
+      </div>
+
+      <!-- Drop zone -->
+      <div id="drop-zone" class="drop-zone" tabindex="0" role="button" aria-label="Clica ou arrasta ficheiros para aqui">
+        <div class="drop-zone-inner">
+          <div style="font-size:2.5rem;margin-bottom:12px;">📂</div>
+          <p style="font-weight:600;margin:0 0 4px;">Arrasta os ficheiros para aqui</p>
+          <p style="color:var(--text-secondary);margin:0 0 16px;font-size:0.9rem;">ou clica para selecionar</p>
+          <button type="button" class="btn-secondary" id="pick-btn" style="font-size:0.85rem;">Selecionar Ficheiros</button>
+        </div>
+        <input type="file" id="file-input" multiple accept=".pdf,.docx,.doc,.pptx,.ppt,.odp,.odt,.ods" style="display:none;">
+      </div>
+
+      <!-- File list -->
+      <div id="file-list" style="margin-top:16px;display:flex;flex-direction:column;gap:10px;"></div>
+    </div>
+
+    <!-- Step 2: Folder Assignment (populated dynamically per file) -->
+    <div class="card step-card" style="margin-bottom:20px;">
+      <div class="step-header">
+        <span class="step-num">2</span>
+        <div>
+          <h2 style="margin:0;font-size:1.2rem;">Onde Pertencem?</h2>
+          <p style="margin:4px 0 0;color:var(--text-secondary);font-size:0.9rem;">Indica a disciplina e o tipo de cada ficheiro. Podes deixar "Não sei" se não tiveres a certeza.</p>
+        </div>
+      </div>
+      <div id="assignment-list" style="display:flex;flex-direction:column;gap:16px;">
+        <p id="no-files-msg" style="color:var(--text-tertiary);font-style:italic;text-align:center;padding:20px 0;">Adiciona ficheiros no passo 1 para continuar.</p>
+      </div>
+
+      <!-- Shared notes -->
+      <div style="margin-top:20px;">
+        <label style="display:block;font-weight:600;margin-bottom:6px;font-size:0.9rem;">Notas para o administrador <span style="color:var(--text-tertiary);font-weight:400;">(opcional)</span></label>
+        <textarea id="notes-input" rows="3" placeholder="Ex: Fichas de 2024/25, professor Fulano..." style="width:100%;box-sizing:border-box;padding:10px 14px;border:1px solid var(--panel-border);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:0.9rem;background:var(--bg-main);color:var(--text-primary);resize:vertical;"></textarea>
+      </div>
+    </div>
+
+    <!-- Step 3: Name (optional) -->
+    <div class="card step-card" style="margin-bottom:24px;">
+      <div class="step-header">
+        <span class="step-num">3</span>
+        <div>
+          <h2 style="margin:0;font-size:1.2rem;">O Teu Nome <span style="color:var(--text-tertiary);font-weight:400;font-size:0.9rem;">(opcional)</span></h2>
+          <p style="margin:4px 0 0;color:var(--text-secondary);font-size:0.9rem;">Apenas para o administrador saber quem contribuiu.</p>
+        </div>
+      </div>
+      <input type="text" id="name-input" placeholder="O teu nome" style="width:100%;box-sizing:border-box;padding:10px 14px;border:1px solid var(--panel-border);border-radius:var(--radius-sm);font-family:var(--font-body);font-size:0.9rem;background:var(--bg-main);color:var(--text-primary);">
+    </div>
+
+    <!-- Submit button + progress -->
+    <div style="text-align:center;">
+      <button id="submit-btn" class="btn-primary" style="font-size:1rem;padding:14px 36px;" disabled>
+        📤 Enviar Ficheiros
+      </button>
+      <p id="submit-hint" style="color:var(--text-tertiary);font-size:0.85rem;margin-top:12px;">Adiciona pelo menos um ficheiro para continuar.</p>
+    </div>
+
+    <!-- Per-file progress -->
+    <div id="progress-area" style="margin-top:24px;display:flex;flex-direction:column;gap:12px;"></div>
+
+    <!-- Error area -->
+    <div id="error-area" style="margin-top:16px;"></div>
+  </div>
+</Layout>
+
+<style>
+  .step-card { transition: box-shadow 0.2s ease; }
+
+  .step-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .step-num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background: var(--accent);
+    color: #fff;
+    font-family: var(--font-heading);
+    font-weight: 700;
+    font-size: 1rem;
+    flex-shrink: 0;
+  }
+
+  .drop-zone {
+    border: 2px dashed var(--panel-border);
+    border-radius: var(--radius-md);
+    padding: 40px 20px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background: var(--bg-main);
+  }
+  .drop-zone:hover, .drop-zone.drag-over {
+    border-color: var(--accent);
+    background: var(--accent-glow);
+  }
+  .drop-zone:focus {
+    outline: 2px solid var(--accent);
+    outline-offset: 2px;
+  }
+  .drop-zone-inner { pointer-events: none; }
+
+  .file-card {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 16px;
+    background: var(--bg-main);
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius-sm);
+  }
+  .file-icon { font-size: 1.6rem; flex-shrink: 0; }
+  .file-info { flex: 1; min-width: 0; }
+  .file-name { font-weight: 600; font-size: 0.9rem; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+  .file-size { font-size: 0.8rem; color: var(--text-tertiary); }
+
+  .assignment-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 16px;
+    background: var(--bg-main);
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius-sm);
+    flex-wrap: wrap;
+  }
+  .assignment-row .file-label {
+    font-weight: 600;
+    font-size: 0.85rem;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+    flex-shrink: 0;
+  }
+  .assignment-row select {
+    flex: 1;
+    min-width: 160px;
+    padding: 8px 10px;
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius-sm);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    background: var(--bg-card);
+    color: var(--text-primary);
+    cursor: pointer;
+  }
+  .assignment-row select:focus {
+    outline: 2px solid var(--accent);
+    border-color: var(--accent);
+  }
+
+  .progress-item {
+    background: var(--bg-main);
+    border: 1px solid var(--panel-border);
+    border-radius: var(--radius-sm);
+    padding: 12px 16px;
+  }
+  .progress-label {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+    font-size: 0.85rem;
+  }
+  .progress-bar-track {
+    height: 6px;
+    background: var(--panel-border);
+    border-radius: 999px;
+    overflow: hidden;
+  }
+  .progress-bar-fill {
+    height: 100%;
+    background: var(--accent);
+    border-radius: 999px;
+    transition: width 0.3s ease;
+  }
+
+  .error-msg {
+    background: rgba(188,71,73,0.08);
+    border: 1px solid rgba(188,71,73,0.3);
+    color: var(--danger);
+    border-radius: var(--radius-sm);
+    padding: 12px 16px;
+    font-size: 0.9rem;
+    margin-bottom: 8px;
+  }
+</style>
+
+<script define:vars={{ ALL_UCS, TIPOS }}>
+  let files = [];
+
+  const dropZone = document.getElementById('drop-zone');
+  const fileInput = document.getElementById('file-input');
+  const pickBtn = document.getElementById('pick-btn');
+  const fileList = document.getElementById('file-list');
+  const assignmentList = document.getElementById('assignment-list');
+  const noFilesMsg = document.getElementById('no-files-msg');
+  const submitBtn = document.getElementById('submit-btn');
+  const submitHint = document.getElementById('submit-hint');
+  const progressArea = document.getElementById('progress-area');
+  const errorArea = document.getElementById('error-area');
+  const successScreen = document.getElementById('success-screen');
+  const uploadForm = document.getElementById('upload-form');
+  const notesInput = document.getElementById('notes-input');
+  const nameInput = document.getElementById('name-input');
+
+  const ALLOWED_EXT = ['pdf','docx','doc','pptx','ppt','odp','odt','ods'];
+  const MAX_MB = 100;
+
+  function ext(name) { return name.split('.').pop().toLowerCase(); }
+  function fileIcon(name) {
+    const e = ext(name);
+    if (e === 'pdf') return '📄';
+    if (['docx','doc','odt'].includes(e)) return '📝';
+    if (['pptx','ppt','odp'].includes(e)) return '📊';
+    return '📎';
+  }
+  function fmtSize(bytes) {
+    if (bytes < 1024*1024) return `${(bytes/1024).toFixed(0)} KB`;
+    return `${(bytes/1024/1024).toFixed(1)} MB`;
+  }
+
+  function addFiles(newFiles) {
+    for (const f of newFiles) {
+      if (!ALLOWED_EXT.includes(ext(f.name))) {
+        showError(`Tipo não suportado: ${f.name}. Use PDF, DOCX, PPTX ou similar.`);
+        continue;
+      }
+      if (f.size > MAX_MB * 1024 * 1024) {
+        showError(`"${f.name}" é demasiado grande (${fmtSize(f.size)}). Máximo: ${MAX_MB} MB.`);
+        continue;
+      }
+      if (!files.find(x => x.name === f.name && x.size === f.size)) {
+        files.push(f);
+      }
+    }
+    renderFiles();
+  }
+
+  function removeFile(idx) {
+    files.splice(idx, 1);
+    renderFiles();
+  }
+
+  function renderFiles() {
+    fileList.innerHTML = '';
+    assignmentList.innerHTML = '';
+
+    if (files.length === 0) {
+      noFilesMsg.style.display = '';
+      submitBtn.disabled = true;
+      submitHint.textContent = 'Adiciona pelo menos um ficheiro para continuar.';
+      return;
+    }
+
+    noFilesMsg.style.display = 'none';
+    submitBtn.disabled = false;
+    submitHint.textContent = `${files.length} ficheiro(s) pronto(s) para enviar.`;
+
+    files.forEach((f, i) => {
+      // File card
+      const card = document.createElement('div');
+      card.className = 'file-card';
+      card.innerHTML = `
+        <span class="file-icon">${fileIcon(f.name)}</span>
+        <div class="file-info">
+          <div class="file-name" title="${f.name}">${f.name}</div>
+          <div class="file-size">${fmtSize(f.size)}</div>
+        </div>
+        <button type="button" class="btn-icon" title="Remover" onclick="removeFile(${i})">✕</button>
+      `;
+      fileList.appendChild(card);
+
+      // Assignment row
+      const ucOptions = ALL_UCS.map(uc =>
+        `<option value="${uc.slug}" data-ano="${uc.ano}" data-semestre="${uc.semestre}">${uc.label}</option>`
+      ).join('');
+      const tipoOptions = TIPOS.map(t =>
+        `<option value="${t.value}">${t.label}</option>`
+      ).join('');
+
+      const row = document.createElement('div');
+      row.className = 'assignment-row';
+      row.dataset.index = i;
+      row.innerHTML = `
+        <span class="file-label" title="${f.name}">${fileIcon(f.name)} ${f.name}</span>
+        <select class="uc-select" id="uc-${i}" aria-label="Disciplina de ${f.name}">
+          <option value="">— Seleciona a disciplina —</option>
+          ${ucOptions}
+        </select>
+        <select class="tipo-select" id="tipo-${i}" aria-label="Tipo de ${f.name}">
+          <option value="">— Tipo de material —</option>
+          ${tipoOptions}
+        </select>
+      `;
+      assignmentList.appendChild(row);
+    });
+  }
+
+  // Drop zone events
+  dropZone.addEventListener('dragover', e => { e.preventDefault(); dropZone.classList.add('drag-over'); });
+  dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag-over'));
+  dropZone.addEventListener('drop', e => {
+    e.preventDefault();
+    dropZone.classList.remove('drag-over');
+    addFiles(Array.from(e.dataTransfer.files));
+  });
+  dropZone.addEventListener('click', () => fileInput.click());
+  dropZone.addEventListener('keydown', e => { if (e.key === 'Enter' || e.key === ' ') fileInput.click(); });
+  pickBtn.addEventListener('click', e => { e.stopPropagation(); fileInput.click(); });
+  fileInput.addEventListener('change', () => addFiles(Array.from(fileInput.files)));
+
+  // Make removeFile globally accessible (for onclick in innerHTML)
+  window.removeFile = removeFile;
+
+  function showError(msg) {
+    const div = document.createElement('div');
+    div.className = 'error-msg';
+    div.textContent = msg;
+    errorArea.appendChild(div);
+    setTimeout(() => div.remove(), 6000);
+  }
+
+  // Submit
+  submitBtn.addEventListener('click', async () => {
+    if (files.length === 0) return;
+    errorArea.innerHTML = '';
+    progressArea.innerHTML = '';
+
+    submitBtn.disabled = true;
+    submitBtn.textContent = '⏳ A enviar...';
+
+    const name = nameInput.value.trim();
+    const notes = notesInput.value.trim();
+    const trackingIds = [];
+    let anyError = false;
+
+    for (let i = 0; i < files.length; i++) {
+      const f = files[i];
+      const ucEl = document.getElementById(`uc-${i}`);
+      const tipoEl = document.getElementById(`tipo-${i}`);
+      const disciplina = ucEl?.value || '';
+      const tipo = tipoEl?.value || '';
+      const ano = ucEl?.selectedOptions[0]?.dataset?.ano || '';
+      const semestre = ucEl?.selectedOptions[0]?.dataset?.semestre || '';
+
+      // Progress item
+      const prog = document.createElement('div');
+      prog.className = 'progress-item';
+      prog.id = `prog-${i}`;
+      prog.innerHTML = `
+        <div class="progress-label">
+          <span>${fileIcon(f.name)} ${f.name}</span>
+          <span id="prog-pct-${i}" style="color:var(--text-tertiary)">0%</span>
+        </div>
+        <div class="progress-bar-track"><div class="progress-bar-fill" id="prog-bar-${i}" style="width:0%"></div></div>
+        <div id="prog-status-${i}" style="font-size:0.8rem;color:var(--text-tertiary);margin-top:6px;">A enviar...</div>
+      `;
+      progressArea.appendChild(prog);
+
+      const fd = new FormData();
+      fd.append('file', f);
+      if (disciplina) fd.append('disciplina', disciplina);
+      if (tipo) fd.append('tipo', tipo);
+      if (name) fd.append('name', name);
+      if (notes) fd.append('notes', notes);
+
+      try {
+        const result = await uploadWithProgress(fd, i);
+        if (result.id) {
+          trackingIds.push(`${f.name} → ID: ${result.id}`);
+          document.getElementById(`prog-status-${i}`).textContent = '✅ Enviado com sucesso!';
+          document.getElementById(`prog-status-${i}`).style.color = 'var(--success)';
+          document.getElementById(`prog-bar-${i}`).style.background = 'var(--success)';
+        } else {
+          throw new Error(result.error || 'Erro desconhecido.');
+        }
+      } catch (err) {
+        anyError = true;
+        document.getElementById(`prog-status-${i}`).textContent = `❌ Erro: ${err.message}`;
+        document.getElementById(`prog-status-${i}`).style.color = 'var(--danger)';
+        document.getElementById(`prog-bar-${i}`).style.background = 'var(--danger)';
+      }
+    }
+
+    if (!anyError) {
+      // Show success screen
+      document.getElementById('tracking-ids').innerHTML =
+        '<strong>Código(s) de rastreio:</strong><br>' +
+        trackingIds.map(t => `<div style="margin-top:6px;">${t}</div>`).join('');
+      uploadForm.style.display = 'none';
+      successScreen.style.display = '';
+    } else {
+      submitBtn.disabled = false;
+      submitBtn.textContent = '🔄 Tentar novamente';
+    }
+  });
+
+  function uploadWithProgress(fd, idx) {
+    return new Promise((resolve, reject) => {
+      const xhr = new XMLHttpRequest();
+      xhr.open('POST', '/api/submit');
+
+      xhr.upload.addEventListener('progress', e => {
+        if (e.lengthComputable) {
+          const pct = Math.round((e.loaded / e.total) * 100);
+          document.getElementById(`prog-bar-${idx}`).style.width = `${pct}%`;
+          document.getElementById(`prog-pct-${idx}`).textContent = `${pct}%`;
+        }
+      });
+
+      xhr.addEventListener('load', () => {
+        try { resolve(JSON.parse(xhr.responseText)); }
+        catch { reject(new Error('Resposta inválida do servidor.')); }
+      });
+
+      xhr.addEventListener('error', () => reject(new Error('Falha de rede. Verifica a tua ligação.')));
+      xhr.addEventListener('timeout', () => reject(new Error('Tempo esgotado. O ficheiro pode ser demasiado grande.')));
+      xhr.timeout = 5 * 60 * 1000; // 5 minutes
+
+      xhr.send(fd);
+    });
+  }
+
+  // Init
+  renderFiles();
+</script>
