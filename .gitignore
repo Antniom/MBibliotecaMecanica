@@ -1,24 +1,39 @@
-# Python virtual environment
+# Unified gitignore for MBibliotecaMecanica
+
+# Original PDFs and resources (DO NOT COMMIT, uploaded to GitHub Releases)
+entrada/
+
+# Python
 venv/
 __pycache__/
 *.pyc
-
-# Local Database
+*.pyo
+*.pyd
+.Python
+env/
+pip-log.txt
+pip-delete-this-directory.txt
 metadata.db
 metadata.db-shm
 metadata.db-wal
+pipeline_run.log
+temp_*.png
 
-# Input files (Original files uploaded via releases, do not commit raw files)
-entrada/
+# Node / Astro
+node_modules/
+.astro/
+dist/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
 
-# Temp files and logs
-*.png
-*.log
-*.tmp
+# Environment
 .env
+.env.production
+.env.local
+.env.development.local
 
-# Astro Web Portal build outputs & modules
-web/node_modules/
-web/dist/
-web/.astro/
-web/.vercel/
+# OS
+.DS_Store
+Thumbs.db

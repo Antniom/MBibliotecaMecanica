@@ -6,7 +6,7 @@ from db_utils import get_db_connection
 
 WEB_CONTENT_DIR = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-    "web", "src", "content", "biblioteca"
+    "src", "content", "biblioteca"
 )
 
 def make_placeholders():

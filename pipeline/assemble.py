@@ -24,7 +24,7 @@ GEMINI_MODEL = os.getenv("GEMINI_MODEL", "gemini-2.5-flash")
 # Define target output directory for Astro content collections
 WEB_CONTENT_DIR = os.path.join(
     os.path.dirname(os.path.dirname(os.path.abspath(__file__))),
-    "web", "src", "content", "biblioteca"
+    "src", "content", "biblioteca"
 )
 
 class AssembleResult(BaseModel):

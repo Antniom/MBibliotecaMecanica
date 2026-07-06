@@ -187,7 +187,7 @@ def run_uploads():
             
             # Update markdown file on disk if it exists
             dest_dir = os.path.join(
-                BASE_DIR, "web", "src", "content", "biblioteca",
+                BASE_DIR, "src", "content", "biblioteca",
                 f"{ano}-ano", f"{semestre}-semestre", disciplina, tipo
             )
             base_name = os.path.splitext(os.path.basename(filepath))[0].replace("#", "_").replace("?", "_")

@@ -7,7 +7,7 @@ load_dotenv(override=True)
 DEPLOY_METHOD = os.getenv("DEPLOY_METHOD", "none")  # git | none
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-WEB_DIR = os.path.join(BASE_DIR, "web")
+WEB_DIR = BASE_DIR
 
 
 def run_cmd(args, cwd=None):
